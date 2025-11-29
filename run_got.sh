@@ -13,8 +13,8 @@ MODEL_PATH="${MODEL_PATH:-meta-llama/Meta-Llama-3.1-8B-Instruct}"
 ADAPTER_PATH="${ADAPTER_PATH:-napalna/Llama-3.1-Comedy-Adapter-Lables}"
 QUANTIZATION="${QUANTIZATION:-4bit}"
 NUM_BRANCHES="${NUM_BRANCHES:-3}"
-MAX_STEPS="${MAX_STEPS:-100}"
-MIN_SCORE="${MIN_SCORE:-5}"
+MAX_STEPS="${MAX_STEPS:-10}"
+MIN_SCORE="${MIN_SCORE:-6}"
 
 TOPIC_POOL=(
   "bad corporate icebreakers"

@@ -120,6 +120,7 @@ class Controller:
             )
         payload = {"topic": topic, "script": beats, "decisions": decisions}
         self._save_result(topic, payload)
+        self._print_transcript(beats)
         self._visualize_graph(path_ids)
         return payload
 
@@ -164,3 +165,10 @@ class Controller:
         print("[GRAPH]")
         for parent, child in self.state.graph.edges():
             print(f"  {short(parent)} -> {short(child)}")
+
+    def _print_transcript(self, beats: List[Dict]):
+        """Print the final transcript as plain text (no JSON)."""
+        lines = [b["text"] for b in beats if b.get("text")]
+        transcript = "\n".join(lines)
+        print("[TRANSCRIPT]")
+        print(transcript)
