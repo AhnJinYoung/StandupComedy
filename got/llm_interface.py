@@ -47,7 +47,7 @@ class LlamaLLM(LLMInterface):
     def __init__(
         self,
         model_path: str = "meta-llama/Meta-Llama-3.1-8B-Instruct",
-        adapter_path: Optional[str] = "../Llama-3.1-Comedy-Adapter-Lables",
+        adapter_path: Optional[str] = "napalna/Llama-3.1-Comedy-Adapter-Labels",
         quantization: str = "4bit",
         device: str = "auto",
         system_prompt: str = "You are a professional stand-up comedian. Keep outputs in the exact format requested. Be concise and witty.",
