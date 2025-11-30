@@ -13,7 +13,7 @@ class Prompter:
 Style: {style}
 Topic: {topic}
 
-Generate a setup for a joke. Do not include the punchline yet.
+Generate a setup for a joke in at most 3 sentences. Do not include the punchline yet.
 Format your output as:
 Setup: [Your setup here]
 """
@@ -28,7 +28,7 @@ Style: {style}
 Prior beats:
 {context}
 
-Write the next {category} line that {directive}. Keep it tight and stage-ready.
+Write the next {category} line that {directive}, in at most 3 sentences. Keep it tight and stage-ready.
 Format:
 {label}: [text]
 """
@@ -42,7 +42,7 @@ Format:
 Setup: {setup}
 {prior_text}
 
-Generate a funny punchline for this setup that adds something new.
+Generate a funny punchline for this setup that adds something new, in at most 3 sentences.
 Format your output as:
 Punchline: [Your punchline here]
 """
@@ -55,7 +55,7 @@ Script so far:
 {context}
 Anchor to reference: {anchor}
 
-Write a short callback line that cleverly brings back the anchor without re-explaining it.
+Write a short callback line that cleverly brings back the anchor without re-explaining it, in at most 3 sentences.
 Format:
 Callback: [text]
 """
@@ -117,7 +117,10 @@ Next: [refine | branch_setup | branch_punchline | branch_callback | branch_incon
         """Ask the evaluator to decide the best next category."""
         script = "\n".join([f"{idx+1}. {line}" for idx, line in enumerate(script_lines)])
         return f"""You are planning the next beat in a stand-up set.
-Given the full script so far, pick the single best next move to keep momentum.
+Given the full script so far, choose the single best next move to either tighten the tension or release it.
+For example:
+If the setups have built up enough pressure, produce a punchline or callback.
+If not, continue constructing setups or incongruity to build more tension.
 
 Script so far:
 {script}
