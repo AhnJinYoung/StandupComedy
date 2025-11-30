@@ -119,7 +119,7 @@ class LlamaLLM(LLMInterface):
             temperature=temperature,
             do_sample=True,
             top_p=0.9,
-            repetition_penalty=1.1,
+            repetition_penalty=1.2,
             eos_token_id=terminators,
             pad_token_id=self.tokenizer.eos_token_id,
         )

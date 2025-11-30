@@ -25,7 +25,7 @@ class Controller:
         self.goo = GraphOfOperations(self.llm, self.prompter, self.parser, self.validation)
         self.state = GraphReasoningState()
 
-    def run(self, topic: str, num_branches: int = 3, max_steps: int = 100, min_score: int = 6, k: int = 1):
+    def run(self, topic: str, num_branches: int = 2, max_steps: int = 100, min_score: int = 6, k: int = 1):
         """
         Flexible GoT process:
         1) Branch initial setups and keep the best by score.

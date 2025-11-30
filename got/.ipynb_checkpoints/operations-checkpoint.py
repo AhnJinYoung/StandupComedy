@@ -201,7 +201,7 @@ class GraphOfOperations:
             if not node:
                 continue
             prompt = self.prompter.score_thought_prompt(transcript_byfar, node["type"])
-            response = self.llm.generate(prompt)
+            response = self.llm.generate(prompt, temperature = 0.2)
             self._log_llm_call("score", prompt, response)
             score_data = self.parser.parse_rich_score(response)
             valid = self.validation.validate_rich_score(score_data)
@@ -231,7 +231,8 @@ class GraphOfOperations:
     def choose_next_category(self, script_lines: List[str]) -> Dict[str, str]:
         """Ask the evaluator for the best next category given the whole script."""
         prompt = self.prompter.choose_next_category_prompt(script_lines)
-        response = self.llm.generate(prompt)
+        response = self.llm.generate(prompt, temperature = 0.2)
+        raw_payload = {"response" : response}
         self._log_llm_call("choose_next_category", prompt, response)
         decision = self.parser.parse_category_decision(response)
         if not self.validation.validate_category(decision.get("category", "")):
