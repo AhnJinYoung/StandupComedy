@@ -10,12 +10,24 @@ ROOT="$(cd "$(dirname "$0")" && pwd)"
 cd "$ROOT"
 
 MODEL_PATH="${MODEL_PATH:-meta-llama/Meta-Llama-3.1-8B-Instruct}"
-ADAPTER_PATH="${ADAPTER_PATH:-napalna/Llama-3.1-Comedy-Adapter-Lables}"
+ADAPTER_PATH="${ADAPTER_PATH:-napalna/Llama-3.1-Comedy-Adapter-NoLables}"
 QUANTIZATION="${QUANTIZATION:-4bit}"
 NUM_BRANCHES="${NUM_BRANCHES:-2}"
 MAX_STEPS="${MAX_STEPS:-10}"
 MIN_SCORE="${MIN_SCORE:-6}"
 
+TOPIC_POOL=(
+  "bad corporate icebreakers"
+  "airports with too many outlets"
+  "zoom calls that never end"
+  "AI that apologizes too much"
+  "dating app small talk"
+  "gym influencers filming everything"
+  "tiny rental kitchens"
+  "open office seating wars"
+  "overly honest smart fridges"
+  "self-checkout chaos"
+)
 
 usage() {
   echo "Usage: $0 <topic ... | count>"
@@ -35,13 +47,13 @@ if [[ $# -eq 1 && "$1" =~ ^[0-9]+$ ]]; then
 import random
 
 pool = [
-    "dating app",
+    #"dating app",
     "self deprecation",
-    "polictics in U.S."
+    #"polictics in U.S."
 ]
 count = ${count}
-for _ in range(count):
-    print(random.choice(pool))
+for i in range(count):
+    print(pool[i])
 PY
 )
 else
@@ -52,7 +64,7 @@ for topic in "${topics[@]}"; do
   echo "=== Running GoT for topic: $topic ==="
   python - <<PY
 import json
-from got.controller import Controller
+import os
 from got.llm_interface import LlamaLLM
 
 topic = """$topic"""
@@ -63,14 +75,21 @@ llm = LlamaLLM(
     quantization="${QUANTIZATION}",
 )
 
-controller = Controller(llm)
-result = controller.run(
-    topic,
-    num_branches=${NUM_BRANCHES},
-    max_steps=${MAX_STEPS},
-    min_score=${MIN_SCORE},
-)
+result = llm.generate(prompt = f"""You are a professional stand-up comedian.
+Style: observational
+Topic: {topic}
+
+Generate a stand-up comedy script.
+Format your output as:
+Script: [Your script here]""", max_new_tokens = 2048)
+
 print(json.dumps(result, indent=2))
+
+os.makedirs("outputs", exist_ok=True)
+fname = f"outputs/baseline1_{topic}.json"
+with open(fname, "w", encoding="utf-8") as f:
+    json.dump(result, f, indent=2, ensure_ascii=False)
+print(f"[SAVE] wrote final joke to {fname}")
 PY
   echo
 done

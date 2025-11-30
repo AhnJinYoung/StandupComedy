@@ -1,0 +1,135 @@
+{
+  "topic": "dating app",
+  "script": [
+    {
+      "type": "setup",
+      "text": "I've been on this thing called Bumble, has anyone else heard of it?\nIt's like Tinder but when you swipe to match with somebody they have the option to just send you back an image rather than words which is nice I think that's quite sweet actually because sometimes if someone sends me something really cheesy or cringey I'm like oh my god get away from me how dare you.\nBut now there's only pictures so even though he might be saying something stupid his picture will make up for it right? Or maybe I'll meet someone who doesn't know what Bumble is and we can both live our lives free from judgment. That'd be cool.\"",
+      "score": 8,
+      "pros": "Incongruous tone creates humor, Setup effectively primes audience for punchline.",
+      "cons": "Middling energy level, Could benefit from more specificity about her dating life.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "So I was swiping through and I got matched with some guy and sent him straight back a picture of myself and then he did the same as well.\"\n\"But here's the problem guys, my phone decided to autocorrect me and turn my name into penis.\"",
+      "score": 6,
+      "pros": "Incongruous twist at the punch line, Some elements of the audience laugh along with the absurdity.",
+      "cons": "The delivery feels somewhat flat, not much energy behind the punch line.",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I didn't even know what had happened until like five minutes later when his dick came up on the screen.\"",
+      "score": 8,
+      "pros": "Joke craft, Originality",
+      "cons": "Timing/Pacing, Relatability",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"Instead of saying sorry about that what i actually wrote is send us all your nudes we're going to keep them safe you know like a penis museum or something so i've been sending random dudes pictures of my vagina just trying to get it back.\"",
+      "score": 8,
+      "pros": "Joke craft, Originality",
+      "cons": "Muddled beat, Low energy",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"And so instead of just sending it over like normal, my phone went, oh no, we can't do that. We're gonna change you to penis.\"",
+      "score": 8,
+      "pros": "Joke craft, Originality",
+      "cons": "Timing/Pacing, Relatability",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "I'm sorry! My dad is very upset because he can't get Tinder anymore.\"",
+      "score": 8,
+      "pros": "Originality, Timing/Pacing",
+      "cons": "Joke Craft, Relatability",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"He sends it back now so now there's two penises on Tinder matching.\"",
+      "score": 9,
+      "pros": "Joke craft, Originality",
+      "cons": "Timing/Pacing, Surprise",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I don't think it would have worked if it had just been accidental.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "So now we're just having sex while looking each other up on Google.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"So now there is no way to distinguish between his dick and mine.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"So now every time we text each other it says hello from penis can i come over\"",
+      "score": 8,
+      "pros": "Joke craft, Originality",
+      "cons": "Muddled delivery, Lack of setup clarity",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "setup",
+      "reason": "The component must set up the scene and establish context before moving forward."
+    },
+    {
+      "category": "punchline",
+      "reason": "The audience laughs at the unexpected twist of her name being changed by auto-correct."
+    },
+    {
+      "category": "punchline",
+      "reason": "The joke relies heavily on timing and surprise at the unexpected twist of her phone autocorrecting her name to penis leading to the man receiving a photo of a penis instead of her face. It requires immediate laughter after delivery."
+    },
+    {
+      "category": "punchline",
+      "reason": "The joke relies heavily on timing and misdirection. It requires the audience to believe she genuinely thought her name would be auto-corrected to penis before revealing the absurdity of the situation."
+    },
+    {
+      "category": "punchline",
+      "reason": "The joke relies heavily on the unexpected twist at the end where her phone auto-corrects her name to penis leading to a series of absurd events. This requires a punchline response."
+    },
+    {
+      "category": "punchline",
+      "reason": "The component presents unexpected information creating humor."
+    },
+    {
+      "category": "punchline",
+      "reason": "The component presents unexpected information that creates humor due to its absurdity."
+    },
+    {
+      "category": "punchline",
+      "reason": "The joke relies heavily on timing and surprise at the unexpected twist. It requires the audience to laugh immediately after hearing the word \"penis\" to fully understand the absurdity of the situation."
+    },
+    {
+      "category": "punchline",
+      "reason": "The joke relies heavily on the unexpected twist at the end where her phone autocorrects her name to penis leading to a series of absurd events. This requires a punchline response."
+    },
+    {
+      "category": "punchline",
+      "reason": "The joke relies heavily on the unexpected twist at the end where she reveals her father's situation. It creates humor by being absurd and ridiculous."
+    }
+  ]
+}

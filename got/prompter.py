@@ -116,19 +116,24 @@ Next: [refine | branch_setup | branch_punchline | branch_callback | branch_incon
     def choose_next_category_prompt(self, script_lines: List[str]) -> str:
         """Ask the evaluator to decide the best next category."""
         script = "\n".join([f"{idx+1}. {line}" for idx, line in enumerate(script_lines)])
-        return f"""You are planning the next beat in a stand-up set. Choose the single best next move.
+        return f"""You are a stand-up coach. Return which CATEGORY should come as the next move, when you are given the full script context.
 
-Script so far:
+===== <Current Full Script> starts here =====
 {script}
+===== <Current Full Script> ends here ======
 
-Categories:
-- setup (lay new premise. If setups have not built up enough pressure, continue constructing setups to build more tension.)
-- incongruity (heighten/left turn. If the setups have built up enough pressure, produce a punchline or callback or incongruity)
-- punchline (payoff. If the setups have built up enough pressure, produce a punchline or callback or incongruity.)
-- callback (bring back an earlier beat. If the setups have built up enough pressure, produce a punchline or callback or incongruity.)
-- end (stop here)
+=== <Candidates of Categories> starts here ===
+- setup
+- incongruity 
+- punchline 
+- callback 
+- end
+=== <Candidates of Categories> ends here ===
 
-Respond EXACTLY:
-Reason: [short justification]
+If the setups have built up enough pressure, choose **punchline** or **callback** or **incongruity**.
+If not, continue choose **setup** to build more tension.
+
+Return EXACTLY:
 Category: [setup|incongruity|punchline|callback|end]
+Reason: [short justification]
 """

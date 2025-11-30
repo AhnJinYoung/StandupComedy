@@ -13,21 +13,9 @@ MODEL_PATH="${MODEL_PATH:-meta-llama/Meta-Llama-3.1-8B-Instruct}"
 ADAPTER_PATH="${ADAPTER_PATH:-napalna/Llama-3.1-Comedy-Adapter-Lables}"
 QUANTIZATION="${QUANTIZATION:-4bit}"
 NUM_BRANCHES="${NUM_BRANCHES:-2}"
-MAX_STEPS="${MAX_STEPS:-5}"
+MAX_STEPS="${MAX_STEPS:-10}"
 MIN_SCORE="${MIN_SCORE:-6}"
 
-TOPIC_POOL=(
-  "bad corporate icebreakers"
-  "airports with too many outlets"
-  "zoom calls that never end"
-  "AI that apologizes too much"
-  "dating app small talk"
-  "gym influencers filming everything"
-  "tiny rental kitchens"
-  "open office seating wars"
-  "overly honest smart fridges"
-  "self-checkout chaos"
-)
 
 usage() {
   echo "Usage: $0 <topic ... | count>"
@@ -47,16 +35,9 @@ if [[ $# -eq 1 && "$1" =~ ^[0-9]+$ ]]; then
 import random
 
 pool = [
-    "bad corporate icebreakers",
-    "airports with too many outlets",
-    "zoom calls that never end",
-    "AI that apologizes too much",
-    "dating app small talk",
-    "gym influencers filming everything",
-    "tiny rental kitchens",
-    "open office seating wars",
-    "overly honest smart fridges",
-    "self-checkout chaos",
+    "dating app",
+    "self deprecation",
+    "polictics in U.S."
 ]
 count = ${count}
 for _ in range(count):

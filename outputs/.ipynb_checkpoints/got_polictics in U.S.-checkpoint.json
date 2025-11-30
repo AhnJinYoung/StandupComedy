@@ -1,0 +1,135 @@
+{
+  "topic": "polictics in U.S.",
+  "script": [
+    {
+      "type": "setup",
+      "text": "I think that if you're going to go into politics, like you've got to be prepared for all of this stuff. Like, I don't know how Donald Trump did it, because he's never had any experience or anything before, but he went through so much shit with his family business and then reality TV.\nAnd then he was just ready for president? Like, what happened there? Because no one else could have gone through everything that he went through during those two years and come out looking better on television than Hillary Clinton.\nLike she didn't even get her own scripted show! What is happening?! It bums me out though, because we need more women in power right now. And especially black people, because white dudes are getting too many opportunities, honestly.\"",
+      "score": 6,
+      "pros": "Incongruous tone, Setup for punchline about Trump.",
+      "cons": "Muddled delivery, Not entirely clear point being made.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "I want to see Oprah run. Or Beyonce. Any woman who has been an executive producer on their shows should definitely run for office.\"",
+      "score": 6,
+      "pros": "Incongruous tone, Setup for punchline about Oprah running for office",
+      "cons": "Muddy transition from previous topic, Lack of clear connection between topics",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "\"Women running for office makes sense to me because they tend to focus on issues that really matter.\"",
+      "score": 6,
+      "pros": "Inexpensive setup, Relatable sentiment about gender balance in leadership roles.",
+      "cons": "Muddy transition from previous idea, Lackluster punchline delivery.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "\"Because when men talk about policy, they always sound like a bunch of boys arguing over which Pokémon would win in a fight.\"",
+      "score": 8,
+      "pros": "Easy-to-follow punch line, somewhat relatable concept.",
+      "cons": "Abrupt transition, lackluster uniqueness, average pacing, minimal surprise, moderate connection potential.",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I was watching my friends have an argument on Facebook recently because I'm addicted to Facebook.\"",
+      "score": 8,
+      "pros": "Incongruous setup, clever twist at the end.",
+      "cons": "Muddy delivery, unclear tone.",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I'm sorry. Because when you look at politics, it's all just like, nope, Pikachu wouldn't do shit to Mewtwo.\"",
+      "score": 8,
+      "pros": "Joke craft, Originality",
+      "cons": "Timing/Pacing, Relatability",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I think it's because we've all been raised on the same thing since childhood.\"\n\"Like I grew up watching Dragon Ball Z with my friends every day after school.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I think it's because we've never had to make decisions based on our own reproductive health.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"Oh my God! Because I'm not going to lie fellas... When women argue about politics we do it completely differently than you guys because when men talk about policy they always sound like a bunch of boys arguing over who'd win in a fight.\"",
+      "score": 8,
+      "pros": "Joke craft, Originality",
+      "cons": "Timing/Pacing, Relatability",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"They're all just doing it because someone dared them to.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"Oh my god! You guys ever notice how whenever you ask politicians what their stance is on an issue? It's always so stupidly specific!\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "setup",
+      "reason": "The component has set up the tone and premise for the rest of the transcript."
+    },
+    {
+      "category": "setup",
+      "reason": "The component seems to set up the rest of the components rather than being a complete thought itself."
+    },
+    {
+      "category": "setup",
+      "reason": "The component seems to set the stage for further discussion about gender representation in government."
+    },
+    {
+      "category": "punchline",
+      "reason": "The tone shifts from setup to punchline where the audience laughs at the absurdity of the situation."
+    },
+    {
+      "category": "punchline",
+      "reason": "The audience laughs at the absurdity of comparing political policies to Pokemon battles."
+    },
+    {
+      "category": "punchline",
+      "reason": "The audience laughs at the absurdity of comparing political policies to Pokemon battles."
+    },
+    {
+      "category": "punchline",
+      "reason": "The tone shifts from setup to punchline where the audience laughs due to the absurdity of comparing political discussions to arguments between cartoon characters."
+    },
+    {
+      "category": "punchline",
+      "reason": "The audience laughs at the absurdity of comparing political policies to Pokémon battles."
+    },
+    {
+      "category": "punchline",
+      "reason": "The component best fits the tone and style of the surrounding material."
+    },
+    {
+      "category": "punchline",
+      "reason": "The component best fits the tone and style of the surrounding components."
+    }
+  ]
+}
