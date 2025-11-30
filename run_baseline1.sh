@@ -47,9 +47,9 @@ if [[ $# -eq 1 && "$1" =~ ^[0-9]+$ ]]; then
 import random
 
 pool = [
-    #"dating app",
+    "dating app",
     "self deprecation",
-    #"polictics in U.S."
+    "polictics in U.S."
 ]
 count = ${count}
 for i in range(count):
