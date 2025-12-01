@@ -13,7 +13,7 @@ from trl import SFTConfig, SFTTrainer
 
 # Configuration
 MODEL_ID = "meta-llama/Meta-Llama-3.1-8B-Instruct"
-DATASET_PATH = "fine_tune/labeled_dataset.jsonl"
+DATASET_PATH = "train/labeled_dataset.jsonl"  # updated to match label/label.py output
 OUTPUT_DIR = "fine_tune/results/Llama-3.1-Comedy-Adapter"
 
 def load_jsonl_data(file_path):

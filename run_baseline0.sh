@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Run the GoT Controller with LlamaLLM for one or more topics.
+# Run baseline0 generative pipeline for one or more topics.
 # Usage:
-#   ./run_got.sh "topic one" "topic two"
-#   ./run_got.sh 3   # runs 3 random topics
+#   ./run_baseline0.sh "topic one" "topic two"
+#   ./run_baseline0.sh 3   # runs 3 topics from TOPIC_POOL in order (cycles if N > pool size)
 
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 cd "$ROOT"
@@ -31,7 +31,7 @@ TOPIC_POOL=(
 usage() {
   echo "Usage: $0 <topic ... | count>"
   echo "  - Pass one or more topics to run directly."
-  echo "  - Or pass a single integer N to run N random topics."
+  echo "  - Or pass a single integer N to run N topics from TOPIC_POOL in order."
   exit 1
 }
 
@@ -43,38 +43,50 @@ declare -a topics
 if [[ $# -eq 1 && "$1" =~ ^[0-9]+$ ]]; then
   count="$1"
   mapfile -t topics < <(python - <<PY
-import random
-
 pool = [
-    "dating app",
-    "self deprecation",
-    "polictics in U.S."
+$(for t in "${TOPIC_POOL[@]}"; do printf '    "%s",\n' "$t"; done)
 ]
 count = ${count}
 for i in range(count):
-    print(pool[i])
+    print(pool[i % len(pool)])
 PY
 )
 else
   topics=("$@")
 fi
 
-for topic in "${topics[@]}"; do
-  echo "=== Running GoT for topic: $topic ==="
-  python - <<PY
-import json
-import os
+# Join topics with the ASCII unit separator to safely pass into Python
+TOPICS_JOINED="$(printf '%s\x1f' "${topics[@]}")"
+
+# Run a single Python process that loads the model once and iterates topics
+TOPICS="$TOPICS_JOINED" \
+MODEL_PATH="$MODEL_PATH" \
+QUANTIZATION="$QUANTIZATION" \
+python - <<PY
+import os, json
 from got.llm_interface import LlamaLLM
 
-topic = """$topic"""
+# Reconstruct topics list
+raw = os.environ.get('TOPICS', '')
+if raw:
+    topics = [t for t in raw.split('\x1f') if t]
+else:
+    topics = []
+
+if not topics:
+    print('No topics provided.')
+    raise SystemExit(1)
 
 llm = LlamaLLM(
-    model_path="${MODEL_PATH}",
+    model_path=os.environ.get('MODEL_PATH'),
     adapter_path=None,
-    quantization="${QUANTIZATION}",
+    quantization=os.environ.get('QUANTIZATION'),
 )
 
-result = llm.generate(prompt = f"""You are a professional stand-up comedian.
+os.makedirs('outputs', exist_ok=True)
+for topic in topics:
+    print(f"=== Running baseline0 for topic: {topic} ===")
+    result = llm.generate(prompt = f"""You are a professional stand-up comedian.
 Style: observational
 Topic: {topic}
 
@@ -82,13 +94,12 @@ Generate a stand-up comedy script.
 Format your output as:
 Script: [Your script here]""", max_new_tokens = 2048)
 
-print(json.dumps(result, indent=2))
+    # If generate returns a string, wrap in object for compatibility
+    out = result if isinstance(result, str) else json.dumps(result)
 
-os.makedirs("outputs", exist_ok=True)
-fname = f"outputs/baseline0_{topic}.json"
-with open(fname, "w", encoding="utf-8") as f:
-    json.dump(result, f, indent=2, ensure_ascii=False)
-print(f"[SAVE] wrote final joke to {fname}")
+    fname = f"outputs/baseline0_{topic.replace(' ', '_')}.json"
+    with open(fname, 'w', encoding='utf-8') as f:
+        json.dump({"topic": topic, "result": out}, f, indent=2, ensure_ascii=False)
+    print(f"[SAVE] wrote final joke to {fname}")
+    print()
 PY
-  echo
-done
