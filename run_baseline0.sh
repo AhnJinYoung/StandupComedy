@@ -26,6 +26,21 @@ TOPIC_POOL=(
   "open office seating wars"
   "overly honest smart fridges"
   "self-checkout chaos"
+  "lost luggage adventures"
+  "first dates gone wrong"
+  "overenthusiastic baristas"
+  "airport security small talk"
+  "gym mirror people"
+  "parents using emojis"
+  "smart fridges with opinions"
+  "wifi passwords in cafes"
+  "roommates who label food"
+  "office zoom bingo"
+  "tech support with parents"
+  "overbooked yoga class"
+  "elevator small talk"
+  "driving test fails"
+  "overly honest toddlers"
 )
 
 usage() {
