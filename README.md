@@ -118,9 +118,9 @@ bash run_*.sh <topic | number of random topics>
 
 | Model Type | Description |
 |------------|-------------|
-| **Baseline0** | Raw Llama 3.1 8B model (no fine-tuning) |
-| **Baseline1** | Fine-tuned Llama 3.1 8B on raw transcripts |
-| **Baseline2** | Fine-tuned Llama 3.1 8B on structured, labeled transcripts |
+| **baseline0** | Raw Llama 3.1 8B model (no fine-tuning) |
+| **baseline1** | Fine-tuned Llama 3.1 8B on raw transcripts |
+| **baseline2** | Fine-tuned Llama 3.1 8B on structured, labeled transcripts |
 | **got** | Fine-tuned Llama 3.1 8B using labeled transcripts + Graph-of-Thoughts reasoning |
 
 You can check more details in shell scripts.
