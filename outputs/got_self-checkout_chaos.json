@@ -1,0 +1,135 @@
+{
+  "topic": "self-checkout chaos",
+  "script": [
+    {
+      "type": "setup",
+      "text": "I'm just going to say this right now, okay? If you're white and I don't know that you're white, but based on how long it's taken me to figure out what kind of pants you have on, by the time we finish shopping together, if there is a shooting in America, I am blaming y'all. That's my policy. You understand? Okay? My friend Rachel told me she was at her local grocery store with her little boy who has autism, they were doing their weekly shop, when another woman came up to them and started screaming at her child. She said, hey lady, stop hitting your kid! And then my friend Rachel explained that he wasn't actually hitting himself. He had just learned to make noises like he was getting hit so people would help him open his own bags at checkout using our hands instead of those stupid bag machines because some of us are better than other things. And the woman went off on her about being an ableist bitch.",
+      "score": 6,
+      "pros": "Incongruous punchline, Setup for future material",
+      "cons": "Muddled tone, Could be tightened up more",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "I mean, look, here's the thing. Like, I get it. There's a lot of problems in society right now, all right? We can agree on that. But I think one issue where both sides might be overdoing it, for example, I feel like the word ableism gets thrown around way too much these days. All of a sudden everybody's an abelist, every single person, even if they only say something once. Even if they haven't been educated or exposed enough yet.\"",
+      "score": 6,
+      "pros": "Incongruous tone, Setup for punchline",
+      "cons": "Muddy transition from previous component, Could use more clarity and specificity regarding the topic of ableism",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "Like, I'll tell you exactly what happened. This girl comes running into work like frantic. The manager rushes her back behind the scenes. It turns out somebody called the cops because she was yelling at her kids while driving down the highway.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "\"Like, yeah, you heard me. Somebody yelled at her kids while driving, not vice versa.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) Now the police show up and they asked her why did you yell at your kids while driving down the highway and she goes oh officer I didn't I was in the car with my daughter she was driving.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) Now the police show up and they ask her why'd you yell at your kids while driving down the highway, and she goes, oh, officer, I didn't. I was in the car with my son. He was driving.\"",
+      "score": 8,
+      "pros": "Incongruous punchline, Setup creates expectation for a different outcome.",
+      "cons": "Muddled delivery, unclear tone.",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"Oh! Yeah! You guys don't want to hear about it? Okay. It's cool.\"",
+      "score": 6,
+      "pros": "Setup-Punchline structure, Unexpected Twist, Humor created from Subversion of Expectations.",
+      "cons": "Muted energy, Lack of clear connection between components.",
+      "reasoning": "Jokes rely heavily on setup and punchlines. In this case, the setup provides context for the punchline, which subverts expectations and creates humor through its unexpected twist.\nPros: Setup-Punchline structure, Unexpected Twist, Humor created from Subversion of Expectations.\nCons: Muted energy, Lack of clear connection between components."
+    },
+    {
+      "type": "punchline",
+      "text": "\"She's like, well then how did he get out of jail?\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "Yeah! This is how you know we're better parents than y'all. Because when our kid's bad behavior gets to us, instead of yelling, what do we do? We just stare out into space like, hmm... where did all these road rage drivers come from?\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "Yeah! And it turns out he's not even old enough to drive yet.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"And he's like, okay ma'am, well, did anybody else hear yelling coming from inside of there? And she goes nope! Because it happened before we got married.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "setup",
+      "reason": "The component sets up the tone for the rest of the transcript and establishes the speaker's perspective. It also introduces the central theme of racial tensions and stereotypes."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must happen before Incongruity/Punchline/Callback/End. This component sets the scene for the rest of the material. It establishes context, provides background information, and introduces key elements necessary for understanding the joke or point being made later on."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must happen before Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must happen before Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "punchline",
+      "reason": "Setup builds up pressure leading directly to punchline."
+    },
+    {
+      "category": "punchline",
+      "reason": "Setup builds up expectation of hearing the story, but the comic quickly pivots away from sharing it."
+    },
+    {
+      "category": "punchline",
+      "reason": "Because the audience laughed after hearing the second part of the joke."
+    },
+    {
+      "category": "punchline",
+      "reason": "A quick unexpected twist creates humor."
+    },
+    {
+      "category": "punchline",
+      "reason": "Incongruence between expected outcome and actual result creates humor."
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "topic": "airports with too many outlets",
+  "script": [
+    {
+      "type": "setup",
+      "text": "Set up to this part of my life, I travel quite a bit.\nI've been doing more traveling recently because I had a baby.\nSo now when you have kids, that's another thing they tell you about having babies is like how much it will change your life.\nAnd I believe them because every time I go anywhere with my daughter who's six months old now she was born on March 1st by the way if you're wondering why her dad isn't really paying attention during sex just didn't happen don't worry about it we got there we did yeah thank you very much i appreciate that um so anyway uh but yeah sometimes when you take infants places especially with other people around you know they can be pretty loud right and they're always looking out for their feelings though which i think is nice but then sometimes those same parents forget about yours or you know like all their friends get together and start talking loudly one after the other no break between conversations what do these adults need to talk so fast like that's kind of crazy you ever notice that oh man i'm getting older i used to love hearing grown men yell into cell phones too um but nowadays whenever any adult yells into their phone even without knowing anything else going on you know something bad has happened that person probably lost someone close to them maybe a loved one died or something worse than that. So... Yeah, sorry dude. Sorry. But also, hey, look over there! There's an airport with only two outlets!\"",
+      "score": 8,
+      "pros": "Incongruous juxtapositions create humor; Setup effectively primes audience for punchline.",
+      "cons": "Middling delivery makes some components hard to follow; Punchline could benefit from stronger callback.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "Settling down has made me super paranoid as well. Like before I would fly from New York to LA all the time. No problem. Now, not anymore. Every flight I take, I feel like, oh shit, what if? What if we crash? We gonna die? You know what I mean?\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "Settling down has made me super paranoid as well. Like before I'd fly from New York to L.A., all the time. Not anymore.\"",
+      "score": 8,
+      "pros": "\"It feels natural, It makes sense within the narrative\"",
+      "cons": "\"A little slow, could use some punchline development\"",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "Settling down has made me super paranoid as well. Like before I'd fly from New York to L.A., all the time. Not anymore.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"Like before I could smoke weed and listen to jazz music while flying through security. And now I gotta make sure everything comes off.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"Like before I could smoke weed and listen to jazz music while flying through security. And now I gotta make sure everything comes off.\"",
+      "score": 8,
+      "pros": "Originality, Relatability",
+      "cons": "Muddled transition, Inconsistent tone",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"Now I'm standing there and TSA lady looks at me and goes, excuse me sir, could you please empty your pockets onto that bin?\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"Okay. It sounds weird to say it out loud. That feels condescending. Just asking me questions. Right? She doesn't care about the answer.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"It seems silly to ask somebody whose entire body weight is comprised almost entirely of food whether or not they ate today.\"",
+      "score": 6,
+      "pros": "Incongruous tone creates comedic effect.",
+      "cons": "Setup does not set up a clear expectation for the rest of the component.",
+      "reasoning": "The component lacks punch line structure.\nScore: 0\nPros: Incongruous tone creates comedic effect.\nCons: Setup does not set up a clear expectation for the rest of the component.\nNext: Refine"
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"I never thought twice about this until actually I said this to my friend who works behind the counter at Starbucks, he confirmed this to me.\"\n(Setup) \"He told me he gets asked constantly whether or not his feet smell\"\n(Setup) \"and basically here's how it happens. They want to clean the machine.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"They come up to him, and they're like, hi. Hi. Excuse me, ma'am, I see you working hard. You seem like a dedicated employee.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "setup",
+      "reason": "The component sets up the rest of the story and provides background information necessary for understanding the situation described later in the transcript. It establishes the setting where the narrator travels frequently due to having a new baby."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "The component needs to set up the rest of the story."
+    },
+    {
+      "category": "setup",
+      "reason": "The component must set up the audience for the upcoming joke."
+    },
+    {
+      "category": "setup",
+      "reason": "This component continues building the narrative of the comedian's recent changes due to settling down. It sets up further components where he'll reveal his paranoia and fears related to air travel."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must lead to either Incongruity, Punchline, Callback, End, or Setup again. It sets the stage for the rest of the component."
+    },
+    {
+      "category": "setup",
+      "reason": "The component must set up the audience for the rest of the material."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "The component must set up the scene for the rest of the transcript."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    }
+  ]
+}

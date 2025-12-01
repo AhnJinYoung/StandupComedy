@@ -1,0 +1,135 @@
+{
+  "topic": "dating app small talk",
+  "script": [
+    {
+      "type": "setup",
+      "text": "It's really hard to get through all of these apps, because you have to go through so much small talk before it gets good. Setup: Because when I was young and dumb, I thought that if there were like an easy way to meet somebody new, then maybe they would be perfect. Setup: And now my friends tell me what happened last week on Tinder? A guy asked how many people did he kill? Setup: Like who is this fucking madman? That's insane! He just comes out with it! Setup: There used to be a time where it wasn't weird or inappropriate to ask someone about their job, but also not everybody works. Setup: People do things. They work odd jobs sometimes.",
+      "score": 6,
+      "pros": "Incongruous juxtaposition between old and modern times, interesting take on dating app culture.",
+      "cons": "Muddled delivery, unclear meaning behind statement.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "Yeah! Every citizen in America should receive a stipend from birth until death. Setup: And everyone has the right to keep learning whatever the fuck they want without consequence.",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) You don't know anything about them yet. So you're talking about your favorite thing ever. What's your favorite hobby? Oh man... Hiking! No shit! Me too. Do you love hiking more than sex? Yes. Absolutely.",
+      "score": 8,
+      "pros": "Incongruous juxtaposition between two activities often considered pleasurable by most adults; The punchline feels true for some audience members based on shared experiences.",
+      "cons": "Some listeners may find the comparison uncomfortable due to its explicit nature; The delivery could benefit from slightly greater emphasis on the second half of the question.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) The only reason why I say that is because we can both hike as much as we want. We could see each other every day for the rest of our lives. If one person didn't show up to the meeting, would you care? Not at all. Would you call? No. Would you text? Nope. You'd probably wait till sunset, send him a search party, find his body, drag it back to town, bury him six feet under. How dare him not commit to a casual outdoor activity.",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I'm like, hey man, what's going on?\" He goes, oh my God! What happened last night?! Where have you been?! I go, where were you?! He says, I was out hiking with this dude named Steve.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "And then he'll be like, hey man, if you don't bring my stuff back with me, I'm going to make sure everyone knows about how gay you are.\" \"And I was like, yeah, dude, just leave. Go ahead. Get out of here. That's fine. Whatever.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "But then you'd have sex with me on top of my dead boyfriend's grave while I'm crying about how he left us because he had an eating disorder.\"",
+      "score": 6,
+      "pros": "Incongruity between tone and content creates unexpected humor; Some elements feel fresh and surprising.",
+      "cons": "Disconnected from prior setup; Doesn't seem to follow any clear logic or narrative thread.",
+      "reasoning": "This beat feels disconnected from the previous setup and doesn't quite fit into the narrative flow.\nScore: 0\nPros: Incongruity between tone and content creates unexpected humor; Some elements feel fresh and surprising.\nCons: Disconnected from prior setup; Doesn't seem to follow any clear logic or narrative thread.\nNext: Refine"
+    },
+    {
+      "type": "punchline",
+      "text": "Oh my god! And then go on Facebook Live like, he's gone missing again. This time, I'm scared. Please help me find John Doe. Like, bring the dogs out there. Send SWAT team through those woods over there. Get a helicopter in the air. It'll be fine. He's an adult. Don't worry about him.",
+      "score": 8,
+      "pros": "Joke craft, Originality",
+      "cons": "Timing/Pacing, Relatability",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "And then go on Tinder again like nothing ever happened. Just be hot. Like what the fuck do you need commitment for? Do whatever the hell you want!",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "Yeah! And then he wouldn't even have sex with me when I get there! He's like, oh no, now my commitment issues aren't just about people. Now they're also about nature.\"",
+      "score": 8,
+      "pros": "Joke craft, Originality",
+      "cons": "Muddled delivery, Lack of setup clarity",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I'm like, how do you know he's dead if there ain't no body?\" What kind of crazy ass shit am I supposed to believe?\"",
+      "score": 8,
+      "pros": "Originality, Timing/Pacing",
+      "cons": "Joke Craft, Relatability",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "setup",
+      "reason": "The component needs to set up the audience for the rest of the components."
+    },
+    {
+      "category": "setup",
+      "reason": "The component is a continuation of the previous component, setting up further information for the audience."
+    },
+    {
+      "category": "setup",
+      "reason": "The component must set up for the punchline or follow another component."
+    },
+    {
+      "category": "punchline",
+      "reason": "This component completes the joke started by the previous components."
+    },
+    {
+      "category": "punchline",
+      "reason": "This component presents information that creates humor based on its unexpectedness relative to prior components."
+    },
+    {
+      "category": "punchline",
+      "reason": "This component creates humor by setting up expectations around hiking being a preferred choice over sex, followed by a punchline revealing the absurdity behind prioritizing hiking over human connection."
+    },
+    {
+      "category": "punchline",
+      "reason": "This component presents unexpected information that creates humor by challenging expectations established earlier in the transcript."
+    },
+    {
+      "category": "punchline",
+      "reason": "Incongruence between the seriousness of the situation and the lighthearted tone of the dialogue."
+    },
+    {
+      "category": "punchline",
+      "reason": "To release the tension built by the setup."
+    },
+    {
+      "category": "punchline",
+      "reason": "Incongruence between expectation and reality creates humor."
+    }
+  ]
+}

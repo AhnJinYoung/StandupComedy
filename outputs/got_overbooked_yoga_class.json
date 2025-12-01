@@ -1,0 +1,135 @@
+{
+  "topic": "overbooked yoga class",
+  "script": [
+    {
+      "type": "setup",
+      "text": "Set up: I was just trying to get some exercise because you know when you're on vacation you want to do stuff but then sometimes like things happen right so i signed up for this thing it's called an over booked yoga class that sounds great doesn't it yeah no one likes undersubscribed activities especially if they have the word book in them right absolutely, don't even need any context.\"",
+      "score": 7,
+      "pros": "Incongruous punchline, Relatable concept",
+      "cons": "Muddled delivery, Setup could be tightened",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"So what happens is there should be only five people doing it, but everybody wants to do it. So we all pay $25 each to go into a room with three other strangers.\"",
+      "score": 6,
+      "pros": "Original concept, good pacing, strong delivery.",
+      "cons": "Setup could use more detail, punchline feels somewhat abrupt without additional context.",
+      "reasoning": "The setup has been established as being about a person who went to an overbooked yoga class where four others were also present instead of two.\nPros: Original concept, good pacing, strong delivery.\nCons: Setup could use more detail, punchline feels somewhat abrupt without additional context.\nNext: refine"
+    },
+    {
+      "type": "punchline",
+      "text": "\"It turns out overbooked is code for there's only two people coming so we all take our mats off fold them into triangles put them under each other form a pile and then the instructor starts teaching us downward-facing dog.\"",
+      "score": 6,
+      "pros": "Incongruous setup leads to unexpected punchline; Timing is tight and quick-witted.",
+      "cons": "Setup could use more context about the speaker's life before the punchline feels complete. The tone seems inconsistent between setup and punchline.",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"So basically what happens is everyone shows up, not enough mats. Then someone calls a gym, gets sent another person who has no idea where he is.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I walked into my first day of Overbooked Yoga Class. They were very excited about me coming back every single day.\"",
+      "score": 8,
+      "pros": "Joke craft, Originality",
+      "cons": "Muddled delivery, Timing/pacing could improve",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"And now let me tell you how exciting my life got by going to Over Booked Yoga. All right? Now my daily routine started to look something like this.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"At six o'clock in the morning, wake up early, jump into bed, start snoring loudly.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"Then the alarm clock goes off, jolt myself awake, realize I've been sleeping through my own alarm, panic, rush around the house until I find the battery that went missing from the last time, throw it onto the clock, turn it on again.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"Run downstairs naked, grab my mat, run outside, lock the door behind me, unlock it immediately, open the fridge to steal milk from my roommate's apartment.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"Drink the cold milk down, feel it chill me all the way to the bottom of my stomach.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"Now, once inside the van, I would pretend that I'm driving while simultaneously checking my phone for text messages.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "punchline",
+      "reason": "The audience is expecting something funny after \"that sounds great\" and \"absolutely.\" It seems like there will be a payoff soon."
+    },
+    {
+      "category": "punchline",
+      "reason": "The audience laughs at the absurdity of paying money to share space with others who also paid money to be around those same individuals."
+    },
+    {
+      "category": "punchline",
+      "reason": "The audience laughs at the absurdity of paying money to share space with others who also paid money to share space with them."
+    },
+    {
+      "category": "punchline",
+      "reason": "The audience laughs at the absurdity of paying money to practice yoga among strangers."
+    },
+    {
+      "category": "setup",
+      "reason": "The component needs to set up the scene and introduce the concept of the story. It establishes the tone and creates anticipation for the rest of the narrative."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline. The audience needs time to process information before laughter can occur."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline. The audience needs time to process information before being surprised or delighted."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline. Incongruity must follow setup. Punchline follows incongruity. Callback can occur after punchline. End caps the entire component."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline. Incongruity can also work well at this point. The tone seems playful and lighthearted, so punchline might fit best after building more tension."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must establish the scene before moving forward. This component sets the stage for the rest of the material."
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "topic": "smart fridges with opinions",
+  "script": [
+    {
+      "type": "setup",
+      "text": "I've got an observation about modern technology, specifically those new high-tech smart fridges that have their own screens on them where you can access all sorts of recipes and health tips and things like that.\nNow I know what you're thinking, right? You think, oh no, surely these aren't actually giving people advice now? Oh yes they are! It's true!\nMy friend told me recently he had this argument with his Samsung fridge because it was telling him to lose weight when really he wanted to gain some more weight so he could feel confident enough to be seen out in public again after lockdowns and everything. He said to me, Tom, I don't want another opinionated relative or stepdad around my house. This is ridiculous.\"\nBut apparently there were two options available to him if he didn't want any advice from his kitchen appliance. One option was just turn off the TV screen on the front of the fridge. The other option would be completely remove the TV screen altogether but then you wouldn't get to see how cute it looks when it displays emojis next to whatever ingredient you need to pick up later.\"",
+      "score": 8,
+      "pros": "Incongruous juxtaposition between tech and human interaction, clever use of emoji at punch line.",
+      "cons": "Setup feels slightly disconnected from rest of material, tone shifts mid-sentence.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "Because we can't live without our TVs anymore, even in places where televisions should not exist. We need to watch telly in every single room possible.\"",
+      "score": 8,
+      "pros": "Incongruous juxtaposition between tech and human interaction, clever use of emoji display as a selling point for the feature.",
+      "cons": "Setup feels slightly disconnected from rest of transcript; needs stronger connection to punchline.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "And as for me personally, I'm still using my old non-smart oven, which has no built-in display whatsoever. Not only do I never use it anyway, but also its lack of digital interface means it doesn't waste time trying to tell me anything remotely useful.\"",
+      "score": 8,
+      "pros": "Incongruous juxtaposition between tech-savvy appliances and human opinions, clever play on audience expectations.",
+      "cons": "Setup feels slightly disconnected from rest of transcript; needs stronger connection to punchline.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "It does make sense though why ovens might struggle coming up with relevant information. They haven't been able to connect online since the early noughties. Have you ever tried syncing your microwave oven with Spotify playlists? No one wants to hear Phil Collins while their vegetables steam.\"",
+      "score": 6,
+      "pros": "Incongruous image of a TV in a kitchen, clever reference to outdated tech.",
+      "cons": "Weak transition between sentences, awkward phrasing.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"I mean, sure, sometimes I'll throw in a CD by Madonna into the slot underneath the oven door.\"",
+      "score": 6,
+      "pros": "Incongruous juxtaposition between cooking and music; clever play on song titles.",
+      "cons": "Setup feels slightly disconnected from rest of transcript; tone shifts abruptly at punch line.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"It seems to work quite well.\"",
+      "score": 6,
+      "pros": "Incongruous tone, clever wordplay.",
+      "cons": "Repetition, slightly awkward delivery.",
+      "reasoning": "A bit too much repetition at the start.\nPros: Incongruous tone, clever wordplay.\nCons: Repetition, slightly awkward delivery.\nNext: Refine"
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) Okay, thank you very much everyone. Thank you very much indeed. Cheers. Appreciate it. Yeah.\"",
+      "score": 9,
+      "pros": "Originality, Relatability",
+      "cons": "Muddled beat structure, Inconsistent tone",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) But obviously the main reason I keep going back to this particular model is simply because it reminds me of home cooking.\"",
+      "score": 6,
+      "pros": "Incongruous tone; Setup feels disconnected from rest of transcript.",
+      "cons": "Muddled energy; Lack of clear direction or punchline.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"Because yeah, I did grow up in a council flat in East London.\"",
+      "score": 6,
+      "pros": "Incongruous tone creates interest.",
+      "cons": "Statement lacks punchline or further development.",
+      "reasoning": "There's nothing particularly surprising or unique about this statement.\nPros: Incongruous tone creates interest.\nCons: Statement lacks punchline or further development.\nNext: Refine"
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) Now, growing up in a council flat in East London wasn't always easy, especially during my childhood.\"",
+      "score": 6,
+      "pros": "Incongruous tone sets stage for rest of set.",
+      "cons": "Disjointed transition; unclear connection between council flats and oven.",
+      "reasoning": "Beat feels disconnected from previous material.\nPros: Incongruous tone sets stage for rest of set.\nCons: Disjointed transition; unclear connection between council flats and oven."
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"We lived directly opposite a park called Victoria Park.\"",
+      "score": 6,
+      "pros": ",",
+      "cons": "Lack of punchline, unclear purpose within the set.",
+      "reasoning": "There's nothing surprising or interesting happening here.\nPros:, \nCons: Lack of punchline, unclear purpose within the set."
+    }
+  ],
+  "decisions": [
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity for Punchline to land effectively."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must occur before Incongruity/Punchline/Callback/End for comedic effect."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Punchline or Incongruity."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must establish context before transitioning to Incongruity or Punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup component must establish context before transitioning to either Incongruity, Punchline, Callback, or End components."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    }
+  ]
+}

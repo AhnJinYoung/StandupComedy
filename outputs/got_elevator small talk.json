@@ -1,0 +1,135 @@
+{
+  "topic": "elevator small talk",
+  "script": [
+    {
+      "type": "setup",
+      "text": "I'm actually really bad at small talk, but that's okay because there is no worse place to be forced into small talk than an elevator with one other person who has their back turned away from you like they're staring right through you and then suddenly turns around and says hello what do you do? And now it's my turn! What am I going to say?! How about this? This is my answer every time! What do I do? Nothing else matters when you have nothing to do. You got to own the moment. Just look them dead in the eyes and go... Absolutely f***ing everything!\"",
+      "score": 8,
+      "pros": "Original, Relatable",
+      "cons": "Muddled transition, Inconsistent tone",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I've been doing comedy since before phones were smart.\"",
+      "score": 8,
+      "pros": "Originality, Timing/Pacing",
+      "cons": "Joke Craft, Relatability",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "\"Before social media was big enough for me to complain about.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "\"Comedy central would often put up new comics and I'd see these kids coming out here fresh-faced naive excited to get on TV you know and some nights they would kill oh man you guys had so much talent i remember laughing so hard thinking wow this kid could make it you can't even imagine how good they are and then two months later they just disappear forever and all we're left wondering is why did you try?\"",
+      "score": 6,
+      "pros": "Original concept, funny punchline.",
+      "cons": "Setup feels disconnected from previous components.",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I was like, what happened? Where's my next big break? And now Comedy Central has an app where you can go online and watch all of those old shows from the past.\"",
+      "score": 8,
+      "pros": "Original concept, Good delivery.",
+      "cons": "Setup not fully utilized, Incongruence between setup and punchline.",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"And my friends were like, well, maybe he was gay.\"",
+      "score": 8,
+      "pros": "Incongruous setup and punchline, clever use of language.",
+      "cons": "Setup feels slightly disconnected from rest of transcript.",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I'm starting to think if you got booked on Comedy Central, there was like an ancient curse placed upon them where every six years around Halloween time, one of those fucking demons from hell comes down and drags him away.\"",
+      "score": 9,
+      "pros": "Joke craft, Originality",
+      "cons": "Timing/Pacing, Relatability",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(in a mock interview voice) Oh boy, here we come again! Well, welcome to another episode of \"What Happened To That Comic?\" We're joined tonight by our returning guest, Mr. Nick Kroll!\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "I can't believe you guys didn't recognize me because now my hair is shorter than it was on The Tonight Show With Jimmy Fallon.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"Now I feel comfortable telling people in real life that I do comedy.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "(Setup) \"I've been doing it since college.\"\n(Punchline) \"And like any other time you start shit or get into anything creative when you're young, there's always somebody who tries to steer you away from pursuing what they think is not viable because of the odds against success.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "punchline",
+      "reason": "The audience laughs after hearing his response. It seems he nailed the tone for humor."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline for comedic effect. The audience needs information to understand why the punchline will be funny."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline. Incongruity can't happen without setup. Punchline needs setup. Callback requires prior information. End wraps things up."
+    },
+    {
+      "category": "punchline",
+      "reason": "The tone shifts abruptly after the setup, creating humor based on contrast."
+    },
+    {
+      "category": "punchline",
+      "reason": "The audience laughs after hearing his response. It seems like he nailed the joke."
+    },
+    {
+      "category": "punchline",
+      "reason": "The audience laughs after hearing his response. It seems most appropriate to follow the setup with a punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline. The component chosen does not follow the format required by the question. It appears to be part of a longer setup."
+    },
+    {
+      "category": "punchline",
+      "reason": "The audience laughs after hearing his response. It seems appropriate based on context."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Punchline."
+    },
+    {
+      "category": "punchline",
+      "reason": "It seems to be the most appropriate response based on context."
+    }
+  ]
+}

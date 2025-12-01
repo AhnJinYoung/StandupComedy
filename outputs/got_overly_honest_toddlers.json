@@ -1,0 +1,135 @@
+{
+  "topic": "overly honest toddlers",
+  "script": [
+    {
+      "type": "setup",
+      "text": "Set up: A toddler was saying to his mom, I'm really sorry about my dad's dick.\"\nIntrigue: \"Because he is jerking off too much right now.\"",
+      "score": 8,
+      "pros": "Original, Relatable",
+      "cons": "Muddled wording, Inconsistent tone",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "And then she goes back like this with her hand like oh yeah, keep doing it daddy. It's so good.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "And they're married? That'd be weird.\"",
+      "score": 6,
+      "pros": "Incongruous elements create humor, Setup has potential for punchline development.",
+      "cons": "Muddled tone makes it hard to discern intent, Needs more clarity and direction.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) But I don't know why you would think it wouldn't work out because if anything having kids makes your marriage better.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) You want more sex after you have children. What happened there is what happened here.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) Because when you first get together as young adults, you make love all night long every single night for years, right?\"\n(Setup) And then eventually one day you go, eh, fuck it. We can just do this quick thing.\"",
+      "score": 8,
+      "pros": "Incongruous punchline, Setup has potential for follow-through.",
+      "cons": "Muddled transition from setup to punchline, Punchline feels disconnected from rest of material.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) Now you got two people who used to run around naked chasing each other through the house. The only time we see them both naked again is the same place we saw them first.\"",
+      "score": 9,
+      "pros": "Incongruous juxtaposition between parents' behavior and their child's comment creates humor; Setup effectively primes audience for punchline by establishing tone and context.",
+      "cons": "Muddled transition from previous component; Could benefit from clearer connection to rest of transcript.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "Now you've been together eight months or whatever, you walk into the bedroom where you had your first kiss, and guess what, there's another person in bed.\"\n(Intrigue) Oh! You turn on the light. There's an alien baby sucking its thumb.\"\n(Setup) Where did it come from?\"",
+      "score": 6,
+      "pros": "Incongruous tone, interesting premise",
+      "cons": "Muddled delivery, unclear connection to rest of set",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) So you start fucking him like twice a week? Yeah, okay.\"",
+      "score": 6,
+      "pros": "Incongruous tone, interesting premise",
+      "cons": "Muddled delivery, unclear punchline",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "I got pregnant. And then he left me for my cousin.\"",
+      "score": 8,
+      "pros": "Originality, Timing/Pacing",
+      "cons": "Joke Craft, Relatability",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "And then he gets so mad because I'm not making eye contact with his dick. Like it's just rude.\"",
+      "score": 8,
+      "pros": "Original, Relatable",
+      "cons": "Muddled, Low energy",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "setup",
+      "reason": "The audience needs this information to understand what happens later on stage."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must be completed before moving on to other components. The audience needs time to process what they've just heard."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must happen before Incongruity can occur."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must happen before Incongruity can occur."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must happen before Incongruity can occur."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must happen before Incongruity or Punchline."
+    },
+    {
+      "category": "punchline",
+      "reason": "This component has built up enough pressure that releasing the joke will create maximum comedic impact."
+    },
+    {
+      "category": "punchline",
+      "reason": "This component has high tension due to the unexpected twist at the end that subverts expectations."
+    }
+  ]
+}

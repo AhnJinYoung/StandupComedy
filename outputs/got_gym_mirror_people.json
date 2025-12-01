@@ -1,0 +1,135 @@
+{
+  "topic": "gym mirror people",
+  "script": [
+    {
+      "type": "setup",
+      "text": "I was walking down the street, I saw this guy with his shirt off on the way to get some ice cream from that truck that just plays one song over and over again like they're trying to trick you into buying something by being consistent it's genius i'm gonna go ahead and give him another dollar but anyway um so he had his shirt off and uh... He said hey bro what kind of protein powder do you use? And I thought about saying something funny or cool but instead I just said whey because I don't know anything else besides whey. But then we both walked away. We were two guys who didn't have time to waste our lives talking to each other right now. That is how you grow up, okay? You gotta keep moving forward.\"",
+      "score": 7,
+      "pros": "Incongruous tone, Relatable situation",
+      "cons": "Muddy transition between sentences, Could be more surprising",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "I got back home later that day and my brother called me up, he goes, yo man, did you see the video I posted today? I was like, nope. What'd happen? He says, all right, calm down, everybody. This is crazy stuff here. It happened last night. A woman fell onto these train tracks and she died. Everybody stay safe out there. And he hit send before adding that her body burned, which made the whole thing seem less urgent.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "And for those of y'all not familiar, whenever somebody dies on television, whether it be a show or a movie, as soon as their character gets killed, if you watch an episode of The Walking Dead where Negan hits somebody with Lucille, everybody in America stops doing whatever they're doing to watch the rest of that show.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "So I'm watching TV, and it happens every single season when someone new gets murdered on Game of Thrones, everybody's texting me going, oh my god! Did you hear about this poor girl who died getting run over by a car on live television?\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "So I'm watching TV, and it happens every single season when someone new gets murdered on Game of Thrones, everybody's texting me going, oh my god! Did you hear about this poor girl who died getting run over by a car on live television?\"\nNow suddenly everyone has access to the internet. Everyone can see everything happening everywhere around us.\"",
+      "score": 8,
+      "pros": "Originality, Relatability",
+      "cons": "Muddled beat, Low energy",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"That means every morning at 7 o'clock, I wake up and I immediately check Twitter to find out what racist tweet Donald Trump tweeted while I slept.\"",
+      "score": 6,
+      "pros": "Jokes should always start strong, and this does. Original take on modern technology.",
+      "cons": "Setup feels slightly disconnected from previous components.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"And then I also scroll through Instagram real quick to make sure Kylie Jenner still doesn't own any cars.\"",
+      "score": 6,
+      "pros": "Incongruous tone creates humor; Setup effectively transitions between ideas.",
+      "cons": "Component feels somewhat disconnected from previous components due to shift in topic.",
+      "reasoning": "The component seems to fit perfectly within the narrative presented thus far.\nPros: Incongruous tone creates humor; Setup effectively transitions between ideas.\nCons: Component feels somewhat disconnected from previous components due to shift in topic.\nNext: Refine"
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"I think that we've become too connected.\"",
+      "score": 6,
+      "pros": ",",
+      "cons": ",",
+      "reasoning": "Not enough information provided to score accurately.\nPros:, \nCons:, \nNext: Refine"
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"Like, I remember years ago, people used to tell celebrities that they looked like other people.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"Then they would say things like, yeah, Tom Cruise looks like a little baby lion.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"But nowadays, celebrities look like regular old people. Like, Jennifer Aniston could totally be your aunt.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "setup",
+      "reason": "The component has set up an expectation for a humorous response, but instead delivered a straightforward answer. This sets up further potential humor based on the unexpected seriousness of the character's tone."
+    },
+    {
+      "category": "setup",
+      "reason": "The component sets up the story for the rest of the transcript."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "To set up the story further."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must establish context for the joke. In this case, the setup establishes the tone for the story and introduces the main characters."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline. Incongruity must follow setup. Punchline follows incongruity. Callback refers to material repeated earlier in the transcript. End marks conclusion of component."
+    }
+  ]
+}

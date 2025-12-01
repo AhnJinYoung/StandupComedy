@@ -1,0 +1,135 @@
+{
+  "topic": "AI that apologizes too much",
+  "script": [
+    {
+      "type": "setup",
+      "text": "Set up: I don't know if you guys have seen this, but there's all these new artificial intelligence tools coming out where they're like making apologies on behalf of other companies or individuals?\nEach component must be in this format: {SENTENCE NUMBER (SENTENCE).",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) Oh my god, I saw one recently from Uber about an employee who was caught spying on users with their app! You can imagine how weird that would feel to see Uber just write me a letter saying we had no idea what our guy was doing. It was not us. We did nothing wrong here. Our employees were acting independently. That is completely... How dare you?",
+      "score": 6,
+      "pros": "Setup provides interesting information; Incongruence between apology tone and actions creates humor.",
+      "cons": "Lack of clear punchline; No strong connection to previous material.",
+      "reasoning": "The components seem disconnected and lack punchlines.\nPros: Setup provides interesting information; Incongruence between apology tone and actions creates humor.\nCons: Lack of clear punchline; No strong connection to previous material.\nNext: Refine"
+    },
+    {
+      "type": "setup",
+      "text": "I've been feeling very paranoid ever since because now whenever I get into any ride share vehicle, especially if the driver has a black car, I'm always looking for cameras. Like maybe he doesn't work for Uber anymore, right? He could still be working for them. They could send him after me. Can't rule anything out. Not even a little bit. Not yet.\"",
+      "score": 6,
+      "pros": "Original, Relatable",
+      "cons": "Muddled, Low energy",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I don't know about you guys but my paranoia reached an all-time high when I realized we're being tracked by Amazon.\"",
+      "score": 8,
+      "pros": "Inconspicuous build-up leading to a shocking revelation; clever use of language to make the statement sound more plausible than alarming.",
+      "cons": "A tad too long-winded before landing the final blow.",
+      "reasoning": "The setup perfectly primes the audience for the punchline, which feels both surprising and true at the same time.\nScore: 8\nPros: Inconspicuous build-up leading to a shocking revelation; clever use of language to make the statement sound more plausible than alarming.\nCons: A tad too long-winded before landing the final blow.\nNext: Refine"
+    },
+    {
+      "type": "punchline",
+      "text": "\"I got to start wearing my life jacket everywhere.\"",
+      "score": 8,
+      "pros": "Originality, Relatability",
+      "cons": "Muddled delivery, Low energy",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I think it's going to take some time before I feel comfortable again with all of these ride shares. But you know what they say about time healing all wounds.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"And then it gets worse when you think about it because like with Lyft, they have those yellow cars. So what's to stop Lyft from hiring someone who used to drive for Uber and giving them one of these yellow cars?\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) Because now they'd look identical except instead of Uber written across the side, it'll just have L-I-F-T spelled backwards.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "Because now they'd look identical except instead of Uber written across the side, it'll just have L-I-F-T spelled backwards.\"\n\"Then there's no one to answer if you press panic on the lift.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I think what's happening is people are getting used to seeing cars with their names on them driving around.\"",
+      "score": 6,
+      "pros": "Originality, Timing/Pacing",
+      "cons": "Muddled beat, Low energy",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"And then you get on one and there's no driver.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "setup",
+      "reason": ""
+    },
+    {
+      "category": "setup",
+      "reason": ""
+    },
+    {
+      "category": "punchline",
+      "reason": "The tone shifts dramatically at \"How dare you?\" This line feels like it comes out of nowhere, so much so that it seems likely to be the punchline."
+    },
+    {
+      "category": "punchline",
+      "reason": "The sentence \"Can't rule anything out. Not even a little bit. Not yet.\" feels like it's trying to convey some sort of irony or absurdity, so it seems most appropriate under the category of Punchline."
+    },
+    {
+      "category": "punchline",
+      "reason": "The sentence \"Can't rule anything out. Not even a little bit. Not yet\" creates a sense of urgency and raises questions in the audience's minds, leading to laughter. This type of humor relies on timing and tone to create comedic effect."
+    },
+    {
+      "category": "punchline",
+      "reason": "The sentence is meant to elicit laughter due to its absurdity."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup needs to establish the tone and setting for the rest of the joke. The audience isn't laughing at this point so let's keep building tension."
+    },
+    {
+      "category": "punchline",
+      "reason": "The sentence seems to be a continuation of the previous setup, so it makes sense to follow it with another punchline."
+    },
+    {
+      "category": "punchline",
+      "reason": "The sentence is meant to create humor through absurdity rather than setting up further information."
+    },
+    {
+      "category": "punchline",
+      "reason": "The sentence is meant to be humorous and absurd, so it fits best under the category of Punchline."
+    }
+  ]
+}

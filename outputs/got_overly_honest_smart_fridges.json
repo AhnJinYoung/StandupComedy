@@ -1,0 +1,135 @@
+{
+  "topic": "overly honest smart fridges",
+  "script": [
+    {
+      "type": "setup",
+      "text": "Settled down with my girlfriend, she's really nice but she does have one of those new smart fridges where it tells you how long ago food was cooked and stuff like that.\"\n\"Does anyone else know what I'm talking about?\"\n\"It just makes little comments to me when we're hanging out.\"",
+      "score": 8,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "\"The other day it said something very hurtful to me as well.\"",
+      "score": 7,
+      "pros": "Incongruous tone, Setup for punchline is clear.",
+      "cons": "Muddy delivery, Could be tightened up more.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "\"She went, oh no! Oh no! There goes your lunch again!\"\n\"You can't get rid of it this time! You've got to eat it!\"",
+      "score": 8,
+      "pros": "Incongruous tone, Quick delivery",
+      "cons": "Mumbled words, Lack of punchline clarity",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"And she didn't know I was gay.\"\n\"So now all my friends want me to come out on stage.\"",
+      "score": 8,
+      "pros": "Incongruous setup leads to unexpected punchline, Good use of tone for comedic effect.",
+      "cons": "Setup is somewhat confusing without prior knowledge of the fridge feature, Punchline feels slightly disconnected from rest of set.",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "I was like, you know what? She's right, so... So then I ate my sandwich on her bed because she told me to.\"",
+      "score": 8,
+      "pros": "Joke is quick-witted, has some unexpected twist at the end.",
+      "cons": "Setup could be more specific for clarity, transition between setup and punchline feels abrupt.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"So I'm eating my sandwiches on her bed and obviously not gonna clean up after myself.\"",
+      "score": 6,
+      "pros": "Original concept, good delivery.",
+      "cons": "Setup could be tighter, punchline feels slightly disconnected from rest of material.",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"And then she comes home from work to see me covered in crumbs.\"\n\"So when you say it's like being married but without the commitment, what do you mean? What does that even mean?\"",
+      "score": 9,
+      "pros": "Original, Relatable",
+      "cons": "Muddled setup, Inconsistent tone",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"I don't care if you live together or whatever for years, living together is fundamentally different than marriage.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "Marriage should be like getting a cat. Like, I could have had that little guy all day long without committing to it.\"",
+      "score": 8,
+      "pros": "Joke craft, Originality",
+      "cons": "Timing/Pacing, Relatability",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"Because married couples get to use the word forever. You know what I mean? Like they'll do shit like go on vacation and one of them will be like we're gonna have sex every day until we leave. And then when it's over they'll come back home and they'll be like till death do us part.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"Because I think when you're married to someone for long enough it just becomes like an old roommate situation.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "setup",
+      "reason": "Setup is necessary for the joke to land later on. The audience needs this information to understand why he finds his fridge annoying."
+    },
+    {
+      "category": "setup",
+      "reason": "The component is a setup for an upcoming joke. It establishes context and sets expectations for the audience."
+    },
+    {
+      "category": "punchline",
+      "reason": "The audience laughs at the absurdity of the situation."
+    },
+    {
+      "category": "punchline",
+      "reason": "The joke relies heavily on timing for maximum impact. It is best delivered at the peak of tension after an unexpected twist."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup is necessary for building tension before an unexpected punchline. The audience needs information to understand why they find the situation funny."
+    },
+    {
+      "category": "punchline",
+      "reason": "The component is a response to an earlier statement made by the comic. It creates humor through its unexpectedness and absurdity."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup is necessary for the rest of the joke to make sense. It sets up the situation and introduces the character's voice. The tone is light-hearted and playful, setting expectations for an amusing story."
+    },
+    {
+      "category": "punchline",
+      "reason": "The component has been set up by previous components and creates an unexpected twist. It requires some knowledge of the setup to understand why it's funny."
+    },
+    {
+      "category": "punchline",
+      "reason": "The component has been used to create humor through unexpectedness."
+    },
+    {
+      "category": "punchline",
+      "reason": "The component has been used to create humor by setting up an expectation only to subvert it."
+    }
+  ]
+}
