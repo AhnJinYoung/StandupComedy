@@ -16,6 +16,34 @@ NUM_BRANCHES="${NUM_BRANCHES:-2}"
 MAX_STEPS="${MAX_STEPS:-10}"
 MIN_SCORE="${MIN_SCORE:-6}"
 
+TOPIC_POOL=(
+  "bad corporate icebreakers"
+  "airports with too many outlets"
+  "zoom calls that never end"
+  "AI that apologizes too much"
+  "dating app small talk"
+  "gym influencers filming everything"
+  "tiny rental kitchens"
+  "open office seating wars"
+  "overly honest smart fridges"
+  "self-checkout chaos"
+  "lost luggage adventures"
+  "first dates gone wrong"
+  "overenthusiastic baristas"
+  "airport security small talk"
+  "gym mirror people"
+  "parents using emojis"
+  "smart fridges with opinions"
+  "wifi passwords in cafes"
+  "roommates who label food"
+  "office zoom bingo"
+  "tech support with parents"
+  "overbooked yoga class"
+  "elevator small talk"
+  "driving test fails"
+  "overly honest toddlers"
+)
+
 
 usage() {
   echo "Usage: $0 <topic ... | count>"
@@ -35,13 +63,38 @@ if [[ $# -eq 1 && "$1" =~ ^[0-9]+$ ]]; then
 import random
 
 pool = [
-    "dating app",
-    "self deprecation",
-    "polictics in U.S."
+    "bad corporate icebreakers",
+    "airports with too many outlets",
+    "zoom calls that never end",
+    "AI that apologizes too much",
+    "dating app small talk",
+    "gym influencers filming everything",
+    "tiny rental kitchens",
+    "open office seating wars",
+    "overly honest smart fridges",
+    "self-checkout chaos",
+    "lost luggage adventures",
+    "first dates gone wrong",
+    "overenthusiastic baristas",
+    "airport security small talk",
+    "gym mirror people",
+    "parents using emojis",
+    "smart fridges with opinions",
+    "wifi passwords in cafes",
+    "roommates who label food",
+    "office zoom bingo",
+    "tech support with parents",
+    "overbooked yoga class",
+    "elevator small talk",
+    "driving test fails",
+    "overly honest toddlers",
 ]
 count = ${count}
-for _ in range(count):
-    print(random.choice(pool))
+choices = random.sample(pool, k=min(count, len(pool)))
+if count > len(pool):
+    choices.extend(random.choices(pool, k=count-len(pool)))
+for t in choices:
+    print(t)
 PY
 )
 else
@@ -52,6 +105,10 @@ for topic in "${topics[@]}"; do
   echo "=== Running GoT for topic: $topic ==="
   python - <<PY
 import json
+import os
+import sys
+import re
+from pathlib import Path
 from got.controller import Controller
 from got.llm_interface import LlamaLLM
 
@@ -71,6 +128,28 @@ result = controller.run(
     min_score=${MIN_SCORE},
 )
 print(json.dumps(result, indent=2))
+
+# Save normalized JSON + processed txt alongside controller's internal save.
+os.makedirs("outputs", exist_ok=True)
+os.makedirs("outputs/processed", exist_ok=True)
+
+def slugify(text: str) -> str:
+    return re.sub(r"[^a-zA-Z0-9_-]+", "_", text.strip()).strip("_") or "topic"
+
+base = f"got_{slugify(topic)}"
+json_path = Path("outputs") / f"{base}.json"
+payload = result[0] if isinstance(result, list) and result else result
+with open(json_path, "w", encoding="utf-8") as f:
+    json.dump(payload, f, indent=2, ensure_ascii=False)
+
+sys.path.append(str(Path("outputs").resolve()))
+from post_process import got_post_process  # noqa: E402
+
+txt_path = Path("outputs/processed") / f"{base}.txt"
+got_post_process(str(json_path), str(txt_path))
+
+print(f"[SAVE] wrote final joke JSON to {json_path}")
+print(f"[SAVE] wrote processed TXT to {txt_path}")
 PY
   echo
 done

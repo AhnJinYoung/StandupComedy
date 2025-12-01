@@ -26,6 +26,21 @@ TOPIC_POOL=(
   "open office seating wars"
   "overly honest smart fridges"
   "self-checkout chaos"
+  "lost luggage adventures"
+  "first dates gone wrong"
+  "overenthusiastic baristas"
+  "airport security small talk"
+  "gym mirror people"
+  "parents using emojis"
+  "smart fridges with opinions"
+  "wifi passwords in cafes"
+  "roommates who label food"
+  "office zoom bingo"
+  "tech support with parents"
+  "overbooked yoga class"
+  "elevator small talk"
+  "driving test fails"
+  "overly honest toddlers"
 )
 
 usage() {
@@ -46,13 +61,38 @@ if [[ $# -eq 1 && "$1" =~ ^[0-9]+$ ]]; then
 import random
 
 pool = [
-    "dating app",
-    "self deprecation",
-    "polictics in U.S."
+    "bad corporate icebreakers",
+    "airports with too many outlets",
+    "zoom calls that never end",
+    "AI that apologizes too much",
+    "dating app small talk",
+    "gym influencers filming everything",
+    "tiny rental kitchens",
+    "open office seating wars",
+    "overly honest smart fridges",
+    "self-checkout chaos",
+    "lost luggage adventures",
+    "first dates gone wrong",
+    "overenthusiastic baristas",
+    "airport security small talk",
+    "gym mirror people",
+    "parents using emojis",
+    "smart fridges with opinions",
+    "wifi passwords in cafes",
+    "roommates who label food",
+    "office zoom bingo",
+    "tech support with parents",
+    "overbooked yoga class",
+    "elevator small talk",
+    "driving test fails",
+    "overly honest toddlers",
 ]
 count = ${count}
-for i in range(count):
-    print(pool[i])
+choices = random.sample(pool, k=min(count, len(pool)))
+if count > len(pool):
+    choices.extend(random.choices(pool, k=count-len(pool)))
+for t in choices:
+    print(t)
 PY
 )
 else
@@ -64,7 +104,10 @@ for topic in "${topics[@]}"; do
   python - <<PY
 import json
 import os
+import sys
+import re
 from got.llm_interface import LlamaLLM
+from pathlib import Path
 
 topic = """$topic"""
 
@@ -85,10 +128,24 @@ Script: [Your script here]""", max_new_tokens = 2048)
 print(json.dumps(result, indent=2))
 
 os.makedirs("outputs", exist_ok=True)
-fname = f"outputs/baseline0_{topic}.json"
-with open(fname, "w", encoding="utf-8") as f:
+os.makedirs("outputs/processed", exist_ok=True)
+
+def slugify(text: str) -> str:
+    return re.sub(r"[^a-zA-Z0-9_-]+", "_", text.strip()).strip("_") or "topic"
+
+base = f"baseline0_{slugify(topic)}"
+json_path = Path("outputs") / f"{base}.json"
+with open(json_path, "w", encoding="utf-8") as f:
     json.dump(result, f, indent=2, ensure_ascii=False)
-print(f"[SAVE] wrote final joke to {fname}")
+
+sys.path.append(str(Path("outputs").resolve()))
+from post_process import baseline_post_process  # noqa: E402
+
+txt_path = Path("outputs/processed") / f"{base}.txt"
+baseline_post_process(str(json_path), str(txt_path))
+
+print(f"[SAVE] wrote final joke JSON to {json_path}")
+print(f"[SAVE] wrote processed TXT to {txt_path}")
 PY
   echo
 done
