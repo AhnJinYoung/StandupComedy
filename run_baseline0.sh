@@ -100,7 +100,7 @@ else
 fi
 
 for topic in "${topics[@]}"; do
-  echo "=== Running GoT for topic: $topic ==="
+  echo "=== Running Baseline 0 for topic: $topic ==="
   python - <<PY
 import json
 import os
