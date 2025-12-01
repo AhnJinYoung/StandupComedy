@@ -112,8 +112,9 @@ python inference.py     --base_model "meta-llama/Meta-Llama-3.1-8B"     --lora_a
 ### 4. Comedy Generation
 
 ``` bash
-bash run_*.sh 
+bash run_*.sh <topic | number of random topics>
 ```
+* : pick the model below.
 
 | Model Type | Description |
 |------------|-------------|
