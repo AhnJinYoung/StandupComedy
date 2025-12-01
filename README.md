@@ -5,6 +5,7 @@ Language Models (specifically **Llama 3.1 8B**) to analyze the structure
 of stand-up comedy routines and generate stylistic scripts. It utilizes
 the Hugging Face `transformers` library, `peft` for efficient
 fine-tuning (LoRA/QLoRA), and `bitsandbytes` for quantization.
+> **Note** Details about GoT system is in ./got/README.md
 
 ## 📌 Table of Contents
 
@@ -24,26 +25,13 @@ fine-tuning (LoRA/QLoRA), and `bitsandbytes` for quantization.
 To ensure a clean installation and avoid dependency conflicts, we
 recommend using **Conda**.
 
-### 1. Create and Activate Environment
 
-``` bash
-conda create -n comedy python=3.10
-conda activate comedy
-```
-
-### 2. Install Dependencies
+### Install Dependencies
 
 Install the required Python packages using pip:
 
 ``` bash
 pip install -r requirements.txt
-```
-
-If `requirements.txt` is not yet available, install the core libraries
-manually:
-
-``` bash
-pip install torch transformers datasets accelerate bitsandbytes huggingface_hub peft
 ```
 
 ------------------------------------------------------------------------
@@ -65,7 +53,7 @@ Hub requires authentication.
 ### Step 2: Login via Terminal
 
 ``` bash
-huggingface-cli login
+hf auth login
 ```
 
 ### Step 3: Input Token
@@ -78,7 +66,7 @@ Paste your token and press Enter.
 
 **Important:**\
 You must also visit the **Meta Llama 3.1** model page and accept the
-license agreement to access weights.
+license agreement to access weights. 
 
 ------------------------------------------------------------------------
 
@@ -92,6 +80,15 @@ Ensure your dataset is placed in the `data/` directory.
 -   **Required column:** `text` containing the transcript or analysis
     target
 
+> ### 🎭 Note  
+> For our structured comedy generation, we labeled every segment(using llm) with one of the following categories:
+>
+> | Category     | Meaning                                   |
+> |--------------|--------------------------------------------|
+> | **Setup**        | Establishes context or premise           |
+> | **Incongruity**  | Introduces contrast or unexpected twist  |
+> | **Punchline**    | Delivers the comedic payoff              |
+> | **Callback**     | References earlier jokes for extra humor |
 ------------------------------------------------------------------------
 
 ### 2. Training (Fine-tuning)
@@ -112,6 +109,22 @@ python inference.py     --base_model "meta-llama/Meta-Llama-3.1-8B"     --lora_a
 
 ------------------------------------------------------------------------
 
+### 4. Comedy Generation
+
+``` bash
+bash run_*.sh 
+```
+
+| Model Type | Description |
+|------------|-------------|
+| **Baseline0** | Raw Llama 3.1 8B model (no fine-tuning) |
+| **Baseline1** | Fine-tuned Llama 3.1 8B on raw transcripts |
+| **Baseline2** | Fine-tuned Llama 3.1 8B on structured, labeled transcripts |
+| **got** | Fine-tuned Llama 3.1 8B using labeled transcripts + Graph-of-Thoughts reasoning |
+
+You can check more details in shell scripts.
+
+------------------------------------------------------------------------
 ## ♻️ Reproducibility Notes
 
 To ensure experiments are consistent and repeatable:
@@ -136,13 +149,14 @@ Note: This may slightly slow down training.
 
 ### 3. Hardware Context
 
+Refining dataset & training were done on:
+-    **NVIDIA A100**
+-    **NVIDIA RTX 4090**
+
 Experiments were tested on:
 
--   **NVIDIA RTX 3090**
--   **A100**
-
-Different GPUs or CUDA versions (11.8 vs 12.1) may lead to small
-numerical differences.
+-   **NVIDIA RTX 5090**
+-   
 
 ### 4. Library Versions
 
@@ -158,3 +172,21 @@ with:
 ## License
 
 This project is licensed under the **MIT License**.
+
+------------------------------------------------------------------------
+
+## Reference
+
+Got System is based on : 
+Besta, M., Blach, N., Kubicek, A., Gerstenberger, R., Podstawski, M., Giannazzi, L., Gajda, J., Lehmann, T., Niewiadomski, H., Nyczyk, P., & Hoefler, T.  
+**Graph of Thoughts: Solving Elaborate Problems with Large Language Models.**  
+AAAI Conference on Artificial Intelligence (AAAI 2024).  
+ArXiv: [https://arxiv.org/abs/2308.09687](https://arxiv.org/abs/2308.09687)
+
+Raw comedy transcript is from :
+https://huggingface.co/datasets/zachgitt/comedy-transcripts
+
+Our labeled comedy transcript is from :
+
+
+
