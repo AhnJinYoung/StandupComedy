@@ -187,7 +187,5 @@ ArXiv: [https://arxiv.org/abs/2308.09687](https://arxiv.org/abs/2308.09687)
 Raw comedy transcript is from :
 https://huggingface.co/datasets/zachgitt/comedy-transcripts
 
-Our labeled comedy transcript is from :
-
 
 
