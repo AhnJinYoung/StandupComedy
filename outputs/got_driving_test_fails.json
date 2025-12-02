@@ -1,0 +1,135 @@
+{
+  "topic": "driving test fails",
+  "script": [
+    {
+      "type": "setup",
+      "text": "I think one of my favourite things to do when I'm out on dates is watch people fail their driving tests, you know what I mean? Like if someone's taking me somewhere, they're like oh it doesn't matter let's go have an ice cream or something and then we get there and some guy just failed his driver's license so now he can never leave this place again which seems pretty cool to me that's great i would date him right okay but no he'll be like yeah man i should tell her about how i passed the first time round she'd love hearing all about that and i'd be like mate don't bother because honestly nothing else really matters after seeing somebody drive into traffic does it? Like... It was amazing! Did anyone see that? That little red car went straight over there! Oh my god! So close though wasn't it? Yeah! Passed with flying colours actually!",
+      "score": 8,
+      "pros": "Incongruous tone creates humor, Setup for punchline.",
+      "cons": "Middling energy level, Could benefit from more specificity.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "I've seen men who still live with their parents pass their test for the very same reason that they will marry them, okay? They haven't tried anything better yet. And they won't either until one day when they're walking around in socks looking for the remote control and they hear themselves say aloud, I wish Mum had taught us how to use the oven properly.",
+      "score": 6,
+      "pros": "Incongruous juxtaposition between tone and content, interesting character insight.",
+      "cons": "Muddled delivery, unclear meaning behind statement.",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "Oh no! What's wrong son?! You should have listened more carefully back there! It wasn't a microwave we were talking about you numpty!\"",
+      "score": 8,
+      "pros": "Joke craft, Originality",
+      "cons": "Timing/Pacing, Relatability",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "The problem is now you can get all the things on Amazon Prime! You don't need to know how to cook any more! It's so good isn't it?! So many people have no idea what cooking even means anymore. What's cooking mean if not shopping? That's it. If someone says do some work I'm like oh my god yes please give me an amazon credit card alright mate i'll go and do some fucking work thank you so much yeah just let me sit down over there somewhere i'd appreciate it thanks alright i'll be doing some cooking soon enough cheers bye\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "You think you hate your dad's house now just wait till he tries to f***ing kill himself by putting his head inside the microwave door it'll be like oh my god what is wrong with him what happened i didn't know microwaves worked that way we never used ours i'm not gonna go near it don't touch anything stop touching everything put down the phone leave me alone why do you want so much cheese on your pizza get away from there no give me back my tinfoil hat give it back let go of the hot tray let it go mum come downstairs tell the police call an ambulance someone ring the fire brigade he doesn't mean to hurt anyone he can't breathe get him outside open all these windows turn off the stove shut up shh hush daddy no please daddy calm down please daddy stop daddy stay right there i got you daddy yes daddy it's going to be alright daddy daddy hold onto me i love you daddy i have to cut your shoelaces because if you hang yourself I'll never forgive myself.",
+      "score": 9,
+      "pros": "Joke craft, Originality",
+      "cons": "Timing/Pacing, Relatability",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "I think if you could have sex with anyone from history dead or alive it would be Cleopatra because she was so powerful no wonder Mark Antony fellated her into oblivion right yeah he didn't even know what he wanted but then there's me mum i'm not gonna lie guys my number one historical person is actually my mum just because she never said no to me growing up like ever really made sure we were fed and watered all the time too much of an overachiever maybe don't do drugs kids come on give me another go. Thank you. No, thank you. Yeah.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "Oh! That's where you put it, isn't it? Don't look now, but my dad just gave me his number. Yes! Thank you so much, guys. Enjoy the rest of your night. Take care. Bye-bye.\"",
+      "score": 9,
+      "pros": "Joke craft, Originality",
+      "cons": "Timing/Pacing, Surprise",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "That's right ladies, if you want to keep him forever get rid of his dad because it is only ever going to be two against one. Okay? You don't even need to leave the house. Just wait till he comes home from work on Friday night. His old man'll have been waiting by the window all day. He'll come bounding down the stairs like a little golden retriever. Oh boy oh boy did you see my grandad today he came out of me just like you said he would i told him not to but he wouldn't listen now look what we got there lad give over let her go mum she knows best yeah no way i'm keeping him anyway mummy says so and then you take him upstairs shut yourself away in the bedroom close door lock door turn key scream out into hallway hey everyone welcome to our home do not under any circumstances open this door thank you. Thank you.\"",
+      "score": 8,
+      "pros": "Joke craft, Originality",
+      "cons": "Timing/Pacing, Relatability",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "It's great news! All you need now is an older man or woman ready to die of loneliness with you. A match made in heaven! The whole thing works out perfectly! You can get married on her deathbed. She'll do all the paperwork. Your mum gets a bit of peace knowing she raised someone else happy before she croaks it herself.\"",
+      "score": 7,
+      "pros": "Joke craft, Originality",
+      "cons": "Timing/Pacing, Surprise, Relatability",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "You know what? If you have got a son or daughter living at home past the age of 25, then get out there right now and get yourself an ironing board! Because it is time to stage an intervention because your child has been brainwashed by mum into thinking that absolutely everything can be done on high heat setting number nine.",
+      "score": 9,
+      "pros": "Joke craft, Originality",
+      "cons": "Timing/Pacing, Relatability",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "Now you know why there's always someone standing outside Tesco on Fridays trying to sell me these two boxes of eggs. You see right now it is a bit inconvenient because my house has just been burgled so what we need is like five pounds worth of value meal ingredients from Asda or somewhere like that do you think that would help yeah i'll take those uh no no no no no thank you um all right i'm going home alright bye\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End for comedic effect."
+    },
+    {
+      "category": "punchline",
+      "reason": "The tone has shifted from setup to punchline where the audience laughs at the absurdity of the situation."
+    },
+    {
+      "category": "punchline",
+      "reason": "The sentence \"I wish mum had taught us how to use the oven properly\" creates comedic effect by being unexpected from the previous conversation."
+    },
+    {
+      "category": "punchline",
+      "reason": "This component has been set up well by the previous components. Now it's time to deliver the punchline."
+    },
+    {
+      "category": "punchline",
+      "reason": "This component has high level of absurdity and unexpectedness."
+    },
+    {
+      "category": "punchline",
+      "reason": "This component has been chosen based on context clues within the surrounding components. In each case, the punchline follows directly after a setup where the audience expects a continuation of the story. Each punchline provides unexpected humor through exaggeration, irony, or absurdity."
+    },
+    {
+      "category": "punchline",
+      "reason": "This component presents a humorous observation about modern technology and its impact on society."
+    },
+    {
+      "category": "punchline",
+      "reason": "This component has a clear punchline structure with a setup leading to a comedic payoff."
+    },
+    {
+      "category": "punchline",
+      "reason": "This component has high contrast between the setup and punchline components. The setup presents a situation where the speaker believes they might be able to fuck their stepdad while the punchline reveals that they believe it's impossible due to biological reasons."
+    },
+    {
+      "category": "punchline",
+      "reason": "This component presents a humorous observation about modern technology and societal changes."
+    }
+  ]
+}

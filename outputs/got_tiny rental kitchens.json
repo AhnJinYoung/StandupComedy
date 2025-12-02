@@ -1,0 +1,135 @@
+{
+  "topic": "tiny rental kitchens",
+  "script": [
+    {
+      "type": "setup",
+      "text": "\"The top door opens up into the fridge itself and then there's another bottom drawer that comes out separately from the fridge just for all the frozen stuff.\"\nSetup: \"So if you want ice cream or something, you can open the freezer compartment without opening up the rest of the refrigerator.\"",
+      "score": 43,
+      "pros": "Original idea, good pacing.",
+      "cons": "Not very surprising or relatable yet.",
+      "reasoning": "This beat is setting up what will be an interesting story to come later in the set.\nScore: 43\nPros: Original idea, good pacing.\nCons: Not very surprising or relatable yet.\nNext: Refine"
+    },
+    {
+      "type": "setup",
+      "text": "\"Because sometimes when I'm like eating cereal or something in the morning, my stomach'll get too full really quick because they're so big.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "\"So what happens is, as soon as I finish breakfast, right away I feel bloated to start off with.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"Then about an hour later, I think maybe I need to go take a nap.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"I don't know why I do this either because I always have work to be doing during the day.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"It could also happen where I might eat lunch early before I leave work.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"And by the time I come home around dinner time again, I feel tired already.\"",
+      "score": 6,
+      "pros": "Incongruous humor, clever observation.",
+      "cons": "Doesn't seem to fit perfectly within the overall story being told.",
+      "reasoning": "This beat feels like part of a larger narrative but doesn't quite advance the plot forward.\nPros: Incongruous humor, clever observation.\nCons: Doesn't seem to fit perfectly within the overall story being told.\nRefine | Branch Setup | Branch Punchline | Backtrack | End"
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"And then after dinner, I've got nothing left to do but watch TV until bedtime.\"",
+      "score": 6,
+      "pros": "None",
+      "cons": "Lacks punchline, feels like a continuation rather than a standalone beat.",
+      "reasoning": "The component lacks punchlines and feels more like a continuation than a standalone beat.\nPros: None\nCons: Lacks punchline, feels like a continuation rather than a standalone beat."
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"My housemates, we live together. They moved here recently. So everything was new for them.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"They didn't even notice how much space there was between us.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"They thought our place had been newly renovated.\"\n(Incongruity) \"All they did was put some fresh paint on the walls and install double-glazed windows.\"\n(Crowd laughs)\n(Setup) \"But no one noticed anything else.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "setup",
+      "reason": "Setup is building tension by introducing an interesting fact about the speaker's home country."
+    },
+    {
+      "category": "setup",
+      "reason": "The component is setting up the scene with details about the kitchen appliances."
+    },
+    {
+      "category": "setup",
+      "reason": "The component must be used to set up the scene and create anticipation before moving on to the punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must be established before Incongruity or Punchline can occur."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline. Incongruity has been established but now it needs a punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Punchline or Incongruity."
+    },
+    {
+      "category": "setup",
+      "reason": "The component must set up the scene for the punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    }
+  ]
+}

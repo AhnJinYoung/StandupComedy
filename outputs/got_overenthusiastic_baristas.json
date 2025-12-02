@@ -1,0 +1,135 @@
+{
+  "topic": "overenthusiastic baristas",
+  "script": [
+    {
+      "type": "setup",
+      "text": "I am sick to death of these over-caffeinated b****** that work behind coffee shop counters, right?\nThey're like, what can I get you? What do you want today? They just go straight off on one, don't they?\nWhat's wrong with them?\"",
+      "score": 6,
+      "pros": "Incongruous tone, Relatable scenario",
+      "cons": "Muddled delivery, Lack of punchline clarity",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "I think there should be some sort of age limit when people start working behind coffee shops or bars because if your personality is still developing inside your body, shouldn't that mean we hold back all those opportunities for you until later?\"",
+      "score": 7,
+      "pros": "Incongruous tone, Relatable sentiment.",
+      "cons": "Muddled delivery, Overly simplistic premise.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "\"Can you imagine being 15 years old in McDonald's?\"",
+      "score": 6,
+      "pros": "Incongruous tone, Relatable scenario",
+      "cons": "Muddled delivery, Setup doesn't quite match punchline",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"I would come up every day after school, order a Big Mac meal, then instead of asking me which size sauce, ask me what my favourite flavour was.\"",
+      "score": 6,
+      "pros": "Incongruous tone, interesting idea",
+      "cons": "Muddled delivery, unclear connection to previous statement",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"And I'd say, sweet and sour. And he'd take two squirts from each bottle and mix it together.\"",
+      "score": 6,
+      "pros": "It has an interesting perspective, and the language used is engaging.",
+      "cons": "There isn't much punchline or payoff at this point; it feels more like a continuation than a complete thought.",
+      "reasoning": "The component seems to fit perfectly into the narrative presented by the comic thus far.\nPros: It has an interesting perspective, and the language used is engaging.\nCons: There isn't much punchline or payoff at this point; it feels more like a continuation than a complete thought.\nRefine | Branch Setup | Branch Punchline | Backtrack | End"
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"So now I'm nine years old walking home through an alleyway and this guy comes out of nowhere goes, excuse me mate, how much does your mum weigh?\"",
+      "score": 8,
+      "pros": "Incongruous question, sets tone for rest of set.",
+      "cons": "Setup feels slightly disconnected from punchline.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"Now, as any normal nine-year-old kid would have done, I looked down at his feet went oh s*** oh no where did i put him give us um but no not me\"\n(Setup) \"i panicked so i ran across the road to see her well she came running towards me she said nick tell me what he asked why did he ask that question\"",
+      "score": 9,
+      "pros": "Incongruous punchline, clever use of narrative structure.",
+      "cons": "Setup feels slightly disconnected from rest of transcript.",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I'll never forget it. Because she turns around runs back over to my house and then comes out with my dad holding a big brown envelope.\"",
+      "score": 6,
+      "pros": "Originality, Timing/Pacing",
+      "cons": "Muddled beat, Low energy",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I said, because you're my best friend's mum.\"\n\"Then just to make things worse, I had to explain what an orgy was.\"",
+      "score": 6,
+      "pros": "Incongruity between the setup about the man asking Nick's mom weight and the punchline about explaining orgies to his mother.",
+      "cons": "The transition feels abrupt and disconnected from the rest of the set. It doesn't feel fully formed or cohesive.",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I said because of all these f****** trees around here you've got to be careful it's like being an auntie right if you're an auntie when one of your nieces or nephews asks you a question you don't know how do you answer it\"",
+      "score": 7,
+      "pros": "Joke craft, Originality",
+      "cons": "Timing/Pacing, Surprise",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I was like ah because you were having sex with my dad.\"",
+      "score": 8,
+      "pros": "Joke craft, Originality",
+      "cons": "Timing/Pacing, Relatability",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "setup",
+      "reason": ""
+    },
+    {
+      "category": "setup",
+      "reason": "The component has set up the premise about being annoyed at baristas who seem overly enthusiastic but hasn't yet reached an appropriate point to release tension through punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Punchline. Incongruity would require more information about how it relates to the rest of the transcript. Callback requires prior knowledge of previous components. End doesn't make sense without knowing where this component fits within the overall structure."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "punchline",
+      "reason": "The audience laughs immediately upon hearing the punchline. It seems to resolve the tension created by the previous setup."
+    },
+    {
+      "category": "punchline",
+      "reason": "The father has been waiting outside the whole time ready to deal with the situation. He opens the letter revealing a picture of himself naked standing by a lake surrounded by trees. It shows his genitals clearly visible. His wife looks shocked and horrified.\""
+    },
+    {
+      "category": "punchline",
+      "reason": "The audience laughs at the unexpected twist."
+    },
+    {
+      "category": "punchline",
+      "reason": "The component has been identified as a punchline due to its function of providing comedic relief following a series of setups. It contains elements such as surprise, wordplay, and unexpected twists, making it a fitting conclusion to the narrative presented."
+    }
+  ]
+}

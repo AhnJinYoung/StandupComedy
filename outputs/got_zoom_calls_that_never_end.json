@@ -1,0 +1,135 @@
+{
+  "topic": "zoom calls that never end",
+  "script": [
+    {
+      "type": "setup",
+      "text": "I've been having this problem where I'm going to Zoom call after Zoom call, you know? And sometimes they just kind of bleed into each other, right?\nSetup: The first one is like an hour long, then another one comes along three hours later, and it's like nine o'clock now, we're still on the third call.\nSetup: It gets really weird because everyone knows how much time has passed by now but nobody wants to admit it out loud so instead what happens is people start making these very specific noises during meetings to let everybody else know when enough was enough.\nSetup: You ever notice that? Like someone will be talking about tax returns or whatever, and suddenly there'll be a big fart sound coming from somewhere. Or somebody will get up and walk away and then come back with some snacks.\nSetup: Now you have to wait two more minutes before you can leave. Because if you don't, the person who called the meeting might think that you left too early last week. That happened!",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "I actually ended up leaving my job recently doing remote work. But not because of any noise issues.\nI quit over zoom because i kept getting distracted by the background pictures i had on my laptop screen okay yeah uh-huh every single day no matter whose virtual conference room i walked into i'd see this picture of me and my grandma holding catfish together which she got us both wearing matching cowboy hats while standing next to her trailer.\nIt wasn't even relevant to anything we were discussing. She would say stuff like, well, Bob, why do you keep telling our team to put their shirts back on?\nOr, hey, look again! This picture of yours reminds me that we need to go fishing soon!\nSo... Yeah, I couldn't take it anymore. Thank y'all so much.\"",
+      "score": 8,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "My name is Sam. So I am probably pronouncing my name wrong for the rest of the show tonight. Most people pronounce it as SAM, like a boy's name. But technically, my family does pronounce it as Cam.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) Well, when you tell them your name is Cameron, they always ask follow-up questions like, oh, huh? Why did your parents spell Cameron without the R though?\"\n(Setup) They usually say it with a tone of confusion, implying maybe I should sue my parents.\" Which sounds silly until they find out that my dad spelled his own name differently than my mom spelled hers.\"",
+      "score": 8,
+      "pros": "Setup clarity, Incongruity between expectation and reality.",
+      "cons": "Muted energy, Could benefit from punchline development.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"My dad spells it C-A-M-I-O-N. He's Italian-American. His father immigrated here from Italy. His mother grew up in New Orleans. Her whole side came down from Ireland. Then he marries a girl named Samantha O'Neil. She doesn't want to give up her Irish surname.\"\n(Punchline) \"And my grandpa didn't want to lose all those points he earned playing Gaelic football against England in front of his wife, so...\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"Now you have to wait two more minutes before you can leave. Because if you don't, the person who called the meeting might think that you left too early last week. That happened!\"",
+      "score": 8,
+      "pros": "Incongruous elements create humor, Setup effectively primes punchline.",
+      "cons": "Middling energy level, Could benefit from stronger callback.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(punchline) \"Yeah, I was working remotely with him full-time for five years, man. We were married for seven months, six days, four hours.\"\n- (setup) \"We met online. It was a whirlwind romance. We broke up. I moved home. I started applying to jobs around town.\"\n- (setup) \"When I told my friends that I was moving home permanently, they asked me a bunch of advice-y questions. One friend said, Hey, Sam, how do you plan on handling seeing your ex-boyfriend every single day?\"\n- (setup) \"This is true story. What are you gonna do? Do you wanna change your daily routine? Are you gonna avoid certain areas?",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "- (setup) \"But honestly, I feel like I already handled it pretty good the last time. When I saw him walking towards me, I turned around quick and pretended to shit myself real bad. Worked perfect every single time!\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "- (setup) \"He starts yelling at me through the window because I'm supposed to pick up Chinese food from across the street. I thought you wanted General Tso chicken! Come on!\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "- (setup) \"And also, he used to talk about himself nonstop, you guys. Every single day. Just facts about himself that he felt important to share with me.\"\n- (setup) \"Like, he once won a regional championship wrestling match. Did anybody hear that? Okay, cool. All right, yes, I heard that.\"\n- (setup) \"That being said, it's worth noting that he lost to the same guy twice afterwards. Not bragging about it. Just stating fact.\"\n- (setup) \"There was never a point in our relationship where I realized that I could stop listening to him speak altogether because I knew everything he had to say beforehand.\"\n- (setup) \"Which means that anytime he tried to surprise me with new information, he inevitably caught himself mid-sentence going, Oh, um... Wait, you wouldn't know this, but...\"",
+      "score": 8,
+      "pros": "Incongruous twist, clever writing style.",
+      "cons": "Setup feels slightly disconnected from punchline; needs stronger connection between ideas.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(setup) \"Because anyone who knows me personally knows exactly where I fall on that spectrum, and guess what? People aren't afraid to use it against me!\"",
+      "score": 8,
+      "pros": "Incongruous humor, clever writing style.",
+      "cons": "Setup feels disconnected from punchline; needs stronger connection between components.",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "punchline",
+      "reason": "This component presents the most comedic relief due to its unexpectedness and absurdity."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline for maximum comedic effect."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline. Incongruity must follow setup. Punchline follows setup. Callback requires prior information. End marks conclusion."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must happen before Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must lead to either Punchline, Incongruity, Callback, End, or another Setup."
+    }
+  ]
+}

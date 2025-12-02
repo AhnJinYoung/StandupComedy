@@ -1,0 +1,135 @@
+{
+  "topic": "bad corporate icebreakers",
+  "script": [
+    {
+      "type": "setup",
+      "text": "I'm sure you've all been to one of these meetings, right? You're sitting around with some colleagues from work and there's also someone new that nobody knows who they are or what their job is.\nAnd then suddenly out of nowhere somebody will go something like, hey guys can anyone guess how many hours it would take to watch netflix if we watched non-stop? Or, does anybody know where our CEO lives?\nOr my personal favorite, did anybody else hear about what happened on Monday night when Donald Trump got arrested again? So weird! And I was like, nope, don't have any idea whatsoever.\nBut this guy goes, well, actually, he didn't get arrested because he wouldn't let them arrest him. He just kept talking until they had to leave. Because apparently he has this thing called presidential immunity, which makes me wonder why everybody keeps saying he doesn't read books.\"",
+      "score": 6,
+      "pros": "Incongruous tone, Setup for punchline",
+      "cons": "Muddy delivery, Overly long setup",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "So now I think I'll make fun of this particular meeting more than anything else. There's always usually a bit of tension in these sorts of gatherings as well. Like people sort of feel awkward not knowing each other very much. But then sometimes things come up that really break the ice, you know?\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "Like, so one time at an office party after drinks were flowing a little too freely, somebody started going off on how racist white people are towards black folks, and then another person stood up and said, oh yeah, but Asian dudes love working for money!\nI swear to God, he went on to say that! It's true though, isn't it? We do love cash.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "So uh it becomes clear pretty quickly that neither of us care about politics okay i mean clearly not this dude cause he thinks voting works like um not this guy either obviously because uh i am asian american and i voted for bernie sanders.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(incredulous laugh) Oh man, I thought that'd be a real divisive point among you guys. Yeah, Bernie Sanders won California by far and away the biggest margin of any state.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"And if anyone doesn't like socialism... well then fuck you.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) Now, here's the funny part. This dude comes over and starts lecturing me on American history. No seriously, he gets face to face into my grill and starts explaining that if I wanted to vote for Bernie, I should learn more about his policies.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "So now every time I see him coming towards me with an iPad in hand like he wants to show me some shit on YouTube or whatever I'm just going to be like hey can you turn it off please? And then get back in there! Get in there!\"",
+      "score": 8,
+      "pros": "Incongruous setup leads to unexpected punchline; good use of tone and inflection to convey character.",
+      "cons": "Setup feels slightly disconnected from rest of material; could benefit from clearer transition between setups.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) He says, I understand your frustration, but you gotta remember, it wasn't easy getting rid of slavery in America. People used to own slaves.\" Okay, fine. First of all, secondly, I hate to interrupt your lecture, but it still happens today. Thank you very much!\"",
+      "score": 8,
+      "pros": "Setup effectively sets scene, Incongruous tone creates humor.",
+      "cons": "Middling energy level, Could benefit from punchline or callback.",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"It's like when they're like, why don't we have more black people on Game of Thrones? And then white people get defensive because they're just like, there were no black people around during medieval times! It was all white dudes with swords.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) One of the best ways to deal with ignorant comments like those is to just shut down their ability to talk altogether. In fact, last year, there was even an article published online titled, The Best Comebacks When Someone Says Asians Are Good At Math!\"",
+      "score": 6,
+      "pros": ",",
+      "cons": ",",
+      "reasoning": "Not enough information provided to score components accurately.\nPros:, \nCons:, \nNext: Refine"
+    }
+  ],
+  "decisions": [
+    {
+      "category": "setup",
+      "reason": "Setup must be established before Incongruity or Punchline can occur."
+    },
+    {
+      "category": "setup",
+      "reason": "The component sets up the scene for the rest of the transcript by introducing the setting and characters involved. It establishes the tone and provides background information necessary for understanding the situation being described."
+    },
+    {
+      "category": "setup",
+      "reason": "The component needs to be set up before moving forward."
+    },
+    {
+      "category": "setup",
+      "reason": "The component must be used to set up the scene and characters before transitioning into the main joke components."
+    },
+    {
+      "category": "punchline",
+      "reason": "The audience laughs at his ridiculous statement."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "punchline",
+      "reason": "The audience laughs at the unexpected response."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must occur before Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "punchline",
+      "reason": "The audience laughs at the absurdity of the statement."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline."
+    }
+  ]
+}

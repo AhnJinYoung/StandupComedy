@@ -1,0 +1,135 @@
+{
+  "topic": "airport security small talk",
+  "script": [
+    {
+      "type": "setup",
+      "text": "I'm from L.A., which is great, but it's kind of hard to do that with TSA agents because they're always like, where you from? Like, what does this have to do with anything?\nI'm just trying to get through the line so I can be on my way. It's not relevant information. You know how many times I've gotten caught doing drugs?\"\nFollow-up question: \"What was that supposed to mean?\"",
+      "score": 8,
+      "pros": "Incongruous tone creates humor, Setup for punchline about getting caught by TSA agent.",
+      "cons": "Muddled delivery makes it harder to understand the point being made.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "And then there were some people who said nothing, which made me feel worse than if they had asked. One guy even tried to make eye contact, which felt like an attack.\"",
+      "score": 8,
+      "pros": "Incongruous tone creates humor; Setup effectively primes audience for punchline.",
+      "cons": "Muted delivery makes transition awkward; Punchline feels disconnected from rest of set.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "Then I got off the plane back home, and one thing about going out of L.A. for too long is when you come back, everything seems normal again. People start talking to you normally.\"\n\"I ran into friends right away. They were asking questions as well, but more innocuous ones. Where'd you go? How was your trip?\" Which is fine.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "And we started catching up and stuff. But it wasn't until later that night that things really returned to their usual place.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "\"Later that night, she was saying something weird about our relationship. She goes, oh yeah, no matter where I am or what I'm doing, whenever you call me, immediately my heart skips a beat.\"",
+      "score": 8,
+      "pros": "Incongruity between expectation and reality, Setup leads directly to punchline.",
+      "cons": "Muted tone at beginning, Could use stronger callback.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "And all I could think was, wow, that doesn't seem healthy. At all.\"",
+      "score": 8,
+      "pros": "Incongruity between expectation and reality, Setup effectively sets up punchline.",
+      "cons": "Muted tone, Could benefit from stronger delivery.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "\"Because before I left, she would talk about how much she missed me. So now hearing her say that, I thought maybe I should miss her.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "- (setup) \"So instead of being excited, I panicked.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "\"Like, okay, cool, good.\" \"She called me three weeks ago. No big deal. That's why I'm having trouble sleeping at night.\" \"And I don't want to act like this is a huge issue between us, but every time I hear from her, especially after such a long period of radio silence...\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(incredulous tone) Because before I left, she would talk about how much she missed me. So now hearing her say that, I thought maybe I should miss her. I didn't realize that missing someone was an option.\"",
+      "score": 8,
+      "pros": "Originality, Timing/Pacing",
+      "cons": "Joke Craft, Relatability",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"It turns out you can choose to miss somebody. Like, imagine all those commercials you see on TV telling you that losing weight won't happen overnight, but it will take work. Missed person is real. All right.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity for Punchline to land effectively."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline for maximum comedic effect."
+    },
+    {
+      "category": "setup",
+      "reason": "The component has set up expectations for something humorous to follow."
+    },
+    {
+      "category": "setup",
+      "reason": "The component must set up the rest of the story by providing background information."
+    },
+    {
+      "category": "setup",
+      "reason": "The component needs to set up the story further before revealing its point."
+    },
+    {
+      "category": "setup",
+      "reason": "The component is setting up the story and providing background information."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must happen first to create tension. The audience needs time to understand the situation."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "The component has set up expectations for a response from the audience based on context clues."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End. This component builds tension leading to the Punchline."
+    }
+  ]
+}

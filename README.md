@@ -5,6 +5,7 @@ Language Models (specifically **Llama 3.1 8B**) to analyze the structure
 of stand-up comedy routines and generate stylistic scripts. It utilizes
 the Hugging Face `transformers` library, `peft` for efficient
 fine-tuning (LoRA/QLoRA), and `bitsandbytes` for quantization.
+> **Note** Details about GoT system is in ./got/README.md
 
 ## 📌 Table of Contents
 
@@ -24,14 +25,8 @@ fine-tuning (LoRA/QLoRA), and `bitsandbytes` for quantization.
 To ensure a clean installation and avoid dependency conflicts, we
 recommend using **Conda**.
 
-### 1. Create and Activate Environment
 
-``` bash
-conda create -n comedy python=3.10
-conda activate comedy
-```
-
-### 2. Install Dependencies
+### Install Dependencies
 
 Install the required Python packages using pip:
 
@@ -83,7 +78,7 @@ echo $env:HF_TOKEN | hf auth login --stdin
 
 **Important:**\
 You must also visit the **Meta Llama 3.1** model page and accept the
-license agreement to access weights.
+license agreement to access weights. 
 
 ------------------------------------------------------------------------
 
@@ -214,6 +209,10 @@ Note: This may slightly slow down training.
 
 ### 3. Hardware Context
 
+Refining dataset & training were done on:
+-    **NVIDIA A100**
+-    **NVIDIA RTX 4090**
+
 Experiments were tested on:
 
 -   **NVIDIA RTX 4090**
@@ -235,3 +234,19 @@ with:
 ## License
 
 This project is licensed under the **MIT License**.
+
+------------------------------------------------------------------------
+
+## Reference
+
+Got System is based on : 
+Besta, M., Blach, N., Kubicek, A., Gerstenberger, R., Podstawski, M., Giannazzi, L., Gajda, J., Lehmann, T., Niewiadomski, H., Nyczyk, P., & Hoefler, T.  
+**Graph of Thoughts: Solving Elaborate Problems with Large Language Models.**  
+AAAI Conference on Artificial Intelligence (AAAI 2024).  
+ArXiv: [https://arxiv.org/abs/2308.09687](https://arxiv.org/abs/2308.09687)
+
+Raw comedy transcript is from :
+https://huggingface.co/datasets/zachgitt/comedy-transcripts
+
+
+

@@ -1,0 +1,135 @@
+{
+  "topic": "tech support with parents",
+  "script": [
+    {
+      "type": "setup",
+      "text": "I'm from Florida, which is great because if you're ever there on vacation and someone's like, hey, we should go to Disney World! And then they say where it's located, Orlando, Florida, you can just be like, nope.\"\nSetup: My dad still uses AOL email. That's right, America Online.\"\nSetup: When my mom first got her smartphone, she called me crying one day because she was trying to call me but couldn't remember how to dial using this new device that had replaced all of those old numbers.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "She kept calling me with the number for pizza hut because i think it sounds more like my name than our phone number.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) It's not so bad though. The best part about growing up in Florida is seeing people who have never been before. They always act exactly like you'd expect them to when going somewhere for the very first time.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) Whenever I travel home, these tourists come up to me after shows sometimes, and they'll be like, oh my God, I love your accent. Where did you grow up? What city or state?\nI know what's coming next based off their expression already.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"And then they're going to say where I grew up. And it is not New York City! But no one believes me because of how good my American impression is.\"\n\"Then finally last year, someone believed me. This girl came up to me, she was so excited. She goes, oh my god, I can tell by your accent that you actually from Australia.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"What's happening is people see one black person on TV and they think we all sound like LeBron James.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "Yeah, that happened recently too. A guy hit me up on Instagram DMs out of nowhere saying he loves my comedy but why do you get booked everywhere except Atlanta?\"\nSetup: And I said, well, maybe it has something to do with everything around here being pretty much underwater due to climate change.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) Now it seems like every time I try to leave town now, I end up getting stuck here forever.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) I wanted to take an Uber over here to Brooklyn tonight, but they told me Hurricane Ian made flooding possible as far north as Connecticut.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) So I've been waiting outside for hours looking for another ride.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) I didn't even need the hurricane. Just weathered through a heat wave. Because living proof that global warming isn't real.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "setup",
+      "reason": "Setup must happen before Incongruity/Punchline/Callback/End. The audience needs information about who the character is and what their life has been like so far for them to understand why things will become funny later."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Incongruity/Punchline/Callback/End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline."
+    },
+    {
+      "category": "punchline",
+      "reason": "This component has built up enough pressure through the previous components' tone and language to release into a punchline."
+    },
+    {
+      "category": "punchline",
+      "reason": "Because he said he could tell by his accent that he was from Australia. Which means he listened to every single word I've said tonight.\""
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede either Punchline, Incongruity, Callback, or End."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline."
+    }
+  ]
+}

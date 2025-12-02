@@ -1,0 +1,135 @@
+{
+  "topic": "gym influencers filming everything",
+  "script": [
+    {
+      "type": "setup",
+      "text": "I just hate it when I'm doing something normal like going to the toilet or taking out my contact lenses, right? And then suddenly you hear that unmistakable sound of an iPhone camera shutter clicking away in real life. And you think to yourself... what? What is happening?! Why do we live on this planet?! It's nuts! Right? We're losing our minds over there. No one knows why they're alive anymore.",
+      "score": 6,
+      "pros": "Incongruous juxtaposition between mundane activity and unexpected event, Relatable everyday scenario.",
+      "cons": "Muddy transition from setup to punchline, Overly reliant on audience familiarity with iPhones.",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "Oh man, I was walking down the street recently, and some kid snapped a photo with his phone, and he went running after me to hand it back because apparently it caught him looking weird by accident. So now I know how Princess Diana felt all those years ago.\"",
+      "score": 8,
+      "pros": "Incongruous juxtaposition between modern technology and old royal protocol creates humor; The image of someone chasing after the comic for accidentally capturing their likeness is vivid and amusing.",
+      "cons": "Middling setup doesn't quite set up the punchline as effectively as other components; Some elements feel slightly disconnected from each other.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "Now every time I see someone with their finger hovering over the screen as if waiting for something magical to happen, I feel myself being pulled into that vortex too.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "punchline",
+      "text": "\"I'm like, oh my God, there's magic out there! Then I get sucked down the rabbit hole of an endless browser tab.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "So I find myself scrolling through Instagram until I've scrolled so far I end up staring at some stranger's profile picture wondering where did I go wrong?\"",
+      "score": 8,
+      "pros": "Originality, Relatability",
+      "cons": "Muddled transition from previous punchline, Inconsistent tone between Setup and Punchline.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) Yeah, but people don't realise, you can be anywhere in your house, right? You could be having sex, you could have got ready for work.\"",
+      "score": 8,
+      "pros": "Incongruous juxtaposition between intimacy and technology use; Setup effectively primes punchline about getting lost online.",
+      "cons": "Muted tone doesn't quite match the rest of the set; Could benefit from more emphasis or inflection.",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) But here comes Binx, mate. He'll creep into your bedroom while you're getting naked. While you're putting on your socks. In the bathroom, while you're washing your face.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"And then he snaps a quick shot of you with your mouth hanging open and your balls swinging free.\"",
+      "score": 8,
+      "pros": "Originality, Relatability",
+      "cons": "Muddled transition from previous component, Lack of punchline clarity",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"Now listen guys I love technology I genuinely believe that tech has improved our lives massively okay let's not argue about that.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) The problem though is social media hasn't made us happier has it fellas no way right?\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    },
+    {
+      "type": "setup",
+      "text": "(Setup) \"What happened is we've lost control of who gets access to photos of us.\"",
+      "score": 6,
+      "pros": "",
+      "cons": "",
+      "reasoning": ""
+    }
+  ],
+  "decisions": [
+    {
+      "category": "punchline",
+      "reason": "The tone has shifted from incredulity to exasperation."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must be established before Incongruity can occur. The audience needs time to understand the situation being described."
+    },
+    {
+      "category": "punchline",
+      "reason": "The sentence \"Oh man, I was walking down the street recently\" sets up a story about the speaker experiencing something strange while outside. Then comes the punchline where she compares herself to Princess Diana.\""
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must be present before Punchline can occur. The audience needs information about the situation so they understand the joke."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must be used to create tension before moving forward. The tone has been set correctly."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede Punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must precede punchline. The component has no punchline."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must establish context before moving forward."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup component must precede punchline or other components."
+    },
+    {
+      "category": "setup",
+      "reason": "Setup must lead to Punchline or Callback."
+    }
+  ]
+}
