@@ -215,7 +215,7 @@ Refining dataset & training were done on:
 
 Experiments were tested on:
 
--   **NVIDIA RTX 4090**
+-   **NVIDIA RTX 5090**
 
 Different GPUs or CUDA versions (11.8 vs 12.1) may lead to small
 numerical differences.
