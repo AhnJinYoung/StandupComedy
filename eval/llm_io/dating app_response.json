@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674290-YHlhJnQCakqqQW8qyXej",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"topic\":\"dating app\",\"scores\":{\"baseline0\":{\"humor_effectiveness\":7,\"joke_structure\":8,\"controllability\":10,\"human_likeness\":9,\"overall_score\":8,\"brief_explanation\":\"The transcript delivers relatable jokes about dating app profiles with solid setups like the 'climbing enthusiast' bit leading to punchlines about domestic arguments. It maintains a clear arc through multiple examples building to a callback on shallow conversations. Overall, it stays tightly on topic and sounds like authentic stand-up delivery.\"},\"baseline1\":{\"humor_effectiveness\":2,\"joke_structure\":1,\"controllability\":2,\"human_likeness\":3,\"overall_score\":2,\"brief_explanation\":\"The content veers wildly off-topic from dating apps into unrelated vulgar rants about relationships, family, and gout, with few actual jokes landing. There's no discernible structure, just disjointed ramblings ending in an abrupt show closer. It feels incoherent and unnatural, lacking any stand-up flow.\"},\"baseline2\":{\"humor_effectiveness\":5,\"joke_structure\":4,\"controllability\":7,\"human_likeness\":7,\"overall_score\":6,\"brief_explanation\":\"Some humorous observations on online dating lies and gender differences in app success, but an extended unrelated intro about being gay dilutes the focus. Joke structure is loose with partial setups but no strong arc or callbacks. It sounds somewhat conversational like live comedy, though meandering.\"},\"got\":{\"humor_effectiveness\":3,\"joke_structure\":2,\"controllability\":6,\"human_likeness\":4,\"overall_score\":3,\"brief_explanation\":\"Attempts absurd humor with autocorrect mishaps turning into penis-themed chaos on Bumble, but the escalating nonsense confuses rather than lands punches. Lacks any clear setup-punchline flow, jumping illogically between ideas without resolution. Delivery feels forced and unnatural, straying from coherent stand-up on dating apps.\"}} }",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_906dfd02-b011-85d2-8558-3d75cdfbf0b8",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "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"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674290,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1059,
+    "prompt_tokens": 1775,
+    "total_tokens": 2834,
+    "completion_tokens_details": {
+      "reasoning_tokens": 663
+    }
+  },
+  "provider": "xAI"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674369-wNRi15fk4SzEdOrdsFAt",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"topic\": \"elevator_small_talk\",\n  \"scores\": {\n    \"baseline0\": {\n      \"humor_effectiveness\": 8,\n      \"joke_structure\": 8,\n      \"controllability\": 10,\n      \"human_likeness\": 9,\n      \"overall_score\": 9,\n      \"brief_explanation\": \"This transcript nails elevator small talk with relatable awkward scenarios like wrong buttons, nodding, and blocking, delivering punchy jokes that land well. The structure builds from general awkwardness to specific bits with a clear arc and callback to therapy sessions. It stays tightly on topic and sounds like authentic stand-up delivery.\"\n    },\n    \"baseline1\": {\n      \"humor_effectiveness\": 3,\n      \"joke_structure\": 2,\n      \"controllability\": 2,\n      \"human_likeness\": 5,\n      \"overall_score\": 3,\n      \"brief_explanation\": \"It begins with an elevator encounter but quickly spirals into unrelated rants on holidays, taxes, immigrants, race, and elderly tech issues. Lacking punchlines or arc, it feels like unfocused rambling rather than structured comedy. While somewhat conversational, it drifts far from the topic, reducing controllability.\"\n    },\n    \"baseline2\": {\n      \"humor_effectiveness\": 4,\n      \"joke_structure\": 5,\n      \"controllability\": 1,\n      \"human_likeness\": 6,\n      \"overall_score\": 3,\n      \"brief_explanation\": \"The material focuses on 'where are you from' questions, accents, and Canadian stereotypes, with no connection to elevators or small talk. Some setups like accent switcheroo have minor humor, but no clear arc ties it together. It sounds somewhat natural but completely ignores the topic.\"\n    },\n    \"got\": {\n      \"humor_effectiveness\": 4,\n      \"joke_structure\": 3,\n      \"controllability\": 3,\n      \"human_likeness\": 5,\n      \"overall_score\": 4,\n      \"brief_explanation\": \"A strong opening elevator small talk bit with a bold punchline lands well, but it abruptly shifts to personal comedy career stories and meta-jokes about Comics Central. No sustained arc or callbacks keep it on topic. It mimics a comedian's ramble but feels disjointed and off-subject after the start.\"\n    }\n  }\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_821aaeb9-d2a3-d85b-78f8-3c93e6633d6d",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "VOz3q+95/oG7YovLaCBrZ4PAYzvPfBSoaG8sfI7AxyHSuvLrErPdu7X4D4BhSFHRCqUNcfT61gvysAPyHeSSqRelmG5uQSH2j2Z1jQ3UsuVO2D+sCOawy7gJlhfVwr6/bnqJG4pkeCUTmeT/K7hNqQBR0ovFRu5amTuoALkXlS+anJ5lQvT9nsb0yfF81GwAogY6x8H5y2xWnuptuegcnVf4CKOz8x2QgpswnCXTHVb3Xmwll4mXjnj2EjGR4fkoWqH2XvK7+Lyylq9xrmJl5YtsnOTWsvCNiy1WWDVm7DX0L4DEClJr88R39SkBECjV1Zbw7XC4nsZYK7RgoPbATXFy+QnYh8c4c4cvP1NKm+xsLhL8WWKX7u0HZLD/KJaCNtv3mck2EyMtdmCy6bWhyQRKa4RN9pIQue3K6PdrmlpIJRv+bWbJbLMUud5ED7IN+8ue3I2HRsgY8esMNFwLuTOhuPtOJjBgWVu7z1ZhlbMe3pJL7swohCz4HTQ1FlKm74jfc4gAg66cciCiXvL+ZwbLcTUojkTyR+5R6vTTzqX8c1YzdFbs5POMcOHKyfonnF3a8q0QsssD6a7zfM8oKkzqLevm2PKjcrDLC7lnsv2cw8TslW5vIGjTKS0nTesLVxtmEDFfEDpkLQISJEIeVCtax7Xyb4uaVpF1iqHhr330WUwCcUoYhSSUGDe1Mjf2LR8AJDisg/ralIvuBZsH+JNJfLYdYzRP8STPKFCM7RA0iGtxqIpO+PJICxwI27FDjkjS+nVtgy5SBlYfEzbzuAavdGQCwJsHXUCiMACIpKSN9bcGlRm1Yhxkf9NQvxxv7AiEm39Yiv2pIulBqG/EtgAN2CINZ+tvZTY3FqtuEhXscECxccwFsFQhc0u3hoGs1mtzu2NVe97iNwT//ZK80m4QlvR7qb63SPv1LCd8tkiN/BISi49gB3v2wLKht/dsoMdkYOHCGgy8USzJ+e4jOgxMQ4bqJv4nPtDKpBk8ERqjIJVe7u3SsSmzJmWumwxoqc0NCST2yOpF7bYQEtPbr+wbDSR0DGImeVJ3xmqpnbRojKpYTK7LzF4Va6guIKrozBAq413yClLsFffoYgDrGUAse7Wh0dbzk3IRpz9XwnUZ8YZOczxYNCCBYGUILrlBzFzYsBI4UYFZz3qzO2FWHA570rE5GubvSe5lKhJB3BTptIe6SsX+AhAMvwMxj7spCMCzQPGeuHJWjfiGk4yzhlL9fYxf7tNFDAVTNpCOKNXxc8p5eJ7C4O7rcDJ8QASr8DRMhrQV9E6K95kXNpnhGiGxnUESHPYdRQ1gz3nGP+3nT8yXTjXXVmaOmxzipyX7fHMRn6PQse27H37huN+xfSysJZbaWzu6C+gZbXPo8+UsN8Y85k0HosOjQVjgBoEiZ/y+5a+75PWkYOFplJ5Rbq5PkgqmFL6Kg3FsWPY3B1tiZifFZmCAeIBKP9t+NOI9w1DQPk0lGpOG7lznK4ae9Yvqh9UfeYbnkpciG/kn84njNo8nqBZNBYR+8KHjtLNLtMlZ9UMieITf5q5iVjO7YoGztQmd11pgCXsc1ymWqyhGA5Odh0wFPFNrT9wy5CbH9vNWCrmZFN1CsC80Fb3dLMWx42BD66BcDV7FLnZjttre2Z3AazZDD+pF7HPvH8+LFiYxlZMAltTCf67stg6CwhmmmxJIO/lobjO2EXQbOQRB+egFtHeOQeOki3Xke7ep0gjlEVEqIFC3wWaW5IKHCcFo0DWEzJr20za+lIKKgaL607yVrSZgo8WbHgNXuroCEkvSjcOdG9aYwFU6u73yJ3NKm009TUEu4H4cBGF+FTmT7YPH01bYy8whu9zGXuPHywJjMWLHVT1F/tTECadQvXP0vpqlTd+1S1NhUq5wycn9f8VmN0cS0Np9BGNUJew4lhtqtbnin8loPKSjUWlJk+CdzNLCGhzDXCbBbEPvCFkq+Gri4MDgujHCBEynQEiVOTaWH+x/SLdbHYYUe9QQCXkOlg5URDX6nBU85rF2e1dWjfgOLKJKdZOeGWhM3QK+XhMhwp+FUhnK5dqZXUFaYY6tYbVaFjON/8wK1KtA3BW/QBa4cZwS/AuuAWM0pgEKJfe46Jt+HUhuBpFhuwA0o9JjpHYWKxSitarazOnRASoN3nb/yzY4s5W6FoR6Jtu4FBmoLjynQled1H6b7u91snCQEbsAdysZasUqKj5/5pQ8ZSAk/YV65dBDJ96V5T/XBHXWSd8B9dyaoJPnCbdvmttSCaYIevVSJsF9fME9bytH0osPXe2rRygtgBVYChqgpfiCHmI1tggOdlF7PfbnLjD5R3H5DK9RlOPpH/fU3NNhb8ny1/nH9QLtYUZMA+c0F05iXXg/fMRpmDVT6k+R0RCnMAYdBeYjFvnNQlDiABRx1V29HijrvEgt1myzXYVB5J3SVrVNhY9KjGeN1NVC20S4/38DPq30MOP9kkPaKlhZyQNRwMXeX+4Q/Zu74cZxoxNZG6TZz9C8OUP4tXsN52ILM+FubdGFClC8S/iywYcEAkY1++mY4xr7/lGtRL/Uyu9oiaxoBqv5I+wLxO8AIN4c1eCdu++JaNnKX6nofTP8ePV3LF4A/NPEBqXvEJweFn4OiOjMQgI0DL5vdzgyfGTvKoLQ9WTpu30ygIOrs7TB247Pzh6OUef3NO8QkHbzNAiMvcrnHVaZG69DBlL/L0A4Nuhza8KAuRBcZKW8JqPwPU9492mV0LtJ8kBNEgTiREaB6pENfk42Ekkvwugz7O8aBFWd+uLgZ4NFM7BdF/aEMTEIyRnm/8m3lbCKaw6/4IK6jCxxy+ssFryybXgLliSFAgZ65EtDNO+lM27l7IkDyKKn4vDCRGo/VUy0DbJcW/q8tQsHd3dfYhO7fx+Ak0jwpQDuZf15Gx8O7xuf2u3qepVs8HWY8KwBTBg4ix40vf5uL0iiPLcgW+3XcjobGHo9DQlGRl0Ralv1AA7dN3p6SyWM7mrwmSyFhNMX2i+V9OuUCeQVhfc3wxkUnepk30Zx5OrzKsk5/1DF0Qc5YLACDK3Pco2yn7sw4/OiVFY/DTHh6ONuxhppOgIKGCMD7OnMtSarTfvQfFj/ATa/l5rI+Q4U9BDoDKj7zHZ3OULC6tkAuWs"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674369,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1117,
+    "prompt_tokens": 2125,
+    "total_tokens": 3242,
+    "completion_tokens_details": {
+      "reasoning_tokens": 618
+    }
+  },
+  "provider": "xAI"
+}

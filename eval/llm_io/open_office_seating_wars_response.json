@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674524-uqJN7HRNspFi0B9OMhAK",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"topic\": \"open_office_seating_wars\",\n  \"scores\": {\n    \"baseline0\": {\n      \"humor_effectiveness\": 7,\n      \"joke_structure\": 8,\n      \"controllability\": 10,\n      \"human_likeness\": 9,\n      \"overall_score\": 8,\n      \"brief_explanation\": \"This transcript delivers relatable jokes about desk territoriality and office dynamics with solid setups and punchlines that land well. It maintains a clear arc from claiming spaces to adult sharing ironies, staying tightly on topic. The delivery feels authentic, like a natural stand-up routine with pauses for laughter.\"\n    },\n    \"baseline1\": {\n      \"humor_effectiveness\": 1,\n      \"joke_structure\": 1,\n      \"controllability\": 1,\n      \"human_likeness\": 3,\n      \"overall_score\": 1,\n      \"brief_explanation\": \"The material starts vaguely on open offices but quickly spirals into offensive, unrelated rants about sex, rap music, and hip-hop history with no punchlines. There is no coherent structure, arc, or callbacks, making it a disjointed mess. It sounds like incoherent rambling rather than stand-up, completely abandoning the topic.\"\n    },\n    \"baseline2\": {\n      \"humor_effectiveness\": 4,\n      \"joke_structure\": 3,\n      \"controllability\": 6,\n      \"human_likeness\": 7,\n      \"overall_score\": 5,\n      \"brief_explanation\": \"Some observational humor on snoring coworkers and monitor orientations provides mild laughs, but tangents like sea otters dilute the impact. The structure is loose with weak transitions and no strong arc or callbacks. It has a natural, stream-of-consciousness feel but drifts from the core seating wars theme.\"\n    },\n    \"got\": {\n      \"humor_effectiveness\": 2,\n      \"joke_structure\": 2,\n      \"controllability\": 3,\n      \"human_likeness\": 4,\n      \"overall_score\": 2,\n      \"brief_explanation\": \"Brief mentions of open office pros/cons offer faint humor, but heavy repetition and shifts to headphones, traffic, and feminism kill any momentum. Lacks setups, punchlines, or arc, feeling like fragmented notes rather than a routine. Delivery seems unnatural and forced, straying far from the topic.\"\n    }\n  }\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_6324ba56-539d-ab59-be15-6ab1f4b1f9f0",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "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"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674524,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1132,
+    "prompt_tokens": 4324,
+    "total_tokens": 5456,
+    "completion_tokens_details": {
+      "reasoning_tokens": 632
+    }
+  },
+  "provider": "xAI"
+}

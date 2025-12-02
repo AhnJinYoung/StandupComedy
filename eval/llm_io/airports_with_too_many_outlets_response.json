@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674236-TUG0NdZDOL3Gg5peTrYq",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"topic\": \"airports_with_too_many_outlets\",\n  \"scores\": {\n    \"baseline0\": {\n      \"humor_effectiveness\": 8,\n      \"joke_structure\": 8,\n      \"controllability\": 10,\n      \"human_likeness\": 9,\n      \"overall_score\": 9,\n      \"brief_explanation\": \"The transcript delivers relatable, punchy jokes about excessive airport outlets, like LAX chairs and overpriced food, making them land effectively. It follows a clear setup-punchline arc with callbacks to power desperation and a competitive angle. The natural, conversational tone feels authentically like stand-up comedy.\"\n    },\n    \"baseline1\": {\n      \"humor_effectiveness\": 2,\n      \"joke_structure\": 2,\n      \"controllability\": 3,\n      \"human_likeness\": 4,\n      \"overall_score\": 2,\n      \"brief_explanation\": \"Jokes fail to land amid incoherent rambling about shops, luggage, and unrelated travel woes, barely touching outlets meaningfully. There is no clear arc, with random jumps from JFK walls to carousel hogging. The stream-of-consciousness style feels unnatural for structured stand-up.\"\n    },\n    \"baseline2\": {\n      \"humor_effectiveness\": 3,\n      \"joke_structure\": 2,\n      \"controllability\": 1,\n      \"human_likeness\": 5,\n      \"overall_score\": 2,\n      \"brief_explanation\": \"Humor derives from rudeness and a train story but ignores the outlet topic until a forced, abrupt India comparison at the end. Lacking setup-punchline flow or arc tied to airports. It has a semi-natural rambling vibe but strays completely off-topic.\"\n    },\n    \"got\": {\n      \"humor_effectiveness\": 1,\n      \"joke_structure\": 1,\n      \"controllability\": 1,\n      \"human_likeness\": 2,\n      \"overall_score\": 1,\n      \"brief_explanation\": \"No effective jokes on the topic; it rambles about babies, paranoia, TSA, and Starbucks, mentioning few outlets once oppositely. Repetitive phrases and tangents destroy any structure or arc. The disjointed, unnatural delivery resembles poor improv rather than stand-up.\"\n    }\n  }\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_4ae42f45-a769-6fe0-0de4-10098ece574b",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "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"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674236,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1386,
+    "prompt_tokens": 1992,
+    "total_tokens": 3378,
+    "completion_tokens_details": {
+      "reasoning_tokens": 901
+    }
+  },
+  "provider": "xAI"
+}

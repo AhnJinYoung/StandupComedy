@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674695-GStjrvdSWw9NIfrBS9OY",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"topic\": \"polictics in U.S.\",\n  \"scores\": {\n    \"baseline0\": {\n      \"humor_effectiveness\": 7,\n      \"joke_structure\": 7,\n      \"controllability\": 10,\n      \"human_likeness\": 9,\n      \"overall_score\": 8,\n      \"brief_explanation\": \"The transcript delivers solid observational humor on U.S. politics with punchy lines about Congress, politicians' suits, and media that land well. It maintains a clear arc of setups leading to punchlines and ends with a family holiday callback. The delivery feels natural and authentically like stand-up comedy.\"\n    },\n    \"baseline1\": {\n      \"humor_effectiveness\": 3,\n      \"joke_structure\": 2,\n      \"controllability\": 3,\n      \"human_likeness\": 5,\n      \"overall_score\": 3,\n      \"brief_explanation\": \"Humor is sparse and undermined by rambling tangents into personal anecdotes like deodorant and hurricanes, with only fleeting politics references that don't land. Lacks any coherent joke structure, jumping erratically without setups or punchlines. Sounds awkward and unnatural, like an unfocused open-mic rant.\"\n    },\n    \"baseline2\": {\n      \"humor_effectiveness\": 4,\n      \"joke_structure\": 5,\n      \"controllability\": 1,\n      \"human_likeness\": 7,\n      \"overall_score\": 2,\n      \"brief_explanation\": \"Focuses entirely on music recommendations and aging, with no connection to U.S. politics, making jokes irrelevant to the topic. Has some loose structure in music critique but no political arc or callbacks. Delivery feels somewhat natural but off-topic.\"\n    },\n    \"got\": {\n      \"humor_effectiveness\": 6,\n      \"joke_structure\": 5,\n      \"controllability\": 8,\n      \"human_likeness\": 8,\n      \"overall_score\": 7,\n      \"brief_explanation\": \"Offers edgy humor on Trump, Clinton, women in politics, and male arguments likened to Pokémon fights, with some relatable punches. Structure is stream-of-consciousness with repetition but ties back to political gender dynamics. Sounds conversational and authentic, like a modern comic's set.\"\n    }\n  }\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_8472f9cd-139c-c3d6-16be-1a1242203486",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "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"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674695,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1067,
+    "prompt_tokens": 2145,
+    "total_tokens": 3212,
+    "completion_tokens_details": {
+      "reasoning_tokens": 587
+    }
+  },
+  "provider": "xAI"
+}

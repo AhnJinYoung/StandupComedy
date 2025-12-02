@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674665-coXHsLMkI7jx8TF3aG2L",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"topic\": \"parents_using_emojis\",\n  \"scores\": {\n    \"baseline0\": {\n      \"humor_effectiveness\": 7,\n      \"joke_structure\": 7,\n      \"controllability\": 10,\n      \"human_likeness\": 8,\n      \"overall_score\": 8,\n      \"brief_explanation\": \"The transcript delivers relatable humor through specific, exaggerated examples of parental emoji misuse, like the 😊 for escape or 🤣 for fart jokes, landing solid punchlines. It follows a clear setup with observation, punchy examples, and a fun callback to an 'emoji support group.' Stays tightly on topic while sounding like natural stand-up delivery.\"\n    },\n    \"baseline1\": {\n      \"humor_effectiveness\": 3,\n      \"joke_structure\": 2,\n      \"controllability\": 2,\n      \"human_likeness\": 6,\n      \"overall_score\": 3,\n      \"brief_explanation\": \"Humor is scattered and undermined by endless tangents from emojis to customer service, dating, and sex ed, with only brief mentions like the smiling poop icon. Lacks any coherent arc or punchline flow, rambling incoherently. Starts on topic but quickly derails, though the stream-of-consciousness style feels somewhat authentically chaotic.\"\n    },\n    \"baseline2\": {\n      \"humor_effectiveness\": 6,\n      \"joke_structure\": 6,\n      \"controllability\": 9,\n      \"human_likeness\": 7,\n      \"overall_score\": 7,\n      \"brief_explanation\": \"Offers decent laughs with quirky examples like dad's heart emoji or mom's airplane icons for lateness, feeling sincere and observational. Structure is loose with setups leading to mild punchlines but no strong callbacks or arc. Remains mostly on-topic about parental emoji habits in a casual, conversational tone.\"\n    },\n    \"got\": {\n      \"humor_effectiveness\": 2,\n      \"joke_structure\": 2,\n      \"controllability\": 2,\n      \"human_likeness\": 4,\n      \"overall_score\": 2,\n      \"brief_explanation\": \"Attempts edgy humor but fails with bizarre, unfunny shifts to nudity, titties, and vacations after one early smiley face mention, lacking punch. No clear setup-punchline flow or arc, just disjointed anecdotes. Veers far off-topic into personal weirdness, sounding forced and inauthentic for stand-up.\"\n    }\n  }\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_375e2776-fec6-0f3b-85f8-26fdf0bd799e",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "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"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674665,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1294,
+    "prompt_tokens": 3032,
+    "total_tokens": 4326,
+    "completion_tokens_details": {
+      "reasoning_tokens": 777
+    }
+  },
+  "provider": "xAI"
+}

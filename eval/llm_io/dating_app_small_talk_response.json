@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674313-7oKlw6vw8ghyCQtDX9Hy",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"topic\":\"dating_app_small_talk\",\"scores\":{\"baseline0\":{\"humor_effectiveness\":7,\"joke_structure\":7,\"controllability\":9,\"human_likeness\":8,\"overall_score\":8,\"brief_explanation\":\"The transcript cleverly mocks clichéd dating app openers like 'What do you do on Saturdays?' and hypothetical questions with relatable exaggerations and punchlines. It follows a logical arc from swiping to awkward chats and advice, with effective callbacks to transactional vibes. Delivery feels natural and stays firmly on-topic.\"},\"baseline1\":{\"humor_effectiveness\":3,\"joke_structure\":2,\"controllability\":2,\"human_likeness\":6,\"overall_score\":3,\"brief_explanation\":\"It briefly touches on dating app profiles but quickly veers into unrelated tangents about weight loss, drinking, and personal anecdotes. Lacks any coherent structure or arc, jumping erratically without punchlines landing well. Rambly style mimics a live comedian but fails to control the topic.\"},\"baseline2\":{\"humor_effectiveness\":4,\"joke_structure\":4,\"controllability\":7,\"human_likeness\":7,\"overall_score\":5,\"brief_explanation\":\"Short bits on ideal partners and Tinder uniformity offer mild chuckles via sarcasm examples like pizza debates. Basic setup-punchline flow exists but no deeper arc or callbacks. Stays mostly on dating questions with casual, authentic phrasing.\"},\"got\":{\"humor_effectiveness\":2,\"joke_structure\":1,\"controllability\":3,\"human_likeness\":3,\"overall_score\":2,\"brief_explanation\":\"Starts with small talk struggles but devolves into bizarre, violent fantasies about hiking deaths and graves, far from dating apps. Repetitive 'Setup' tags and no clear punchlines destroy structure. Sounds erratic and unnatural, lacking stand-up coherence.\"}} }",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_3b5b39e9-55b5-3be0-f3d1-ad6182c90dfd",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "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"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674313,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1217,
+    "prompt_tokens": 3005,
+    "total_tokens": 4222,
+    "completion_tokens_details": {
+      "reasoning_tokens": 841
+    }
+  },
+  "provider": "xAI"
+}

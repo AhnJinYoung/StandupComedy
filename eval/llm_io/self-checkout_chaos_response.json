@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674785-klKZ4osqVvQYBE4Eaq46",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"topic\":\"self-checkout_chaos\",\"scores\":{\"baseline0\":{\"humor_effectiveness\":8,\"joke_structure\":8,\"controllability\":10,\"human_likeness\":9,\"overall_score\":9,\"brief_explanation\":\"The transcript nails self-checkout chaos with relatable jokes about scanning mishaps, produce codes, and lane competition that land effectively. It features clear setups leading to punchlines and a cohesive arc ending in collective frustration. Sounds authentically natural like live stand-up while staying laser-focused on topic.\"},\"baseline1\":{\"humor_effectiveness\":2,\"joke_structure\":2,\"controllability\":2,\"human_likeness\":5,\"overall_score\":2,\"brief_explanation\":\"Starts with self-checkout but quickly spirals into unrelated rants about attacks, customer service, scandals, airports, and family trauma with no punchlines. Lacks any coherent structure or arc, making jokes ineffective. Poor controllability as it abandons the topic entirely, feeling like unfocused rambling.\"},\"baseline2\":{\"humor_effectiveness\":4,\"joke_structure\":3,\"controllability\":4,\"human_likeness\":7,\"overall_score\":4,\"brief_explanation\":\"Briefly mentions self-checkout as a refuge but pivots to Walmart doors, shoplifting, and a long socks-and-sandals tangent with minimal humor payoff. Structure is loose and fragmented without a topic arc. Conversational style feels somewhat human-like but drifts far off-topic.\"},\"got\":{\"humor_effectiveness\":3,\"joke_structure\":2,\"controllability\":3,\"human_likeness\":6,\"overall_score\":3,\"brief_explanation\":\"Tangentially references self-checkout bags but devolves into off-topic stories about ableism, autism incidents, yelling kids, and police mix-ups with weak humor. No clear joke structure or arc tied to the theme. Sounds somewhat natural but lacks focus and authenticity on self-checkout chaos.\"}} }",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_026c590e-85ca-fa75-d490-f24803ee0d3a",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "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"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674785,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1251,
+    "prompt_tokens": 2694,
+    "total_tokens": 3945,
+    "completion_tokens_details": {
+      "reasoning_tokens": 855
+    }
+  },
+  "provider": "xAI"
+}

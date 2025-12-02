@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674213-O9C5DU3j2bA4pKandxq2",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"topic\": \"airport_security_small_talk\",\n  \"scores\": {\n    \"baseline0\": {\n      \"humor_effectiveness\": 7,\n      \"joke_structure\": 8,\n      \"controllability\": 10,\n      \"human_likeness\": 9,\n      \"overall_score\": 8,\n      \"brief_explanation\": \"This transcript effectively captures awkward small talk at airport security with relatable examples like vague destinations and the British-Aussie grandma twist, landing solid observational humor. The structure builds from general setup to specific punchlines and a callback to deadpan responses. It stays tightly on-topic and sounds like natural stand-up delivery.\"\n    },\n    \"baseline1\": {\n      \"humor_effectiveness\": 3,\n      \"joke_structure\": 3,\n      \"controllability\": 6,\n      \"human_likeness\": 6,\n      \"overall_score\": 4,\n      \"brief_explanation\": \"The humor falls flat due to rambling and unclear punchlines, like the cocaine/chalk bit that doesn't connect well. Structure lacks a clear arc, jumping between security procedures and a disjointed personal anecdote. It starts on-topic but drifts into unrelated confidence issues, though the delivery feels somewhat conversational.\"\n    },\n    \"baseline2\": {\n      \"humor_effectiveness\": 5,\n      \"joke_structure\": 5,\n      \"controllability\": 7,\n      \"human_likeness\": 8,\n      \"overall_score\": 6,\n      \"brief_explanation\": \"Edgy racial humor about a security interaction has some punchy lines like the 'thugs' and 'Home Depot' bits, but risks alienating audiences. The structure follows a story arc with setups and callbacks, though it's choppy. It stays mostly on-topic with security small talk but veers into broader cultural commentary, delivered authentically like raw street comedy.\"\n    },\n    \"got\": {\n      \"humor_effectiveness\": 2,\n      \"joke_structure\": 2,\n      \"controllability\": 3,\n      \"human_likeness\": 5,\n      \"overall_score\": 2,\n      \"brief_explanation\": \"Humor is minimal and confusing, with weak attempts like the drugs line failing to land amid unrelated relationship drama. No clear joke structure or arc, as it quickly abandons airport security for personal anecdotes about missing a partner. Severely off-topic after the intro, and the delivery feels fragmented rather than natural stand-up.\"\n    }\n  }\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_f435757f-fb93-d80c-4b1c-fd6ed3e92ea0",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "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"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674213,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1142,
+    "prompt_tokens": 1560,
+    "total_tokens": 2702,
+    "completion_tokens_details": {
+      "reasoning_tokens": 625
+    }
+  },
+  "provider": "xAI"
+}

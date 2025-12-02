@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674498-bXDi72kOjo1p5Vir17Fq",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"topic\":\"office_zoom_bingo\",\"scores\":{\"baseline0\":{\"humor_effectiveness\":7,\"joke_structure\":8,\"controllability\":10,\"human_likeness\":9,\"overall_score\":8,\"brief_explanation\":\"The routine effectively highlights relatable Office Zoom Bingo squares like unmuted cats and misused 'synergy' with punchy exaggerations. It follows a clear arc from introduction to specific examples and a winning callback. Stays perfectly on-topic and delivers natural stand-up timing.\"},\"baseline1\":{\"humor_effectiveness\":4,\"joke_structure\":2,\"controllability\":1,\"human_likeness\":6,\"overall_score\":3,\"brief_explanation\":\"The transcript rambles through unrelated topics like live shows, English cities, and subway announcements before barely mentioning Office Bingo at the end. Lacks any coherent joke structure or arc, with no setups leading to punchlines on the topic. Delivery feels somewhat natural but overwhelmingly off-topic and meandering.\"},\"baseline2\":{\"humor_effectiveness\":5,\"joke_structure\":4,\"controllability\":5,\"human_likeness\":7,\"overall_score\":5,\"brief_explanation\":\"Begins with a custom Zoom bingo card but drifts into passive-aggressive rules, multitasking stereotypes, and men vanishing mid-meeting. Structure is loose with fragmented anecdotes lacking strong punchlines or callbacks. Partially on-topic initially but loses focus, though it sounds conversationally authentic.\"},\"got\":{\"humor_effectiveness\":2,\"joke_structure\":1,\"controllability\":1,\"human_likeness\":3,\"overall_score\":1,\"brief_explanation\":\"Mentions Office Zoom Bingo briefly before spiraling into chaotic rants about dick pics, penises, Disney, and corporate buzzwords with no cohesion. Completely lacks joke structure, arc, or landing punchlines, resembling unfiltered nonsense. Ignores the topic almost entirely and feels unnatural for stand-up.\"}} }",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_4599b2e9-c344-dd72-6aa9-da053a74ac88",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "s9T4VsZUv4Lyy5alRDgBU0+QXCa+fHKNDTo2j+qVhAQNJFjN6IJo1iQprztQawGimxq21XGkYQO8pxtIz+cD6TFtPej/05zTaC8xELG3kLMBu/pXiatLkAmNh2C/qk/UZ5Br4CNKDNcOf9Dm2xBCvxj9bkJs8KlKfkd8hg7H9GnJeesFMikmUPfWg30GJSlNKl1CkukkSLq9bdQFCK1451q1e0raeBa/KSbiKdRJGJEsyCC1DpshotKAVPI1TzGR/sOCPdv99OYAhgFy97izFx1ms3+oT8pZ1VSq2lFp4OIZ91h7TIlNRNsW2mtRsAZx5WAbBzYqPbdx3KhFF1ybA+Hw8lPxpTnNA+7mF+iIh+Lq07QDay/1BxCpuUjaHmUQPReVGsRk+RvssOGcz0VNeVHS7X9mcJGYRRCyURPrwN47MnEA+H8OJbhkCh10s0nS5hHxXsG/gw1ylaNM/L01uIH9jfO2S8EdH+aK1uGSazgzaqOSn4PuuR+L2fg3Sgbo7i5eND4VKPO/hTeZJx6BRqN5w2XhdQBfOqn6lVWsOx83Hq3MDVGWlq8nnAkllop1K6p3QMMeY+ncYoVwgOyKOyQw+74l+lRrVmLtThtlKTsfe41vEdArsYpvUVdxbN2Vs+/fJ8yyIsAA+rWw5oRmlgu84expwLd9Fru0NYvwUdwMV+IrO/62vf77okTaK17jCYH3w25AQVLzvUBdVTPd8uvHt2oPRVggLPENUCGGUbWAV0zl4zlNcA9qgmi4NAaujoMDejWAgdbCVLivR7tFUDpaHdoPAS98UqogAohwEvtnQ641bMy3/og9OEhk5e7m9VGx40SYQ7N0V3Dt47lZfn+QfEL2nSMFzltcm3X4OW/6WahEWyteFLwnEvHcyvqD4a4B9+jCFd2Wo4Kx1B6rdfe20MEVDncTDdF6m1tOKmAk8Md+ah5yQIbS/ZA4Xsd/lBeIO34cnl3JTnSKkaPWqzKBf1CaLOtw/HivxbybfoBN7DK8DYSBtIQIzFcT+OFxJELbnHtwVIaYp9KVP3+nZsDTK8h+5FnwUlYihJaDoUQxnb3js02vBq/HbnFVilqI0b6NOVJq7HU6AyIxoZ3FKAf/NS/VztyHCyWVtCfg3RtjEHwbFcS2XIIJevGDVZeYyvk6a+QHeppRUQbXwcZzG2rGzsudkqbnLKoQuj0z19xLhtPJGrh4SnLnVVVtWlM5wocBI0iZ926bRYJMt5ISoMltNWqtZS85chyUDsiYkchhDjTOg0nlDpzR5HDerOZff7tMjEIjg9af63l3/Hfvr7gCkPeVnB2y0IF5tus2963ulijbDL9nnSgOOUmNQHLwZj56dvFlt5C2cUKKafhUeNVH440em2qBcOG3EsZMPrjSG9JzKPAliCJgW5YQI+ZFZvBH7jsTjHrCY5xRVxil6wPzjt3BvzsFMEbhJBNLemmG21NjgWJ2XDtsGF9lXitw17vJJDMYJvv9dwrqDi3+fzJSC7vxlRq5QfLZocLz7VEjP9uDp+l6zqgONdj1Jmj/WwTazIw7ZvV9/PWnZ2bLsOmCB4b30FIt9ipQfO8F0zpQxn7gkh0sN0kGE6HJnqiU/S8mpftKffVNhPpDJdaNq5ARIo7rtouvx9SYWm5HzcFbYyESPAFfBYl6DgAf/GlDWXXK1YT51avXp+k1C8eEg5U2U83mvaraVce/FJlL8X1/po1ffXVH4K++4e6eNbGf+clKCxwF3fTAYSALwHm9EF0JecUzk/saPYUQ9HzVH2t6dBWaBIF+tSTKfc5EIrFGydVBiVDrQN82nldf7cPp5ET9+S8N9rtpOMi5lXgYgLwcSo0oOp52CXyreuY7fRCxrEsLshOtSnKQy8/DaT6R3k7gLcplGQEj4rLQaNognCpyoz3gDuCZpfFpMmtkBo5iz8nWjrmkLx3WrBXQvdw9hejp0Bc7Srb0ui74XOiv3Z7dQq9tEICQXz282tK9WkDda8BbUw9xzs6J7gXwauQ/mtxeGC4LbOpgdtktTmGNNJ4hYBzRDYeJZvfVbmlc06Ue8s1bni7feu6ZFB4FBo7d5wBe/dgOi3DkbRzJmwLRFNkoEDmeXbWwe9naqnuMnBoChVAK9YIkU4iRbXJo19+iDlGx1W+vBBTqAlk+bVRjavs2Wx9VqmIdKhyH1WgUX0f7oY24UWh3DpjztQoUVkwUEqjtzAkv16ae5Bc0oTtayfyNEdtVYAg9FEdHQFEEWukzouuYSc0KR/yx8L9iKPVclKBvkFxa1y8fakvznohw4mVGFFxSznhOKfeSGA9uicv+WJIHd+SuCXvlk7Ane6BdIjqpmA44UJ/fctsXq1ANbnDQ/uHwZEkMR2J5IuISDaGWI4KTJjw+0me4JO3POlkA0jn7ytJkZjhLKzCBU6Z8r+4Oy+SDbKtqA6lyjavfh1X/qO0Tbfx3+z6q/LrJtAlzYpgX/MGJG7AO39hcHx2YhmZYf1Vr/fmUrlIBhBszTADeSz17WjK5gjKjptAE/tv+bIZ9e6h00Cxj+OoAMekzSWiPr84iL7xeSUeF+z5JmG7o0TJbRK+j/hHLaLdq4lLtUZAkoreT1HZcuix2dWSXKIZbfg0BuFaLPT9yVX89l+hwvzLmG44fQia6cGUpnBvp6IvE6aYVAHVKMGgBDCum8boS5/Ex96+XzU7erWP8Vkh/+I/LhjBH44yYtBRZ+4au5vJ3XrLdRZ7Jh5pH9AXOjbqHskL1gSHbF76BYkYGdPgZVCpNmuEQb2hyAQjAPqQGFdVd5bBNImrP6aYqOriDY3j7xw9TKD23R5pw51/c2G6ZWGcBjaohtBfPUJQT7NLEO/ATxdJCRsRiizoa5+BnHp6gr/qQTcxpnUENt6jMke23WgGzl3EGygGLCodM5QMWTfZDqTX7R23yqzWaBNvSHpUwD+dc9e9GE3ct25UFMQl7roo+Np762LJCrrJzPfiK47hRmyhsIXl/lAH3srdZyQBPMM6ZTWPEdRko42ki8QeA8pUB1+N0/65yK5Oa3h1R0ckDAPevjln6O3jzE+nNhaUs1f0jcxmSwHQTUygBFoxPn8+vofhWaQ3U5zAmpZw/RqKRgdGIfAi4mhw4IMHbFmeE69BPs8TkAn3hvTTncj/rXURWK5TLurSYFNcmojFVqQTNLnK9E+lGGqvqTaoCxhl9Aj+25xu+gTfp3IhacCayqtS5Df9pN18sBwZumMdrxVqisziCEiPs/DzMWbUsyZ41PS91a5DUDhGpfmM2npqrnYnkWGoyzB9LEttZepdBcXM8UjfS5Yw3w6DA6nLc/mMX1Su+YJxLEBZ6WwHmKyegJ2plM+jgUdb9G7X/mbsHjmuMapntSVoFar81XRqSUVdKzI+vSIlZJadOyonUzmm8QHXSWiTu1wmL+nf1hkTYdJxDK06ErOK+bziRRKuAeF9zxG8PAnYhpDKw1clrlOQzUL79b8On6rBDBhff1p80MQgPj0AyApc77bAGSZO4hvzONGvM3yLQWWjKf2uiUxo9KrN4MoNbS0TUJo6aaYRe6nlECB0PY/PYNCD75JOT26mqoWz34hNUu6S4ll6tS2BMqbzbBT5YAZv3yOpir50yTTlGWPop/UIVl9XWJNWryROanTGDz4UrUoINBpXtRu+PTSqm2C6+fwH0hCqoELNkB6jYBBnGrBlOHlwsOZM3HDoqYQt41jCAMZmJdpd9nEFIxpfmQ0bREaRWEa7GuzvDi4kuLM2ugX15bLBCbQKherS5UuvK3U3UKolwZOcMIZgO364XAIXnZ59Pi2PoiMpW5fS20CfjuI3qTWC7Ebe4e+MV2VBUMgZHtfZRcFE5VftOHUQzzAiTd9rG8XNBxf1IBDZ+9aWGVpCbgDGVHLnXtmI9yuJi9y8y1AOjOVolem8DvPa8HjUxtn+CqDIO1+y4/8WQQTyuZSExHXVXaodj0rubNbx/1+0Cii2XBplRRkXToYN355o5Jpd9vzdZOXyAHiVQwH8fjl1w96GRliUwpIAvEjj6mZRYmRLswjq+4snsakJrs8+oB6WDHNmj4vJJ34oNKxo3iJqAv5dSzg7yWK5AnqKdIkBGT5u4LImYxlJD++7J64beq95kyz7Javvh3KAIJG5Uegc4qyMEf1JbI69ZHltIHmNrf1b9ex1TvV6TX7l9EBq9Auk5ODniD3DQ89/D+eNpLFyZv8ngNzpo61U//ZtkAtWFebDesnyKFFITwzVHAlTKKlvNaBcM5rCT3EKiS+xkePOsxvz98NlFI6bE0Y8I4jRzkDSi0XU0pglId3I1ixyKMJ+KfVHMasNra0YglAB/kr9VJcJ3hOombpOs7YJUBBqGIMQg2hTMEUSh3LgnLMWIQMGOc0Uvon1Yt9nt2NjI0E56DcvLffksCMmUdGZrT0QhKspjHlbQxuPuaUw7ZGn6Po6y4HxnHFvE5cI22I+3zMti5O6kMISwkoScfilIrjrBR8nqO3HOv6rrZrJluaR/lQsrczBK1MrpWZBsXWvczSJ34d8JmkClX54FHAcXYlcXi04522qx2QpfQk98wE34enJZ"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674498,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1195,
+    "prompt_tokens": 3130,
+    "total_tokens": 4325,
+    "completion_tokens_details": {
+      "reasoning_tokens": 804
+    }
+  },
+  "provider": "xAI"
+}

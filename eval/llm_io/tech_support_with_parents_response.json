@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674844-JfmDyaP5mPhpYw8AG02A",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"topic\": \"tech_support_with_parents\",\n  \"scores\": {\n    \"baseline0\": {\n      \"humor_effectiveness\": 7,\n      \"joke_structure\": 7,\n      \"controllability\": 9,\n      \"human_likeness\": 8,\n      \"overall_score\": 8,\n      \"brief_explanation\": \"The routine effectively captures relatable frustrations of tech support for parents with funny exaggerations like confusing clicks and family interruptions. It features clear setups leading to punchlines and a satisfying arc ending on tech simplicity. The delivery feels natural and stays tightly on topic.\"\n    },\n    \"baseline1\": {\n      \"humor_effectiveness\": 3,\n      \"joke_structure\": 2,\n      \"controllability\": 3,\n      \"human_likeness\": 5,\n      \"overall_score\": 3,\n      \"brief_explanation\": \"Humor is sparse and undermined by rambling tangents into unrelated family quirks and random advice like microwaves. Joke structure is chaotic with no clear setups, punchlines, or arc, resembling unpolished thoughts. It starts on tech issues but veers far off-topic, lacking focus on parents' tech support.\"\n    },\n    \"baseline2\": {\n      \"humor_effectiveness\": 4,\n      \"joke_structure\": 4,\n      \"controllability\": 6,\n      \"human_likeness\": 6,\n      \"overall_score\": 5,\n      \"brief_explanation\": \"Mild humor comes from the tech guy's quirky responses and a nod to mom's Facebook calls, but it's underdeveloped. Structure is basic dialogue without strong punchlines, callbacks, or arc, feeling like a fragment. It touches the topic but is too short and abrupt to fully engage.\"\n    },\n    \"got\": {\n      \"humor_effectiveness\": 5,\n      \"joke_structure\": 3,\n      \"controllability\": 2,\n      \"human_likeness\": 7,\n      \"overall_score\": 4,\n      \"brief_explanation\": \"Early bits on dad's AOL and mom's smartphone misdial are amusing but quickly overshadowed by off-topic rants on Florida, accents, and climate change. Structure jumps erratically without sustained arc or callbacks to tech support. It sounds somewhat natural like live comedy but abandons the parents' tech theme almost entirely.\"\n    }\n  }\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_a9c40d60-425c-a081-02eb-dfb47412e24e",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "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"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674844,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1317,
+    "prompt_tokens": 1882,
+    "total_tokens": 3199,
+    "completion_tokens_details": {
+      "reasoning_tokens": 828
+    }
+  },
+  "provider": "xAI"
+}

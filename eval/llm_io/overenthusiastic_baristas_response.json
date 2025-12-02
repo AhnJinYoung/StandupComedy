@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674581-tu0rPK8yvyd5dfdFKub4",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"topic\":\"overenthusiastic_baristas\",\"scores\":{\"baseline0\":{\"humor_effectiveness\":7,\"joke_structure\":7,\"controllability\":10,\"human_likeness\":8,\"overall_score\":8,\"brief_explanation\":\"This transcript effectively captures overenthusiastic baristas through relatable exaggerations like prom-level excitement for lattes and cat stories, with punchlines landing via sarcasm. It maintains a clear arc from introduction to caffeine-fueled lifestyle punchline. The delivery feels natural and authentic to stand-up style.\"},\"baseline1\":{\"humor_effectiveness\":2,\"joke_structure\":2,\"controllability\":3,\"human_likeness\":6,\"overall_score\":3,\"brief_explanation\":\"The transcript starts on enthusiastic baristas but quickly rambles into unrelated anecdotes about job ads, personal firing, and industry jargon, diluting any humor. Joke structure lacks clear setups or arcs, devolving into incoherent tangents. It sounds like a meandering open-mic set but strays far from the topic.\"},\"baseline2\":{\"humor_effectiveness\":4,\"joke_structure\":5,\"controllability\":4,\"human_likeness\":7,\"overall_score\":5,\"brief_explanation\":\"Focuses on barista incompetence and forgetfulness rather than overenthusiasm, missing the topic with stories of argumentative or confused staff. Some mild humor in ordering mishaps, with a loose narrative arc about family Starbucks visits. It has a casual, storytelling vibe but feels off-topic and underdeveloped.\"},\"got\":{\"humor_effectiveness\":1,\"joke_structure\":1,\"controllability\":1,\"human_likeness\":4,\"overall_score\":1,\"brief_explanation\":\"Briefly mentions over-caffeinated baristas before spiraling into bizarre, unrelated tales of age limits, McDonald's, childhood trauma, and orgies with no punchlines. Lacks any structure, arc, or coherence, failing to stay on topic. Sounds like incoherent rambling rather than stand-up.\"}} }",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_d08e5f9e-a119-676f-90a8-ac0927c29491",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "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"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674581,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 993,
+    "prompt_tokens": 2034,
+    "total_tokens": 3027,
+    "completion_tokens_details": {
+      "reasoning_tokens": 586
+    }
+  },
+  "provider": "xAI"
+}

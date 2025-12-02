@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674872-kkxNmzQg7QX5KiRnrN6E",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"topic\": \"tiny_rental_kitchens\",\n  \"scores\": {\n    \"baseline0\": {\n      \"humor_effectiveness\": 8,\n      \"joke_structure\": 7,\n      \"controllability\": 10,\n      \"human_likeness\": 9,\n      \"overall_score\": 8,\n      \"brief_explanation\": \"Relatable jokes about cramped counters, tiny appliances, and ramen life land well with vivid imagery. Clear setups lead to punchlines with a natural arc tying back to rental struggles. Stays tightly on topic, sounding like authentic stand-up delivery.\"\n    },\n    \"baseline1\": {\n      \"humor_effectiveness\": 1,\n      \"joke_structure\": 1,\n      \"controllability\": 1,\n      \"human_likeness\": 5,\n      \"overall_score\": 1,\n      \"brief_explanation\": \"Disturbing analogies and chaotic ramble about relationships and accidents fail to deliver humor. No clear setup-punchline structure, just disjointed stream-of-consciousness. Completely drifts off topic from tiny kitchens to unrelated personal chaos.\"\n    },\n    \"baseline2\": {\n      \"humor_effectiveness\": 4,\n      \"joke_structure\": 3,\n      \"controllability\": 5,\n      \"human_likeness\": 7,\n      \"overall_score\": 4,\n      \"brief_explanation\": \"Some mild laughs from small-space mishaps and toaster oven pun, but humor fizzles into unrelated marriage and dog advice. Loose structure with early topic focus that wanders without strong arc or callbacks. Sounds somewhat natural but rambly and only partially on-topic.\"\n    },\n    \"got\": {\n      \"humor_effectiveness\": 2,\n      \"joke_structure\": 2,\n      \"controllability\": 2,\n      \"human_likeness\": 3,\n      \"overall_score\": 2,\n      \"brief_explanation\": \"Fridge description vaguely ties to tiny kitchens but devolves into unrelated bloating, naps, and housemates with no real jokes. Lacks any setup-punchline flow or arc, feeling like fragmented non-sequiturs. Awkward phrasing and off-topic drift make it sound unnatural and confusing.\"\n    }\n  }\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_9206ea16-f815-f110-ea0c-be4f2e0b5924",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "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"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674872,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1265,
+    "prompt_tokens": 1578,
+    "total_tokens": 2843,
+    "completion_tokens_details": {
+      "reasoning_tokens": 797
+    }
+  },
+  "provider": "xAI"
+}

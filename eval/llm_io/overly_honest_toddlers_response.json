@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674637-6agglKwU4NZNz13MmYLO",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"topic\": \"overly_honest_toddlers\",\n  \"scores\": {\n    \"baseline0\": {\n      \"humor_effectiveness\": 6,\n      \"joke_structure\": 6,\n      \"controllability\": 9,\n      \"human_likeness\": 8,\n      \"overall_score\": 7,\n      \"brief_explanation\": \"Relatable anecdotes about toddlers bluntly commenting on shirts, farts, and veggies provide mild laughs with straightforward setups and punchlines. The material stays tightly on topic without deviation. Delivery feels natural like casual stand-up, though the ending advice feels slightly forced.\"\n    },\n    \"baseline1\": {\n      \"humor_effectiveness\": 1,\n      \"joke_structure\": 1,\n      \"controllability\": 2,\n      \"human_likeness\": 4,\n      \"overall_score\": 2,\n      \"brief_explanation\": \"Starts vaguely on honest kids but quickly rambles into unrelated emails, teachers, sarcasm, and an endless beer/IPA tangent with no punchlines. Lacks any coherent structure or arc, failing to land jokes. Sounds like unfiltered stream-of-consciousness rather than polished stand-up.\"\n    },\n    \"baseline2\": {\n      \"humor_effectiveness\": 4,\n      \"joke_structure\": 3,\n      \"controllability\": 7,\n      \"human_likeness\": 6,\n      \"overall_score\": 5,\n      \"brief_explanation\": \"Anecdotes like 'Daddy has poopypants' and political outbursts capture toddler bluntness for some chuckles, but repetition and cutoff kill momentum. Basic setup-punchline exists but no clear arc or callbacks. Feels authentic as parental storytelling, though overly repetitive and incomplete.\"\n    },\n    \"got\": {\n      \"humor_effectiveness\": 7,\n      \"joke_structure\": 7,\n      \"controllability\": 8,\n      \"human_likeness\": 9,\n      \"overall_score\": 8,\n      \"brief_explanation\": \"Shocking toddler line about dad's 'dick' and masturbation kicks off edgy humor, escalating to post-kid sex life with solid setups, tags, and callbacks like the 'alien baby'. Stays on overly honest toddlers observing adult taboos. Natural stand-up flow with rhythm, pauses, and vulgar authenticity.\"\n    }\n  }\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_bd7ae201-a5ca-7f90-00de-2e01d8d86e84",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "c295A3wzH8Uw5+b1FkM/nWfez/vV/70tOYJI6e6g8QlzQDbuzI0z/7Pq1oH6kKWMwg+zO2hZnGgIL2zqS8qCRaORtlzFahTd5DrSbGurfX8TWZ46MmjUy4P9tLMr5oqqhORofroe725flMp4+dXIbUiujessk+nOkGuJaJmSIiXUpmkueeJQxCwvAIjZfgHuLN+FuOHejYhs5MHX2RYjK9HuwIfs5O2nuqGjF5LanvmQ6lKW1qMNUJn+FQeCMNkE5jgjVjNjc5Tlbhhz5fnlVD8beQ0Iyuqf3GeE+fgp5jEuzBHTc1VfoInOsACq8MIVAmpMjAVA2PeGhLUCgcp9r/fETSuQgnd1hiCqZZ8UFtociz/57peH1OdH4BP+dTXeOUkMLzZVdOGw+k3jNi+S2MRcVCUcxZLY3TdYjTNm6JntRIaMX2llyN5mzJ+9dVhAd9wrnrrc+wCDpN/a5+q7eARpoaSlsrIG3vVcFF8dvFmv1X5FvKLMrhfpuGmJ8KCGY2sw57HxVJL0nZmIe9eJLji27mFVAnl1msfWmJbetzUbCgp8MnymHiz1nSgIhnS6w3sE+yf4L+/yDvmHq8avz/+UEEFmv3AGJ5eaCtnP+VIv70ZDoV6yTHr+FpMPXxR9doJkzx0mH48g0dPUeFZzAK1kWq0gZFXxW1sk22Q+Ktvr56/qmhGZZCA7QpBsN6QetZmFShWxSteOeNXSqV3aEu3HZdy93neNnnzBMIjHYphK8+8XI+ycw4e7eVAeeIae6KJ09Bk+VchEyh+AxfaNiXl/IlCrBobsJI1waFILdgQwfXvri+V9LrXtQao9HCkw/C7JCFNnXDVzwMkZ5UY28sR2huaQ8Uc4nx87QCf77k91vGVLgd4ROJednIpk8ZzokLzGUm/FJTX9OGMyJLSbSSbuh29eKmCnrBKsKMJYHuvM68GYaeH0LJlPl+kWgaM+M0UZq7v5EsQwCyDhy4gVk28wp+zEXmLBigL8YdDHWpgws0GLIL3qjNuMpDwXLR+5mq31wYHx2u69l2nHkt7b509eeO7cOCJ/A+k0AC0HZ5I62W2r322lEElHaQi6ZayAfCSgyaNXWD0wOoA6pcqhPM9hvze6OEsJyDdYhmSK2sGYFx/i8HyTNUHAKht1VypJK1d3ZHvmyI2qOwIWEB631Jo3ASeaU/gLeeaCOL2CGvX4TQUV0lbRNOeTiSOIFEO47w3dJaHG7bw5NNRbj0JWGPA3USzuIddPZJrj2EmCVDvHp1zr/DpaTJNJePOvPrrD7J7oTBoQw6X78JFE3n3qoJpp4s6q87C5dY+0nm/4OMxBN2skwgXtQgiAlmMY6Ur+uC6vz2v5fJbx0FivkSBrKynPEFhUHeg/DpJbMd/bxFwMckNmuNzX5uOeJ+XZqC1TwIVDqoWCM3D4P8gzTyW+yNIyzr9WVzCt3RBmg04T6TI+NbdY9Jo7EVuB7WDZNd+1xog/ia7Sft6OfDngY8AKEehk5k1DvX+jDjF+YhyD5OAsG7YNuKWG3FgLjTz5gP/aH/LrIT1/zGf75kiIITCYuP2RYdtXu9BkdQl0NOjY1OoX7RqqG6Nx+l1w3bcAX0hwc3fZ8V5FMOI+yWH/SqKTwrRwBs9tB90AxhWf9lzjHTKMBKY3KKgxTKnXi7y2ao08UX/vwk8+sqxq6TW9gjZCbFaym9NLuWX23xMAo6y9Nm++SUGoREaeHM3DJHnmuti4U41T2UCldpuaKNkv7FLQCFPHF+NsX2J2mJHpZWMHdlgbozYlZ6vkHgWneoGIl90ua9vN8nAkltXcShp6cmFNRiR2xQ8htZV0bCy+F57wwFUUn++l/09lIVn/JDUxSfh2SegMvwyeiCWB/0O699/p2yzjF3Gd4jEw4NNpFwBuFWIG8URJDmdeZkJmONdzV5Y1+7Ui2K4X6qbbGyQ+ciGmKbRJ4yd46U7aLsigGX1Q3JWw45IQ1QSgi8q1W5tljzVbrgoBQEmE3hhMNDgEWHzSst+P68KXQMCmKfhPrCc4qx6K6E1Z0su1f/Gs2Rcz4rOBH0jeNdainD5tnvy3BRXW0q7VjZDg1LPOHSU5HrfENmcJ36olZhtOObrRNal8Gros9eyrjqkGTO78pGXye35e8SuJ/BwSwaB+hhj5yRdf7NAXIUZExixw9/6qc+imbQYdRAX9sUAmWROtQbCgD8WZo5YVLd6An+rS08GDfj81eDSaYV3PVGNLlISn1STI9pcdr+6Q+UoghIaQt4fKEPNVyh+WHJR9L2NuiZSp9jCWBJFUS3t7aaSttJtxYMJ2BrPfsnV7GDS2wRDyGsArn+0RGzlimMCmrXsA/k1ma3kg+vnVp1pQECsdRRT1T48yv/6INa1UcQN/X/Hjg9ayf9S33SG0YZvYqFdphCzlU/mA3iTbvf9WK3cGSw64UBV55GtY/28EYsHKNBxeY3MuQnbkv0andedTTGgafGnYtX7jS4nDGADFYTUdKoZoyNF2fqf5iNmna+DkjG6edVXJ+8GGMtJVQINOlMV68ZugPGiOGdkCiszsc1iCP/HTTO6BikZ5EQ41sb74nkqFFrJ8OdLSJO4Ky+lLqiKOehTLQ0oPFJAYNBPNC1mv6wB02mjAMhRhlgj7/nmDhaCtOz9f66iki+YVT1Vy5+03F/KySFH77OYVmQCCcQyX4SsCRdD6P+JGE7rxJaPZTLQD3s28kq9x7gVfBrayHRj8CbrzimmlSHIHXauukaV+qIsOxc7mPVGieXnWuSXSmgDM4FLow8PV4/XS29zK5asvsvaw6d5a1PfqvLObk6mO8VajwoBrc7vSn023TRpbUBr37RpVQZh909Syo0SklST/ebM/FQHiKejOJPBJfKRRsdbpggv9XuSTGFEZC1fnI+Ob9hdWBp4uGP7ADDkxLbEstGw7ZrU5U1O/Fg7jBI3D6OK13rVwiExGzA3VLSRvgb34lcZWQiqwnf7hPK05NgNWEeWkxMQBe/ZqO6p4PLUoUa/Hgp6nTA54MQJFKliMCQ8ahRE6tvzSMM5Si7VCcfJVxFCnybeolRO0BqO1vgsx4h6h/sUHzhL/nIqs3+5xeIJKRvCTsNEtxirmboZ5nn2b9Uw/rnsefJ/ms/q4LvP28lNkniNpdhYG8b+rOlmnpGHOg0nbWg1guGmRH0JsW+6Y8ESQnaivRUqvd1o8VLokWJqVfroeltjaRwmzD/Hl1RkM5e0RXOUXaNDHifXlLfLF3S6Lo9L0XakCTyumvKuCOvBju3SGMNijAsL30mhf6B+Toj5xOcAZSizlmhCficCpsvAcMBrVCraHCwuI6Dt7fkUHR6zMXV6YLlm/JUKefqM3t9AIBwPMQaTLn/c3WsU9rloycTocHtCDpbFFX3rkHisADUegRguO8esjNByiYyx/SYuJp/6VByEaIIUpG5G5b4Il3PyIlvIk9JPROWzDFiVr0qm3fYygA/lug1AwwK5RyzeWeYbKLxUqraoUcz3KEd18hX/GR2fO1k/g+heG4w+S71y89TM67jEfDFfy0H5+RbPqiTdjT+QvB1fbCx0Por7w/Y4FgA/2/Mlrs3qgRLlOGb2MwUuElduNfpqVr5NRBvherG0MWNb38PTaIpD1EfvhRc0P5jVpwtBlxld1amqxRwUTrNZ4/lNWRrQ5I40GM9NHu+xjI/OHbsum4JWX+VX5SiB0ZRxjvgfllSz07k+D/AxmBU2dyzW9swKjzCbYO+vVIcK8rfUoU8KmHMLSEWd4U5mzo1xBCZnDKxjaK/FJvFvf+6I11KDjjOgpnFiO+q/J61833nZ36HdSx+cJcNZnoTEdCKphGPbsOOQIpPKv1+5SH4+5k77F3m615+d2cvxAnGP0Oua3pMvKnRyHaM1Q+H+S9+/8hBpVh9zaep7G5Z7TagldixRhmoW34kiuLaYLtRmwf2HEOg3LWBn0shQ0yotKtK07URnMh8ChyYHWQhrj4eBMGYDf38VSwFEv++wmxkMmSuY1GvVbN9Hepoj4UQ6kElGFLzoZNNal1cBIqFHIv44O8U12CJZPTvCOBaAFFAC7rOjVkeqioLkcT/Jbrks6RgHuIFojoAZWvNofFq5qxqQdmMIrb7/mq4ed5lE6Gqx34Y+ddLjQ++z0vdCTr/JSe4yi+BPWF7cJDbD1UtzBtCuASNo++cLQHAXCy7cL4xkPnWC9QWPidABvchtKiiGs6OaQTQFgy5CP67yIVSdLaeZbQfiUX13aCtfKe7eJe7bMKZHAiTkSo6dZKBHrzshRSfp1pjXdh2VxsfHuCINYBWbc2/VP3074G08K4IGATXevDc7wgfADzGKuwDHvI1sdLmSRXH0onorhgfXcDNVjMxdvQqZpLDUZl5+XA1SoDnhFRg0EfGdTMx3/BE83Lj3ds2AzStpaxj9EzYzFIvaKVMXwSbK6YR73Qj7PnVEDq7ie8IAkdM5LZPRKfkC0F7trfGT+TSbaBLjosC+NFfeKDvvf8hVqohPlXewjQFJf5qsqO20g7F2XtlJ61qYw7UQZvi6lSMI4XvMsy7qu7EkfqxlJ0gPc7rmjTpqPcMWqRYoszrNP/p2ugT+Pzf0vv/MGFQmgQIetz+YkGc7HEFgGQi3dKfT4Te2MfgMHhl1Fu6RGCwCLzbzHqDW3Z/CX9WVCVA3NXgp/o7PUbDLV76m+u0E35zHJMYyiQlqnbqmdfV6Mwd3w97EiwWWyN7FghLlxF7imUHUvi2vxlKta1DrPLPItY7dmhPr49XgEfbtkWGgWg0OThYil8DQGtBY6k9HddeCY6K2Xe2wYb8x5InA8PVvWRMHVLbfAmDnZX8UzG34+BjmHPSobEqgnvU9eN1y/5yN3KMigU76AeQbw1SJPhHVH2s2GWlgKoERRRjBLaDzoxyPQ+IZ1ysOt83EPM7rMgn2nBlmafTq9ToHzXSdmIstlNg"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674637,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1320,
+    "prompt_tokens": 3970,
+    "total_tokens": 5290,
+    "completion_tokens_details": {
+      "reasoning_tokens": 830
+    }
+  },
+  "provider": "xAI"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674548-546hbXXcYCE91h7JA2Yo",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"topic\": \"overbooked_yoga_class\",\n  \"scores\": {\n    \"baseline0\": {\n      \"humor_effectiveness\": 6,\n      \"joke_structure\": 6,\n      \"controllability\": 8,\n      \"human_likeness\": 8,\n      \"overall_score\": 7,\n      \"brief_explanation\": \"The transcript delivers mild humor through relatable comparisons like yoga sign-ups to Beyoncé tickets and waiting lists, with some punchlines landing effectively. It maintains a loose arc around the challenges of popular yoga classes, including full studios and parking woes, staying mostly on-topic. The delivery feels natural and conversational, like authentic stand-up banter.\"\n    },\n    \"baseline1\": {\n      \"humor_effectiveness\": 3,\n      \"joke_structure\": 2,\n      \"controllability\": 2,\n      \"human_likeness\": 5,\n      \"overall_score\": 3,\n      \"brief_explanation\": \"Humor is sporadic in absurd tangents like hot props and yoga invention, but most jokes fail to land amid the chaos. Lacks any clear structure or arc, devolving into unrelated rants on basketball, puberty, and alcoholism. It starts with yoga but quickly veers off-topic, feeling manic rather than controlled or natural.\"\n    },\n    \"baseline2\": {\n      \"humor_effectiveness\": 2,\n      \"joke_structure\": 1,\n      \"controllability\": 1,\n      \"human_likeness\": 6,\n      \"overall_score\": 2,\n      \"brief_explanation\": \"Minimal humor in college policy bits, but entirely irrelevant to yoga or overbooking, with no punchlines connecting. No structure or arc, jumping from dorm rules to restaurants without cohesion. Sounds somewhat like casual storytelling but ignores the topic completely.\"\n    },\n    \"got\": {\n      \"humor_effectiveness\": 4,\n      \"joke_structure\": 3,\n      \"controllability\": 5,\n      \"human_likeness\": 4,\n      \"overall_score\": 4,\n      \"brief_explanation\": \"Attempts surreal humor with overbooked class confusion and mat piles, but inconsistencies (overbooked vs. undersubscribed) undermine laughs. Weak structure starts on-topic but fragments into bizarre daily routines without callbacks or arc. Feels unnatural and disjointed, like improvised gibberish rather than polished stand-up.\"\n    }\n  }\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_07eea739-94e2-4d34-4cea-9429ddab045e",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "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"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674548,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1317,
+    "prompt_tokens": 2238,
+    "total_tokens": 3555,
+    "completion_tokens_details": {
+      "reasoning_tokens": 814
+    }
+  },
+  "provider": "xAI"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674345-rhnLXfdnLW8VgpF8MNGR",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"topic\":\"driving_test_fails\",\"scores\":{\"baseline0\":{\"humor_effectiveness\":7,\"joke_structure\":8,\"controllability\":10,\"human_likeness\":9,\"overall_score\":8,\"brief_explanation\":\"The transcript effectively uses relatable anecdotes about failing driving tests multiple times, with funny analogies like comparing parallel parking to a baking show. It features a clear structure with setups, punchlines, and a personal arc ending in life lessons. Stays perfectly on topic and sounds like authentic stand-up comedy.\"},\"baseline1\":{\"humor_effectiveness\":2,\"joke_structure\":2,\"controllability\":3,\"human_likeness\":6,\"overall_score\":3,\"brief_explanation\":\"The material rambles through family life, kids, and unrelated stories before briefly mentioning driving test fails, diluting any humor. Lacks clear joke structure, with no consistent setups or punchlines amid the meandering narrative. Poorly controllable, straying far from the driving test fails topic despite some passing references.\"},\"baseline2\":{\"humor_effectiveness\":4,\"joke_structure\":5,\"controllability\":8,\"human_likeness\":6,\"overall_score\":6,\"brief_explanation\":\"Humor attempts sarcasm on test failure scenarios like confusing turns, but jokes don't land strongly or consistently. Basic structure with setups about the examiner and decisions, but lacks smooth arcs or callbacks. Mostly stays on driving test fails topic, though delivery feels somewhat stiff and unnatural.\"},\"got\":{\"humor_effectiveness\":1,\"joke_structure\":1,\"controllability\":1,\"human_likeness\":3,\"overall_score\":1,\"brief_explanation\":\"The transcript barely touches driving test fails at the start before spiraling into incoherent rants about dates, family, microwaves, and unrelated absurdities, offering no real humor. Completely lacks joke structure, arcs, or punchlines in its chaotic stream. Ignores the topic entirely, sounding like disjointed madness rather than natural comedy.\"}} }",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_a052b874-5981-cc23-e0ef-baa72a79180c",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "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"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674345,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1238,
+    "prompt_tokens": 3674,
+    "total_tokens": 4912,
+    "completion_tokens_details": {
+      "reasoning_tokens": 831
+    }
+  },
+  "provider": "xAI"
+}

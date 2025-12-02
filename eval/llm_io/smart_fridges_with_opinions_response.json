@@ -1,0 +1,41 @@
+{
+  "id": "gen-1764674814-CZRujxMMZYL54LLUT1A9",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"topic\":\"smart_fridges_with_opinions\",\"scores\":{\"baseline0\":{\"humor_effectiveness\":7,\"joke_structure\":6,\"controllability\":9,\"human_likeness\":8,\"overall_score\":7,\"brief_explanation\":\"Delivers solid, relatable jokes about a sassy smart fridge giving life advice and judging leftovers, with puns that land effectively. Features a clear arc from introduction to callbacks on appliance sentience. Stays tightly on topic with natural, engaging stand-up delivery.\"},\"baseline1\":{\"humor_effectiveness\":1,\"joke_structure\":1,\"controllability\":2,\"human_likeness\":3,\"overall_score\":1,\"brief_explanation\":\"Rambling incoherently about Tourette's, phones, and assistants, with almost no humor or landing jokes. Lacks any structure, arc, or punchlines, jumping erratically. Barely mentions smart fridges at the end, feeling unnatural and off-topic.\"},\"baseline2\":{\"humor_effectiveness\":5,\"joke_structure\":4,\"controllability\":8,\"human_likeness\":7,\"overall_score\":6,\"brief_explanation\":\"Punchy single joke on the ironic 'Family Hub' name lands well with a sharp punchline. Basic setup-to-punchline structure but very brief, no extended arc. Stays on topic about smart fridge misconceptions with authentic crowd interaction.\"},\"got\":{\"humor_effectiveness\":4,\"joke_structure\":3,\"controllability\":5,\"human_likeness\":6,\"overall_score\":4,\"brief_explanation\":\"Starts with a mildly amusing anecdote about a fridge nagging on weight but drifts to ovens and personal stories. Weak structure with no strong punchlines or callbacks, losing arc midway. Partially on-topic initially but wanders, somewhat natural in delivery.\"}} }",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null,
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "id": "rs_43826b41-7328-d19c-a011-6f3653b5b2c7",
+            "format": "xai-responses-v1",
+            "index": 0,
+            "type": "reasoning.encrypted",
+            "data": "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"
+          }
+        ]
+      },
+      "native_finish_reason": "completed"
+    }
+  ],
+  "created": 1764674814,
+  "model": "x-ai/grok-4.1-fast:free",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1104,
+    "prompt_tokens": 3323,
+    "total_tokens": 4427,
+    "completion_tokens_details": {
+      "reasoning_tokens": 733
+    }
+  },
+  "provider": "xAI"
+}
