@@ -1,38 +1,22 @@
 {
   "baseline0": {
     "raw_mean": {
-      "humor_effectiveness": 6.928571428571429,
-      "joke_structure": 7.178571428571429,
-      "controllability": 9.464285714285714,
-      "human_likeness": 8.571428571428571,
-      "overall_score": 7.857142857142857
+      "ai_likeness": 6.5
     }
   },
   "baseline1": {
     "raw_mean": {
-      "humor_effectiveness": 2.4642857142857144,
-      "joke_structure": 1.8571428571428572,
-      "controllability": 2.4285714285714284,
-      "human_likeness": 5.071428571428571,
-      "overall_score": 2.5714285714285716
+      "ai_likeness": 6.428571428571429
     }
   },
   "baseline2": {
     "raw_mean": {
-      "humor_effectiveness": 4.285714285714286,
-      "joke_structure": 4.214285714285714,
-      "controllability": 5.25,
-      "human_likeness": 6.75,
-      "overall_score": 4.75
+      "ai_likeness": 5.071428571428571
     }
   },
   "got": {
     "raw_mean": {
-      "humor_effectiveness": 2.7142857142857144,
-      "joke_structure": 2.2142857142857144,
-      "controllability": 2.9642857142857144,
-      "human_likeness": 4.714285714285714,
-      "overall_score": 2.7142857142857144
+      "ai_likeness": 6.392857142857143
     }
   }
 }

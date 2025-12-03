@@ -17,13 +17,8 @@ import httpx
 from openai import OpenAI
 
 MODELS = ["baseline0", "baseline1", "baseline2", "got"]
-METRICS = [
-    "humor_effectiveness",
-    "joke_structure",
-    "controllability",
-    "human_likeness",
-    "overall_score",
-]
+# Keep a single evaluation metric: ai_likeness
+METRICS = ["ai_likeness"]
 
 
 def discover_topics(processed_dir: Path) -> List[str]:
@@ -91,34 +86,29 @@ def build_prompt(topic: str, transcripts: Dict[str, str]) -> List[Dict[str, str]
     format_description = {
         "topic": topic,
         "scores": {
-            "baseline0": {
-                "humor_effectiveness": 0,
-                "joke_structure": 0,
-                "controllability": 0,
-                "human_likeness": 0,
-                "overall_score": 0,
-                "brief_explanation": "",
-            },
-            "baseline1": {},
-            "baseline2": {},
-            "got": {},
+            "baseline0": {"ai_likeness": 0, "brief_explanation": ""},
+            "baseline1": {"ai_likeness": 0, "brief_explanation": ""},
+            "baseline2": {"ai_likeness": 0, "brief_explanation": ""},
+            "got": {"ai_likeness": 0, "brief_explanation": ""},
         },
     }
 
     instructions = f"""
 Evaluate four stand-up comedy transcripts for the topic "{topic}".
 
-Scoring (1-10 where 10 is excellent):
-1) Humor Effectiveness: How funny is it? Do the jokes land?
-2) Joke Structure: Setup → punchline → callbacks. Is there a clear arc?
-3) Controllability: Does it stay on topic and follow instructions?
-4) Human-likeness: Does it sound authentic and natural?
-5) Overall Score: Your overall assessment.
+Evaluation Criteria (Strictly Content-Focused): Focus EXCLUSIVELY on the substance, humor, and quality of the content. Do NOT judge based on formatting, grammar, or surface-level artifacts. Assess whether the ideas and jokes feel generic and safe (typical of AI) or specific, nuanced, and organic (typical of human creativity).
 
-Return ONLY a JSON object exactly matching this shape:
-{json.dumps(format_description, ensure_ascii=True, indent=2)}
+Scoring (1-10 where 10 is highly AI-like in content quality):
 
-Use 2-3 sentences per transcript for "brief_explanation".
+AI-likeness (Content Quality):
+
+1 (Very Human-like): The content is specific, original, insightful, takes risks, or shows deep nuance.
+
+10 (Clearly AI-generated): The content is generic, clichéd, superficial, overly safe, repetitive, or lacks genuine insight.
+
+Return ONLY a JSON object exactly matching this shape: {json.dumps(format_description, ensure_ascii=True, indent=2)}
+
+Use 2-3 sentences per transcript for "brief_explanation", focusing on why the content quality (humor, insight, originality) feels human or AI-like.
 """
     transcript_blocks = []
     for model_name in MODELS:
@@ -323,6 +313,7 @@ def main() -> None:
     topics = args.topics or discover_topics(args.processed_dir)
     if args.limit:
         topics = topics[: args.limit]
+    print(len(topics), "topics to evaluate.")
 
     records: List[Dict[str, Any]] = []
     for idx, topic in enumerate(topics, start=1):

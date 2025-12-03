@@ -1,40 +1,59 @@
 {
-  "id": "gen-1764674524-uqJN7HRNspFi0B9OMhAK",
+  "id": "gen-1764729507-ENqCIrXulGWWeWecYQZR",
   "choices": [
     {
       "finish_reason": "stop",
       "index": 0,
       "logprobs": null,
       "message": {
-        "content": "{\n  \"topic\": \"open_office_seating_wars\",\n  \"scores\": {\n    \"baseline0\": {\n      \"humor_effectiveness\": 7,\n      \"joke_structure\": 8,\n      \"controllability\": 10,\n      \"human_likeness\": 9,\n      \"overall_score\": 8,\n      \"brief_explanation\": \"This transcript delivers relatable jokes about desk territoriality and office dynamics with solid setups and punchlines that land well. It maintains a clear arc from claiming spaces to adult sharing ironies, staying tightly on topic. The delivery feels authentic, like a natural stand-up routine with pauses for laughter.\"\n    },\n    \"baseline1\": {\n      \"humor_effectiveness\": 1,\n      \"joke_structure\": 1,\n      \"controllability\": 1,\n      \"human_likeness\": 3,\n      \"overall_score\": 1,\n      \"brief_explanation\": \"The material starts vaguely on open offices but quickly spirals into offensive, unrelated rants about sex, rap music, and hip-hop history with no punchlines. There is no coherent structure, arc, or callbacks, making it a disjointed mess. It sounds like incoherent rambling rather than stand-up, completely abandoning the topic.\"\n    },\n    \"baseline2\": {\n      \"humor_effectiveness\": 4,\n      \"joke_structure\": 3,\n      \"controllability\": 6,\n      \"human_likeness\": 7,\n      \"overall_score\": 5,\n      \"brief_explanation\": \"Some observational humor on snoring coworkers and monitor orientations provides mild laughs, but tangents like sea otters dilute the impact. The structure is loose with weak transitions and no strong arc or callbacks. It has a natural, stream-of-consciousness feel but drifts from the core seating wars theme.\"\n    },\n    \"got\": {\n      \"humor_effectiveness\": 2,\n      \"joke_structure\": 2,\n      \"controllability\": 3,\n      \"human_likeness\": 4,\n      \"overall_score\": 2,\n      \"brief_explanation\": \"Brief mentions of open office pros/cons offer faint humor, but heavy repetition and shifts to headphones, traffic, and feminism kill any momentum. Lacks setups, punchlines, or arc, feeling like fragmented notes rather than a routine. Delivery seems unnatural and forced, straying far from the topic.\"\n    }\n  }\n}",
+        "content": "{\n  \"topic\": \"open_office_seating_wars\",\n  \"scores\": {\n    \"baseline0\": {\n      \"ai_likeness\": 3,\n      \"brief_explanation\": \"The content delivers specific, relatable observations like desk-claiming with laptops and coffee, territorial signs, and plants, building to a nuanced contrast with childhood sharing norms. Humor feels organic through strategic seating archetypes and natural pauses for laughter, showing risk in mild social commentary. Avoids clichés by grounding jokes in vivid, everyday office behaviors rather than broad generalizations.\"\n    },\n    \"baseline1\": {\n      \"ai_likeness\": 10,\n      \"brief_explanation\": \"The transcript starts vaguely on open offices but rapidly devolves into incoherent, offensive rants on gender, masturbation, unrelated couples, rap music history, and endless repetitions of slurs. Lacks any structured humor or insight on the topic, feeling like superficial, erratic hallucination without organic flow. Repetitive and clichéd tangents scream generic AI output devoid of genuine comedic nuance.\"\n    },\n    \"baseline2\": {\n      \"ai_likeness\": 1,\n      \"brief_explanation\": \"Stream-of-consciousness style captures quirky, original tangents like snoring coworkers playing solitaire, sea otters holding hands as a metaphor for unwanted proximity, and absurd monitor orientation debates. Humor thrives on risky, insightful absurdity tying office annoyances to unexpected animal facts and tech complacency. Feels deeply human through unpredictable, vivid escalation and self-aware asides.\"\n    },\n    \"got\": {\n      \"ai_likeness\": 9,\n      \"brief_explanation\": \"Begins with clichéd open office pros/cons but quickly repeats paragraphs on headphones and bonuses verbatim, derailing into unrelated traffic, feminism, and racial analogies without cohesion. Superficial arguments lack insight or risk, relying on safe, repetitive complaints. Generic and inorganic, mimicking debate structure without original humor or depth.\"\n    }\n  }\n}",
+        "refusal": null,
         "role": "assistant",
+        "annotations": null,
+        "audio": null,
         "function_call": null,
         "tool_calls": null,
-        "refusal": null,
         "reasoning": null,
         "reasoning_details": [
           {
-            "id": "rs_6324ba56-539d-ab59-be15-6ab1f4b1f9f0",
+            "id": "rs_40178ebc-e24a-57a7-a7e3-fbc743f074dc",
             "format": "xai-responses-v1",
             "index": 0,
             "type": "reasoning.encrypted",
-            "data": "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"
+            "data": "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"
           }
         ]
       },
       "native_finish_reason": "completed"
     }
   ],
-  "created": 1764674524,
+  "created": 1764729507,
   "model": "x-ai/grok-4.1-fast:free",
   "object": "chat.completion",
+  "service_tier": null,
   "system_fingerprint": null,
   "usage": {
-    "completion_tokens": 1132,
-    "prompt_tokens": 4324,
-    "total_tokens": 5456,
+    "completion_tokens": 1024,
+    "prompt_tokens": 4424,
+    "total_tokens": 5448,
     "completion_tokens_details": {
-      "reasoning_tokens": 632
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 629,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 156,
+      "video_tokens": 0
+    },
+    "cost": 0,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": null,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
     }
   },
   "provider": "xAI"

@@ -1,40 +1,59 @@
 {
-  "id": "gen-1764674604-JVoNkVeehmj1prAmqAzQ",
+  "id": "gen-1764729586-ry2PTFJXP1t6boWhhXk2",
   "choices": [
     {
       "finish_reason": "stop",
       "index": 0,
       "logprobs": null,
       "message": {
-        "content": "{\"topic\":\"overly_honest_smart_fridges\",\"scores\":{\"baseline0\":{\"humor_effectiveness\":8,\"joke_structure\":8,\"controllability\":10,\"human_likeness\":9,\"overall_score\":9,\"brief_explanation\":\"This transcript delivers solid humor through relatable jabs at a smart fridge's judgmental reminders about expired food and poor habits, with punchlines like comparing it to a nagging aunt landing effectively. The structure follows a clear arc from introduction to escalating examples and a strong callback. It stays tightly on-topic and sounds like authentic stand-up delivery.\"},\"baseline1\":{\"humor_effectiveness\":1,\"joke_structure\":1,\"controllability\":1,\"human_likeness\":4,\"overall_score\":1,\"brief_explanation\":\"The transcript is entirely off-topic, rambling about personal life, sexuality, travel, and fatherhood with no mention of smart fridges. There is no coherent joke structure or arc, just chaotic stream-of-consciousness. It feels like an unfocused open-mic disaster rather than controlled comedy.\"},\"baseline2\":{\"humor_effectiveness\":4,\"joke_structure\":5,\"controllability\":6,\"human_likeness\":7,\"overall_score\":5,\"brief_explanation\":\"Humor is mild, touching on food waste and chatty appliances suggesting meals, but lacks sharp punchlines or 'overly honest' edge. Structure has a loose progression from shopping habits to fridge interaction but ends abruptly without payoff. It somewhat stays near-topic yet feels underdeveloped and not fully natural.\"},\"got\":{\"humor_effectiveness\":3,\"joke_structure\":2,\"controllability\":3,\"human_likeness\":6,\"overall_score\":3,\"brief_explanation\":\"Starts with a smart fridge making comments on food age but quickly derails into unrelated girlfriend, sexuality, and marriage rants, diluting any humor. Joke structure lacks clear setups, punchlines, or arc, jumping incoherently. It has a conversational tone but comes off confusing and inauthentic for the topic.\"}} }",
+        "content": "{\n  \"topic\": \"overly_honest_smart_fridges\",\n  \"scores\": {\n    \"baseline0\": {\n      \"ai_likeness\": 2,\n      \"brief_explanation\": \"Specific, relatable observations like expired yogurt reminders and fridge analytics breaking down eating habits (75% leftovers, pizza streaks) deliver nuanced, self-deprecating humor. Compares fridge judgment to an aunt at Thanksgiving for risky, organic familial insight. Feels authentically human in its detailed, observational bite.\"\n    },\n    \"baseline1\": {\n      \"ai_likeness\": 10,\n      \"brief_explanation\": \"Completely ignores the topic, rambling incoherently through unrelated anecdotes on dating, family coming out, Amsterdam tourism, and fatherhood rants. Repetitive, superficial lists (e.g., endless pram complaints) lack any humor, insight, or structure. Chaotic and generic detours scream unguided AI hallucination.\"\n    },\n    \"baseline2\": {\n      \"ai_likeness\": 7,\n      \"brief_explanation\": \"Touches topic lightly with chatty fridge suggesting meals and prepping baskets, but stays superficial on food waste and planning. Generic premise of 'no more happy accidents' feels safe and clichéd without risky punchlines. Lacks depth or original nuance in household dynamics.\"\n    },\n    \"got\": {\n      \"ai_likeness\": 9,\n      \"brief_explanation\": \"Brief smart fridge intro (comments on lunch expiration) derails into disjointed, off-topic tales of girlfriend, implied sexuality, bed-eating, and marriage vs. roommates. Humor absent, insights shallow and confusing (e.g., marriage like a cat). Feels like generic AI stream-of-consciousness failing coherence.\"\n    }\n  }\n}",
+        "refusal": null,
         "role": "assistant",
+        "annotations": null,
+        "audio": null,
         "function_call": null,
         "tool_calls": null,
-        "refusal": null,
         "reasoning": null,
         "reasoning_details": [
           {
-            "id": "rs_59995306-188d-4cda-52e1-d786441d6b25",
+            "id": "rs_45f5dbfa-d0d7-d023-c366-e7d41959b174",
             "format": "xai-responses-v1",
             "index": 0,
             "type": "reasoning.encrypted",
-            "data": "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"
+            "data": "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"
           }
         ]
       },
       "native_finish_reason": "completed"
     }
   ],
-  "created": 1764674604,
+  "created": 1764729586,
   "model": "x-ai/grok-4.1-fast:free",
   "object": "chat.completion",
+  "service_tier": null,
   "system_fingerprint": null,
   "usage": {
-    "completion_tokens": 1099,
-    "prompt_tokens": 2875,
-    "total_tokens": 3974,
+    "completion_tokens": 1155,
+    "prompt_tokens": 2975,
+    "total_tokens": 4130,
     "completion_tokens_details": {
-      "reasoning_tokens": 685
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 794,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 187,
+      "video_tokens": 0
+    },
+    "cost": 0,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": null,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
     }
   },
   "provider": "xAI"

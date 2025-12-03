@@ -1,40 +1,59 @@
 {
-  "id": "gen-1764674443-gqiGgaLCnzIW2SPPuQHw",
+  "id": "gen-1764729433-kZhOMtmUwYUknxq6rNPn",
   "choices": [
     {
       "finish_reason": "stop",
       "index": 0,
       "logprobs": null,
       "message": {
-        "content": "{\"topic\":\"gym_mirror_people\",\"scores\":{\"baseline0\":{\"humor_effectiveness\":7,\"joke_structure\":8,\"controllability\":10,\"human_likeness\":9,\"overall_score\":8,\"brief_explanation\":\"The transcript delivers solid humor through relatable observations of gym mirror behaviors like flexing, selfies, and butt-checking, with punchlines that land well. It follows a clear structure with setups leading to punchlines and a cohesive arc on mirrors as narcissism hubs. The language and flow feel authentic to live stand-up comedy.\"},\"baseline1\":{\"humor_effectiveness\":4,\"joke_structure\":3,\"controllability\":4,\"human_likeness\":7,\"overall_score\":4,\"brief_explanation\":\"It starts with a funny gym mirror jab at vain bicep curlers but spirals into off-topic rants on dating, marriage, deadlifts, and feminism, diluting the humor. Joke structure is weak with rambling tangents and forced analogies instead of tight arcs. The profane, interactive style mimics a raw comedian but lacks focus.\"},\"baseline2\":{\"humor_effectiveness\":2,\"joke_structure\":2,\"controllability\":3,\"human_likeness\":4,\"overall_score\":2,\"brief_explanation\":\"Brief mentions of mirror-checking during workouts are buried in incoherent thoughts on gym hatred and random 'Steve' bits, making jokes fail to land. There's no clear setup-punchline arc, just fragmented stream-of-consciousness. It sounds awkward and unnatural, not like polished stand-up.\"},\"got\":{\"humor_effectiveness\":1,\"joke_structure\":1,\"controllability\":1,\"human_likeness\":3,\"overall_score\":1,\"brief_explanation\":\"The transcript completely ignores gym mirrors, rambling about street encounters, deaths, TV, Trump, and celebrities with no humor or relevance. Lacks any joke structure, arcs, or punchlines tied to the topic. It feels like disjointed personal anecdotes rather than authentic comedy.\"}} }",
+        "content": "{\n  \"topic\": \"gym_mirror_people\",\n  \"scores\": {\n    \"baseline0\": {\n      \"ai_likeness\": 8,\n      \"brief_explanation\": \"Content recycles familiar gym stereotypes like flexing, selfies, and narcissism without fresh angles or risky observations. Humor relies on safe, predictable setups like Olympics comparisons and hair-fixing bits, lacking genuine insight or surprise. Feels polished but superficial, typical of formulaic AI generation.\"\n    },\n    \"baseline1\": {\n      \"ai_likeness\": 2,\n      \"brief_explanation\": \"Dives into hyper-specific grip techniques and vanity with raw profanity, spiraling into bold, absurd tangents on dating, marriage, and anti-feminism that feel organically chaotic and provocative. Risks offending with edgy, unfiltered rants that build unexpected connections. Exhibits human-like stream-of-consciousness flair and dark humor.\"\n    },\n    \"baseline2\": {\n      \"ai_likeness\": 7,\n      \"brief_explanation\": \"Touches on mirror-checking during reps but devolves into fragmented, incoherent asides about 'Steve' and accidental sets without punchy payoff or insight. Humor feels aimless and repetitive, mimicking quirkiness without depth. Comes off as superficially observational, like AI struggling for edge.\"\n    },\n    \"got\": {\n      \"ai_likeness\": 10,\n      \"brief_explanation\": \"Almost entirely ignores gym mirrors, starting with a vague shirtless encounter before rambling into unrelated anecdotes about deaths, TV shows, Trump, and celebrities. Lacks any coherent humor, structure, or topic relevance, with repetitive filler. Purely generic, disjointed drivel screaming AI hallucination.\"\n    }\n  }\n}",
+        "refusal": null,
         "role": "assistant",
+        "annotations": null,
+        "audio": null,
         "function_call": null,
         "tool_calls": null,
-        "refusal": null,
         "reasoning": null,
         "reasoning_details": [
           {
-            "id": "rs_09f0db2f-66fc-f548-9781-0348d412c36e",
+            "id": "rs_b0f94796-d7da-8dd2-98fd-354e1d8c795f",
             "format": "xai-responses-v1",
             "index": 0,
             "type": "reasoning.encrypted",
-            "data": "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"
+            "data": "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"
           }
         ]
       },
       "native_finish_reason": "completed"
     }
   ],
-  "created": 1764674443,
+  "created": 1764729433,
   "model": "x-ai/grok-4.1-fast:free",
   "object": "chat.completion",
+  "service_tier": null,
   "system_fingerprint": null,
   "usage": {
-    "completion_tokens": 1157,
-    "prompt_tokens": 2182,
-    "total_tokens": 3339,
+    "completion_tokens": 1076,
+    "prompt_tokens": 2282,
+    "total_tokens": 3358,
     "completion_tokens_details": {
-      "reasoning_tokens": 753
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 726,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 187,
+      "video_tokens": 0
+    },
+    "cost": 0,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": null,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
     }
   },
   "provider": "xAI"
